@@ -1,6 +1,6 @@
-;Generated from temp.svg 9ebe95c26dff1d1c1897fa74da3c6c96031a3ec5
+;Generated from temp.svg dee00a434f8f48a0da3487cc18feb4801f1bde5b
 ; gc_nexgen gc_options: beamOS:0.7.13.1 (f_add_gcode_tests branch) on n8, gc_nextgen:0.1, enabled:true, precision:0.05, optimize_travel:true, small_paths_first:true, clip_working_area:true, clipRect:0,0,500,390, userAgent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
-; created:2020-12-30 21:37:21
+; created:2020-12-30 23:13:33
 ; laser params: {u'#fb0000': {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#fb0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}, u'#ff0000': {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#ff0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}}
 
 ; speedup cooling fan
@@ -7275,7 +7275,7 @@ M5
 M100P100 ; mrbeam_compressor: 100
 G4P0.2
 
-; Layer:gSkjbxwr3dmz, outline of:pathSkjbxwr3dn1, stroke:#fb0000, {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#fb0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}
+; Layer:gSkjc1cfjmmz, outline of:pathSkjc1cfjmn1, stroke:#fb0000, {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#fb0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}
 ; pass:1/1
 ;_gc_nextgen_svg_id:path1705
 G0X36.16Y227.15
@@ -7420,7 +7420,7 @@ M05
 M100P100 ; mrbeam_compressor: 100
 G4P0.2
 
-; Layer:gSkjbxwr3dmz, outline of:pathSkjbxwr3dn1, stroke:#ff0000, {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#ff0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}
+; Layer:gSkjc1cfjmmz, outline of:pathSkjc1cfjmn1, stroke:#ff0000, {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#ff0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}
 ; pass:1/1
 ;_gc_nextgen_svg_id:path846-4
 G0X106.62Y343.28
@@ -7449,7 +7449,7 @@ G1X106.55Y343.67
 G1X106.62Y343.28
 M05
 
-; Layer:gSkjbxwr3dmz, outline of:pathSkjbxwr3dn1, stroke:#ff0000, {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#ff0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}
+; Layer:gSkjc1cfjmmz, outline of:pathSkjc1cfjmn1, stroke:#ff0000, {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#ff0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}
 ; pass:1/1
 ;_gc_nextgen_svg_id:path846
 G0X57.40Y343.28
