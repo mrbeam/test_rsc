@@ -1,6 +1,6 @@
-;Generated from temp.svg a7c63a84d25b1a975c354cc3e17a189ba29a5d14
+;Generated from temp.svg 9ebe95c26dff1d1c1897fa74da3c6c96031a3ec5
 ; gc_nexgen gc_options: beamOS:0.7.13.1 (f_add_gcode_tests branch) on n8, gc_nextgen:0.1, enabled:true, precision:0.05, optimize_travel:true, small_paths_first:true, clip_working_area:true, clipRect:0,0,500,390, userAgent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
-; created:2020-12-30 21:19:09
+; created:2020-12-30 21:37:21
 ; laser params: {u'#fb0000': {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#fb0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}, u'#ff0000': {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#ff0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}}
 
 ; speedup cooling fan
@@ -18,7 +18,7 @@ M5
 ; intensity_white_user = 7
 ; feedrate_white = 888
 ; feedrate_black = 88
-; backlash_compensation_x = -0.540
+; backlash_compensation_x = 0.000
 ; material = {u'params_changed': True, u'color': u'293365', u'material_name': u'Felt', u'material_key': u'Felt', u'custom': False, u'thickness_mm': 3}
 ; contrastFactor = 1.00
 ; sharpeningFactor = 1.00
@@ -39,15 +39,15 @@ G1X37.00S262F737; brightness: 207
 G1X38.00S319F687; brightness: 191
 G1X39.00S376F637; brightness: 175
 M3S0; EOL: x=[6 -> 8], y=20
-G0X40.46Y230.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X39.46S148F837; brightness: 239
-G1X38.46S547F486; brightness: 127
-G1X37.46S148F837; brightness: 239
-G0X36.46S0; brightness: 255
+G0X41.00Y230.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X40.00S148F837; brightness: 239
+G1X39.00S547F486; brightness: 127
+G1X38.00S148F837; brightness: 239
+G0X37.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X36.46S433F586; brightness: 159
+G1X37.00S433F586; brightness: 159
 M3S0; EOL: x=[6 <- 10], y=19
 G0X37.00Y231.00S0; goto line start->
 G1X37.00S547F486; brightness: 127
@@ -59,15 +59,15 @@ G1X40.00S148F837; brightness: 239
 G1X41.00S776F285; brightness: 63
 G1X42.00S148F837; brightness: 239
 M3S0; EOL: x=[6 -> 11], y=18
-G0X41.46Y232.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X40.46S661F386; brightness: 95
-G1X39.46S319F687; brightness: 191
-G0X37.46S0; brightness: 255
+G0X42.00Y232.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X41.00S661F386; brightness: 95
+G1X40.00S319F687; brightness: 191
+G0X38.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X36.46S433F586; brightness: 159
-G1X36.46S319F687; brightness: 191
+G1X37.00S433F586; brightness: 159
+G1X37.00S319F687; brightness: 191
 M3S0; EOL: x=[6 <- 11], y=17
 G0X38.00Y233.00S0; goto line start->
 G1X38.00S547F486; brightness: 127
@@ -79,16 +79,16 @@ G4P0.001
 G1X42.00S604F436; brightness: 111
 G1X43.00S376F637; brightness: 175
 M3S0; EOL: x=[7 -> 12], y=16
-G0X43.46Y234.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X42.46S148F837; brightness: 239
-G1X41.46S833F235; brightness: 47
-G1X40.46S148F837; brightness: 239
-G0X39.46S0; brightness: 255
+G0X44.00Y234.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X43.00S148F837; brightness: 239
+G1X42.00S833F235; brightness: 47
+G1X41.00S148F837; brightness: 239
+G0X40.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X38.46S148F837; brightness: 239
-G1X38.46S661F386; brightness: 95
+G1X39.00S148F837; brightness: 239
+G1X39.00S661F386; brightness: 95
 M3S0; EOL: x=[8 <- 13], y=15
 G0X39.00Y235.00S0; goto line start->
 G1X39.00S148F837; brightness: 239
@@ -101,17 +101,17 @@ G4P0.001
 G1X43.00S433F586; brightness: 159
 G1X44.00S604F436; brightness: 111
 M3S0; EOL: x=[8 -> 13], y=14
-G0X44.46Y236.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X43.46S205F787; brightness: 223
-G1X42.46S943F138; brightness: 16
-G1X40.46S148F837; brightness: 239
-G1X39.46S661F386; brightness: 95
-G1X38.46S148F837; brightness: 239
-G0X32.46S0; brightness: 255
+G0X45.00Y236.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X44.00S205F787; brightness: 223
+G1X43.00S943F138; brightness: 16
+G1X41.00S148F837; brightness: 239
+G1X40.00S661F386; brightness: 95
+G1X39.00S148F837; brightness: 239
+G0X33.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X32.46S205F787; brightness: 223
+G1X33.00S205F787; brightness: 223
 M3S0; EOL: x=[2 <- 14], y=13
 G0X31.00Y237.00S0; goto line start->
 G1X32.00S205F787; brightness: 223
@@ -133,54 +133,54 @@ G4P0.001
 G1X50.00S148F837; brightness: 239
 G1X51.00S319F687; brightness: 191
 M3S0; EOL: x=[0 -> 20], y=12
-G0X60.46Y238.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X59.46S148F837; brightness: 239
-G1X58.46S490F536; brightness: 143
-G1X57.46S148F837; brightness: 239
-G0X56.46S0; brightness: 255
+G0X61.00Y238.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X60.00S148F837; brightness: 239
+G1X59.00S490F536; brightness: 143
+G1X58.00S148F837; brightness: 239
+G0X57.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X55.46S433F586; brightness: 159
-G1X54.46S719F335; brightness: 79
-G1X53.46S255F743; brightness: 209
-G1X52.46S376F637; brightness: 175
-G1X51.46S661F386; brightness: 95
-G0X50.46S0; brightness: 255
+G1X56.00S433F586; brightness: 159
+G1X55.00S719F335; brightness: 79
+G1X54.00S255F743; brightness: 209
+G1X53.00S376F637; brightness: 175
+G1X52.00S661F386; brightness: 95
+G0X51.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X49.46S262F737; brightness: 207
-G1X48.46S433F586; brightness: 159
-G0X47.46S0; brightness: 255
+G1X50.00S262F737; brightness: 207
+G1X49.00S433F586; brightness: 159
+G0X48.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X45.46S547F486; brightness: 127
-G0X44.46S0; brightness: 255
+G1X46.00S547F486; brightness: 127
+G0X45.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X43.46S947F135; brightness: 15
-G1X41.46S319F687; brightness: 191
-G0X40.46S0; brightness: 255
+G1X44.00S947F135; brightness: 15
+G1X42.00S319F687; brightness: 191
+G0X41.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X39.46S604F436; brightness: 111
-G1X38.46S554F480; brightness: 125
-G1X37.46S319F687; brightness: 191
-G1X36.46S148F837; brightness: 239
-G0X35.46S0; brightness: 255
+G1X40.00S604F436; brightness: 111
+G1X39.00S554F480; brightness: 125
+G1X38.00S319F687; brightness: 191
+G1X37.00S148F837; brightness: 239
+G0X36.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X34.46S319F687; brightness: 191
-G1X33.46S433F586; brightness: 159
-G1X32.46S661F386; brightness: 95
-G1X31.46S890F185; brightness: 31
-G1X30.46S829F238; brightness: 48
-G1X30.46S319F687; brightness: 191
+G1X35.00S319F687; brightness: 191
+G1X34.00S433F586; brightness: 159
+G1X33.00S661F386; brightness: 95
+G1X32.00S890F185; brightness: 31
+G1X31.00S829F238; brightness: 48
+G1X31.00S319F687; brightness: 191
 M3S0; EOL: x=[0 <- 30], y=11
 G0X33.00Y239.00S0; goto line start->
 G1X33.00S604F436; brightness: 111
@@ -217,39 +217,39 @@ G1X56.00S661F386; brightness: 95
 G1X59.00S376F637; brightness: 175
 G1X60.00S547F486; brightness: 127
 M3S0; EOL: x=[2 -> 29], y=10
-G0X59.46Y240.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X58.46S661F386; brightness: 95
-G1X57.46S490F536; brightness: 143
-G1X56.46S376F637; brightness: 175
-G1X55.46S148F837; brightness: 239
-G1X54.46S890F185; brightness: 31
-G1X53.46S148F837; brightness: 239
-G1X52.46S433F586; brightness: 159
-G1X51.46S661F386; brightness: 95
-G0X50.46S0; brightness: 255
+G0X60.00Y240.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X59.00S661F386; brightness: 95
+G1X58.00S490F536; brightness: 143
+G1X57.00S376F637; brightness: 175
+G1X56.00S148F837; brightness: 239
+G1X55.00S890F185; brightness: 31
+G1X54.00S148F837; brightness: 239
+G1X53.00S433F586; brightness: 159
+G1X52.00S661F386; brightness: 95
+G0X51.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X49.46S490F536; brightness: 143
-G1X48.46S547F486; brightness: 127
-G1X47.46S604F436; brightness: 111
-G1X46.46S148F837; brightness: 239
-G1X45.46S890F185; brightness: 31
-G1X44.46S683F367; brightness: 89
-G1X43.46S433F586; brightness: 159
-G0X42.46S0; brightness: 255
+G1X50.00S490F536; brightness: 143
+G1X49.00S547F486; brightness: 127
+G1X48.00S604F436; brightness: 111
+G1X47.00S148F837; brightness: 239
+G1X46.00S890F185; brightness: 31
+G1X45.00S683F367; brightness: 89
+G1X44.00S433F586; brightness: 159
+G0X43.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X41.46S148F837; brightness: 239
-G1X40.46S833F235; brightness: 47
-G1X39.46S661F386; brightness: 95
-G0X33.46S0; brightness: 255
+G1X42.00S148F837; brightness: 239
+G1X41.00S833F235; brightness: 47
+G1X40.00S661F386; brightness: 95
+G0X34.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X32.46S148F837; brightness: 239
-G1X32.46S719F335; brightness: 79
+G1X33.00S148F837; brightness: 239
+G1X33.00S719F335; brightness: 79
 M3S0; EOL: x=[2 <- 29], y=9
 G0X33.00Y241.00S0; goto line start->
 G1X33.00S433F586; brightness: 159
@@ -295,44 +295,44 @@ G4P0.001
 G1X59.00S490F536; brightness: 143
 G1X60.00S947F135; brightness: 15
 M3S0; EOL: x=[2 -> 29], y=8
-G0X60.46Y242.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X59.46S262F737; brightness: 207
-G1X58.46S719F335; brightness: 79
-G0X57.46S0; brightness: 255
+G0X61.00Y242.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X60.00S262F737; brightness: 207
+G1X59.00S719F335; brightness: 79
+G0X58.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X56.46S433F586; brightness: 159
-G1X55.46S833F235; brightness: 47
-G0X54.46S0; brightness: 255
+G1X57.00S433F586; brightness: 159
+G1X56.00S833F235; brightness: 47
+G0X55.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X53.46S205F787; brightness: 223
-G1X52.46S943F138; brightness: 16
-G1X51.46S148F837; brightness: 239
-G1X50.46S319F687; brightness: 191
-G1X49.46S886F188; brightness: 32
-G1X48.46S148F837; brightness: 239
-G1X47.46S319F687; brightness: 191
-G1X46.46S943F138; brightness: 16
-G1X45.46S148F837; brightness: 239
-G1X44.46S1001F88; brightness: 0
-G0X43.46S0; brightness: 255
+G1X54.00S205F787; brightness: 223
+G1X53.00S943F138; brightness: 16
+G1X52.00S148F837; brightness: 239
+G1X51.00S319F687; brightness: 191
+G1X50.00S886F188; brightness: 32
+G1X49.00S148F837; brightness: 239
+G1X48.00S319F687; brightness: 191
+G1X47.00S943F138; brightness: 16
+G1X46.00S148F837; brightness: 239
+G1X45.00S1001F88; brightness: 0
+G0X44.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X42.46S490F536; brightness: 143
-G1X41.46S262F737; brightness: 207
-G1X40.46S890F185; brightness: 31
-G0X35.46S0; brightness: 255
+G1X43.00S490F536; brightness: 143
+G1X42.00S262F737; brightness: 207
+G1X41.00S890F185; brightness: 31
+G0X36.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X34.46S148F837; brightness: 239
-G1X33.46S262F737; brightness: 207
-G1X32.46S890F185; brightness: 31
-G1X32.46S148F837; brightness: 239
+G1X35.00S148F837; brightness: 239
+G1X34.00S262F737; brightness: 207
+G1X33.00S890F185; brightness: 31
+G1X33.00S148F837; brightness: 239
 M3S0; EOL: x=[2 <- 30], y=7
 G0X34.00Y243.00S0; goto line start->
 G1X34.00S661F386; brightness: 95
@@ -371,40 +371,40 @@ G1X59.00S547F486; brightness: 127
 G1X60.00S205F787; brightness: 223
 G1X61.00S433F586; brightness: 159
 M3S0; EOL: x=[3 -> 30], y=6
-G0X60.46Y244.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X59.46S148F837; brightness: 239
-G1X58.46S487F539; brightness: 144
-G1X57.46S433F586; brightness: 159
-G0X54.46S0; brightness: 255
+G0X61.00Y244.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X60.00S148F837; brightness: 239
+G1X59.00S487F539; brightness: 144
+G1X58.00S433F586; brightness: 159
+G0X55.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X53.46S262F737; brightness: 207
-G1X52.46S148F837; brightness: 239
-G1X51.46S205F787; brightness: 223
-G1X50.46S890F185; brightness: 31
-G1X49.46S205F787; brightness: 223
-G1X48.46S487F539; brightness: 144
-G1X47.46S205F787; brightness: 223
-G0X44.46S0; brightness: 255
+G1X54.00S262F737; brightness: 207
+G1X53.00S148F837; brightness: 239
+G1X52.00S205F787; brightness: 223
+G1X51.00S890F185; brightness: 31
+G1X50.00S205F787; brightness: 223
+G1X49.00S487F539; brightness: 144
+G1X48.00S205F787; brightness: 223
+G0X45.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X43.46S148F837; brightness: 239
-G0X42.46S0; brightness: 255
+G1X44.00S148F837; brightness: 239
+G0X43.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X41.46S319F687; brightness: 191
-G1X40.46S547F486; brightness: 127
-G0X36.46S0; brightness: 255
+G1X42.00S319F687; brightness: 191
+G1X41.00S547F486; brightness: 127
+G0X37.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X35.46S433F586; brightness: 159
-G1X34.46S148F837; brightness: 239
-G1X33.46S890F185; brightness: 31
-G1X33.46S319F687; brightness: 191
+G1X36.00S433F586; brightness: 159
+G1X35.00S148F837; brightness: 239
+G1X34.00S890F185; brightness: 31
+G1X34.00S319F687; brightness: 191
 M3S0; EOL: x=[3 <- 30], y=5
 G0X35.00Y245.00S0; goto line start->
 G1X35.00S776F285; brightness: 63
@@ -424,21 +424,21 @@ G4P0.001
 G1X55.00S376F637; brightness: 175
 G1X56.00S262F737; brightness: 207
 M3S0; EOL: x=[4 -> 25], y=4
-G0X55.46Y246.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X54.46S547F486; brightness: 127
-G1X53.46S148F837; brightness: 239
-G1X52.46S205F787; brightness: 223
-G1X51.46S1001F88; brightness: 0
-G1X50.46S205F787; brightness: 223
-G0X38.46S0; brightness: 255
+G0X56.00Y246.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X55.00S547F486; brightness: 127
+G1X54.00S148F837; brightness: 239
+G1X53.00S205F787; brightness: 223
+G1X52.00S1001F88; brightness: 0
+G1X51.00S205F787; brightness: 223
+G0X39.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X37.46S148F837; brightness: 239
-G1X36.46S433F586; brightness: 159
-G1X35.46S205F787; brightness: 223
-G1X34.46S947F135; brightness: 15
-G1X34.46S319F687; brightness: 191
+G1X38.00S148F837; brightness: 239
+G1X37.00S433F586; brightness: 159
+G1X36.00S205F787; brightness: 223
+G1X35.00S947F135; brightness: 15
+G1X35.00S319F687; brightness: 191
 M3S0; EOL: x=[4 <- 25], y=3
 G0X36.00Y247.00S0; goto line start->
 G1X36.00S661F386; brightness: 95
@@ -457,18 +457,18 @@ G4P0.001
 
 G1X56.00S148F837; brightness: 239
 M3S0; EOL: x=[5 -> 25], y=2
-G0X53.46Y248.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X52.46S376F637; brightness: 175
-G1X51.46S547F486; brightness: 127
-G1X50.46S205F787; brightness: 223
-G0X38.46S0; brightness: 255
+G0X54.00Y248.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X53.00S376F637; brightness: 175
+G1X52.00S547F486; brightness: 127
+G1X51.00S205F787; brightness: 223
+G0X39.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X37.46S661F386; brightness: 95
-G1X36.46S490F536; brightness: 143
-G1X35.46S829F238; brightness: 48
-G1X35.46S148F837; brightness: 239
+G1X38.00S661F386; brightness: 95
+G1X37.00S490F536; brightness: 143
+G1X36.00S829F238; brightness: 48
+G1X36.00S148F837; brightness: 239
 M3S0; EOL: x=[5 <- 23], y=1
 G0X37.00Y249.00S0; goto line start->
 G1X37.00S205F787; brightness: 223
@@ -482,17 +482,17 @@ M3S0
 G0X49.00Y266.00S0; ; Move to start (49.0,266.0)
 M3S0
 G4P0
-G0X54.46Y252.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X53.46S433F586; brightness: 159
-G1X53.46S319F687; brightness: 191
+G0X55.00Y252.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X54.00S433F586; brightness: 159
+G1X54.00S319F687; brightness: 191
 M3S0; EOL: x=[5 <- 6], y=14
 G0X55.00Y253.00S0; goto line start->
 G1X55.00S148F837; brightness: 239
 G1X56.00S547F486; brightness: 127
 M3S0; EOL: x=[6 -> 7], y=13
-G0X56.46Y254.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X55.46S433F586; brightness: 159
-G1X55.46S262F737; brightness: 207
+G0X57.00Y254.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X56.00S433F586; brightness: 159
+G1X56.00S262F737; brightness: 207
 M3S0; EOL: x=[7 <- 8], y=12
 G0X51.00Y255.00S0; goto line start->
 G1X51.00S205F787; brightness: 223
@@ -506,48 +506,48 @@ G4P0.001
 G1X57.00S604F436; brightness: 111
 G1X58.00S205F787; brightness: 223
 M3S0; EOL: x=[2 -> 9], y=11
-G0X76.46Y256.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X75.46S433F586; brightness: 159
-G1X74.46S262F737; brightness: 207
-G0X72.46S0; brightness: 255
+G0X77.00Y256.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X76.00S433F586; brightness: 159
+G1X75.00S262F737; brightness: 207
+G0X73.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X71.46S376F637; brightness: 175
-G1X70.46S490F536; brightness: 143
-G1X69.46S376F637; brightness: 175
-G0X68.46S0; brightness: 255
+G1X72.00S376F637; brightness: 175
+G1X71.00S490F536; brightness: 143
+G1X70.00S376F637; brightness: 175
+G0X69.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X67.46S148F837; brightness: 239
-G1X66.46S661F386; brightness: 95
-G1X65.46S355F655; brightness: 181
-G1X64.46S490F536; brightness: 143
-G1X63.46S205F787; brightness: 223
-G0X62.46S0; brightness: 255
+G1X68.00S148F837; brightness: 239
+G1X67.00S661F386; brightness: 95
+G1X66.00S355F655; brightness: 181
+G1X65.00S490F536; brightness: 143
+G1X64.00S205F787; brightness: 223
+G0X63.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X61.46S262F737; brightness: 207
-G1X60.46S719F335; brightness: 79
-G1X59.46S262F737; brightness: 207
-G0X57.46S0; brightness: 255
+G1X62.00S262F737; brightness: 207
+G1X61.00S719F335; brightness: 79
+G1X60.00S262F737; brightness: 207
+G0X58.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X56.46S719F335; brightness: 79
-G1X55.46S205F787; brightness: 223
-G1X54.46S376F637; brightness: 175
-G1X53.46S547F486; brightness: 127
-G1X52.46S376F637; brightness: 175
-G0X51.46S0; brightness: 255
+G1X57.00S719F335; brightness: 79
+G1X56.00S205F787; brightness: 223
+G1X55.00S376F637; brightness: 175
+G1X54.00S547F486; brightness: 127
+G1X53.00S376F637; brightness: 175
+G0X52.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X50.46S315F690; brightness: 192
-G1X49.46S719F335; brightness: 79
-G1X49.46S547F486; brightness: 127
+G1X51.00S315F690; brightness: 192
+G1X50.00S719F335; brightness: 79
+G1X50.00S547F486; brightness: 127
 M3S0; EOL: x=[1 <- 28], y=10
 G0X49.00Y257.00S0; goto line start->
 G1X49.00S262F737; brightness: 207
@@ -589,47 +589,47 @@ G4P0.001
 G1X77.00S490F536; brightness: 143
 G1X78.00S205F787; brightness: 223
 M3S0; EOL: x=[0 -> 29], y=9
-G0X77.46Y258.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X76.46S205F787; brightness: 223
-G1X75.46S262F737; brightness: 207
-G0X74.46S0; brightness: 255
+G0X78.00Y258.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X77.00S205F787; brightness: 223
+G1X76.00S262F737; brightness: 207
+G0X75.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X73.46S376F637; brightness: 175
-G1X72.46S148F837; brightness: 239
-G0X71.46S0; brightness: 255
+G1X74.00S376F637; brightness: 175
+G1X73.00S148F837; brightness: 239
+G0X72.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X70.46S148F837; brightness: 239
-G1X69.46S890F185; brightness: 31
-G0X67.46S0; brightness: 255
+G1X71.00S148F837; brightness: 239
+G1X70.00S890F185; brightness: 31
+G0X68.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X66.46S890F185; brightness: 31
-G1X65.46S148F837; brightness: 239
-G1X64.46S376F637; brightness: 175
-G1X63.46S547F486; brightness: 127
-G1X62.46S490F536; brightness: 143
-G0X61.46S0; brightness: 255
+G1X67.00S890F185; brightness: 31
+G1X66.00S148F837; brightness: 239
+G1X65.00S376F637; brightness: 175
+G1X64.00S547F486; brightness: 127
+G1X63.00S490F536; brightness: 143
+G0X62.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X60.46S661F386; brightness: 95
-G1X59.46S433F586; brightness: 159
-G0X58.46S0; brightness: 255
+G1X61.00S661F386; brightness: 95
+G1X60.00S433F586; brightness: 159
+G0X59.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X56.46S776F285; brightness: 63
-G1X55.46S262F737; brightness: 207
-G0X49.46S0; brightness: 255
+G1X57.00S776F285; brightness: 63
+G1X56.00S262F737; brightness: 207
+G0X50.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X48.46S490F536; brightness: 143
+G1X49.00S490F536; brightness: 143
 M3S0; EOL: x=[0 <- 29], y=8
 G0X49.00Y259.00S0; goto line start->
 G1X49.00S319F687; brightness: 191
@@ -667,52 +667,52 @@ G4P0.001
 
 G1X78.00S604F436; brightness: 111
 M3S0; EOL: x=[0 -> 29], y=7
-G0X78.46Y260.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X77.46S205F787; brightness: 223
-G1X76.46S661F386; brightness: 95
-G0X74.46S0; brightness: 255
+G0X79.00Y260.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X78.00S205F787; brightness: 223
+G1X77.00S661F386; brightness: 95
+G0X75.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X73.46S376F637; brightness: 175
-G1X72.46S490F536; brightness: 143
-G1X71.46S262F737; brightness: 207
-G1X70.46S943F138; brightness: 16
-G1X69.46S148F837; brightness: 239
-G0X68.46S0; brightness: 255
+G1X74.00S376F637; brightness: 175
+G1X73.00S490F536; brightness: 143
+G1X72.00S262F737; brightness: 207
+G1X71.00S943F138; brightness: 16
+G1X70.00S148F837; brightness: 239
+G0X69.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X67.46S890F185; brightness: 31
-G1X66.46S319F687; brightness: 191
-G0X65.46S0; brightness: 255
+G1X68.00S890F185; brightness: 31
+G1X67.00S319F687; brightness: 191
+G0X66.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X64.46S947F135; brightness: 15
-G1X63.46S547F486; brightness: 127
-G0X62.46S0; brightness: 255
+G1X65.00S947F135; brightness: 15
+G1X64.00S547F486; brightness: 127
+G0X63.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X61.46S547F486; brightness: 127
-G1X60.46S661F386; brightness: 95
-G0X59.46S0; brightness: 255
+G1X62.00S547F486; brightness: 127
+G1X61.00S661F386; brightness: 95
+G0X60.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X58.46S719F335; brightness: 79
-G1X57.46S776F285; brightness: 63
-G1X56.46S433F586; brightness: 159
-G1X55.46S547F486; brightness: 127
-G1X54.46S772F288; brightness: 64
-G1X53.46S833F235; brightness: 47
-G0X49.46S0; brightness: 255
+G1X59.00S719F335; brightness: 79
+G1X58.00S776F285; brightness: 63
+G1X57.00S433F586; brightness: 159
+G1X56.00S547F486; brightness: 127
+G1X55.00S772F288; brightness: 64
+G1X54.00S833F235; brightness: 47
+G0X50.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X48.46S661F386; brightness: 95
-G1X48.46S148F837; brightness: 239
+G1X49.00S661F386; brightness: 95
+G1X49.00S148F837; brightness: 239
 M3S0; EOL: x=[0 <- 30], y=6
 G0X50.00Y261.00S0; goto line start->
 G1X50.00S661F386; brightness: 95
@@ -742,41 +742,41 @@ G4P0.001
 G1X78.00S319F687; brightness: 191
 G1X79.00S719F335; brightness: 79
 M3S0; EOL: x=[1 -> 30], y=5
-G0X79.46Y262.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X78.46S319F687; brightness: 191
-G1X77.46S890F185; brightness: 31
-G0X74.46S0; brightness: 255
+G0X80.00Y262.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X79.00S319F687; brightness: 191
+G1X78.00S890F185; brightness: 31
+G0X75.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X73.46S262F737; brightness: 207
-G1X72.46S544F489; brightness: 128
-G1X71.46S205F787; brightness: 223
-G1X70.46S319F687; brightness: 191
-G1X69.46S315F690; brightness: 192
-G1X68.46S829F238; brightness: 48
-G1X67.46S544F489; brightness: 128
-G1X66.46S319F687; brightness: 191
-G1X65.46S376F637; brightness: 175
-G1X64.46S262F737; brightness: 207
-G0X63.46S0; brightness: 255
+G1X74.00S262F737; brightness: 207
+G1X73.00S544F489; brightness: 128
+G1X72.00S205F787; brightness: 223
+G1X71.00S319F687; brightness: 191
+G1X70.00S315F690; brightness: 192
+G1X69.00S829F238; brightness: 48
+G1X68.00S544F489; brightness: 128
+G1X67.00S319F687; brightness: 191
+G1X66.00S376F637; brightness: 175
+G1X65.00S262F737; brightness: 207
+G0X64.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X62.46S148F837; brightness: 239
-G1X61.46S547F486; brightness: 127
-G0X58.46S0; brightness: 255
+G1X63.00S148F837; brightness: 239
+G1X62.00S547F486; brightness: 127
+G0X59.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X57.46S148F837; brightness: 239
-G0X51.46S0; brightness: 255
+G1X58.00S148F837; brightness: 239
+G0X52.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X50.46S148F837; brightness: 239
-G1X49.46S776F285; brightness: 63
-G1X49.46S148F837; brightness: 239
+G1X51.00S148F837; brightness: 239
+G1X50.00S776F285; brightness: 63
+G1X50.00S148F837; brightness: 239
 M3S0; EOL: x=[1 <- 31], y=4
 G0X51.00Y263.00S0; goto line start->
 G1X51.00S262F737; brightness: 207
@@ -801,27 +801,27 @@ G4P0.001
 G1X79.00S433F586; brightness: 159
 G1X80.00S890F185; brightness: 31
 M3S0; EOL: x=[2 -> 31], y=3
-G0X80.46Y264.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X79.46S547F486; brightness: 127
-G1X78.46S833F235; brightness: 47
-G0X69.46S0; brightness: 255
+G0X81.00Y264.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X80.00S547F486; brightness: 127
+G1X79.00S833F235; brightness: 47
+G0X70.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X68.46S661F386; brightness: 95
-G1X67.46S205F787; brightness: 223
-G0X59.46S0; brightness: 255
+G1X69.00S661F386; brightness: 95
+G1X68.00S205F787; brightness: 223
+G0X60.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X57.46S490F536; brightness: 143
-G0X53.46S0; brightness: 255
+G1X58.00S490F536; brightness: 143
+G0X54.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X52.46S205F787; brightness: 223
-G1X51.46S661F386; brightness: 95
-G1X51.46S262F737; brightness: 207
+G1X53.00S205F787; brightness: 223
+G1X52.00S661F386; brightness: 95
+G1X52.00S262F737; brightness: 207
 M3S0; EOL: x=[3 <- 32], y=2
 G0X54.00Y265.00S0; goto line start->
 G1X55.00S547F486; brightness: 127
@@ -840,13 +840,13 @@ G4P0.001
 G1X80.00S205F787; brightness: 223
 G1X81.00S262F737; brightness: 207
 M3S0; EOL: x=[5 -> 32], y=1
-G0X60.46Y266.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X59.46S433F586; brightness: 159
-G1X58.46S719F335; brightness: 79
-G1X57.46S262F737; brightness: 207
-G1X56.46S315F690; brightness: 192
-G1X55.46S372F640; brightness: 176
-G1X55.46S262F737; brightness: 207
+G0X61.00Y266.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X60.00S433F586; brightness: 159
+G1X59.00S719F335; brightness: 79
+G1X58.00S262F737; brightness: 207
+G1X57.00S315F690; brightness: 192
+G1X56.00S372F640; brightness: 176
+G1X56.00S262F737; brightness: 207
 M3S0; EOL: x=[7 <- 12], y=0
 ; EndPart
 M3S0
@@ -858,22 +858,22 @@ G4P0
 G0X87.00Y272.00S0; goto line start->
 G1X87.00S433F586; brightness: 159
 M3S0; EOL: x=[2 -> 2], y=11
-G0X102.46Y273.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X101.46S319F687; brightness: 191
-G1X99.46S205F787; brightness: 223
-G1X98.46S547F486; brightness: 127
-G1X97.46S262F737; brightness: 207
-G0X93.46S0; brightness: 255
+G0X103.00Y273.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X102.00S319F687; brightness: 191
+G1X100.00S205F787; brightness: 223
+G1X99.00S547F486; brightness: 127
+G1X98.00S262F737; brightness: 207
+G0X94.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X92.46S205F787; brightness: 223
-G1X91.46S490F536; brightness: 143
-G1X90.46S776F285; brightness: 63
-G1X89.46S719F335; brightness: 79
-G1X87.46S544F489; brightness: 128
-G1X86.46S376F637; brightness: 175
-G1X86.46S547F486; brightness: 127
+G1X93.00S205F787; brightness: 223
+G1X92.00S490F536; brightness: 143
+G1X91.00S776F285; brightness: 63
+G1X90.00S719F335; brightness: 79
+G1X88.00S544F489; brightness: 128
+G1X87.00S376F637; brightness: 175
+G1X87.00S547F486; brightness: 127
 M3S0; EOL: x=[2 <- 18], y=10
 G0X87.00Y274.00S0; goto line start->
 G1X87.00S719F335; brightness: 79
@@ -894,28 +894,28 @@ G1X101.00S148F837; brightness: 239
 G1X102.00S262F737; brightness: 207
 G1X103.00S833F235; brightness: 47
 M3S0; EOL: x=[2 -> 18], y=9
-G0X103.46Y275.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X102.46S205F787; brightness: 223
-G1X101.46S890F185; brightness: 31
-G0X99.46S0; brightness: 255
+G0X104.00Y275.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X103.00S205F787; brightness: 223
+G1X102.00S890F185; brightness: 31
+G0X100.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X98.46S661F386; brightness: 95
-G1X97.46S376F637; brightness: 175
-G0X96.46S0; brightness: 255
+G1X99.00S661F386; brightness: 95
+G1X98.00S376F637; brightness: 175
+G0X97.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X95.46S148F837; brightness: 239
-G1X94.46S833F235; brightness: 47
-G1X93.46S490F536; brightness: 143
-G0X87.46S0; brightness: 255
+G1X96.00S148F837; brightness: 239
+G1X95.00S833F235; brightness: 47
+G1X94.00S490F536; brightness: 143
+G0X88.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X86.46S148F837; brightness: 239
-G1X86.46S719F335; brightness: 79
+G1X87.00S148F837; brightness: 239
+G1X87.00S719F335; brightness: 79
 M3S0; EOL: x=[2 <- 19], y=8
 G0X87.00Y276.00S0; goto line start->
 G1X87.00S433F586; brightness: 159
@@ -939,30 +939,30 @@ G4P0.001
 G1X103.00S604F436; brightness: 111
 G1X104.00S661F386; brightness: 95
 M3S0; EOL: x=[2 -> 19], y=7
-G0X106.46Y277.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X105.46S661F386; brightness: 95
-G1X104.46S319F687; brightness: 191
-G1X103.46S262F737; brightness: 207
-G1X102.46S776F285; brightness: 63
-G1X101.46S376F637; brightness: 175
-G0X100.46S0; brightness: 255
+G0X107.00Y277.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X106.00S661F386; brightness: 95
+G1X105.00S319F687; brightness: 191
+G1X104.00S262F737; brightness: 207
+G1X103.00S776F285; brightness: 63
+G1X102.00S376F637; brightness: 175
+G0X101.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X99.46S433F586; brightness: 159
-G1X98.46S776F285; brightness: 63
-G0X97.46S0; brightness: 255
+G1X100.00S433F586; brightness: 159
+G1X99.00S776F285; brightness: 63
+G0X98.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X95.46S547F486; brightness: 127
-G0X88.46S0; brightness: 255
+G1X96.00S547F486; brightness: 127
+G0X89.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X87.46S148F837; brightness: 239
-G1X86.46S890F185; brightness: 31
-G1X86.46S148F837; brightness: 239
+G1X88.00S148F837; brightness: 239
+G1X87.00S890F185; brightness: 31
+G1X87.00S148F837; brightness: 239
 M3S0; EOL: x=[2 <- 22], y=6
 G0X88.00Y278.00S0; goto line start->
 G1X89.00S547F486; brightness: 127
@@ -988,33 +988,33 @@ G1X105.00S148F837; brightness: 239
 G1X106.00S604F436; brightness: 111
 G1X107.00S719F335; brightness: 79
 M3S0; EOL: x=[3 -> 22], y=5
-G0X107.46Y279.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X106.46S262F737; brightness: 207
-G1X105.46S661F386; brightness: 95
-G0X103.46S0; brightness: 255
+G0X108.00Y279.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X107.00S262F737; brightness: 207
+G1X106.00S661F386; brightness: 95
+G0X104.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X102.46S833F235; brightness: 47
-G1X101.46S205F787; brightness: 223
-G0X100.46S0; brightness: 255
+G1X103.00S833F235; brightness: 47
+G1X102.00S205F787; brightness: 223
+G0X101.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X99.46S544F489; brightness: 128
-G1X98.46S148F837; brightness: 239
-G0X97.46S0; brightness: 255
+G1X100.00S544F489; brightness: 128
+G1X99.00S148F837; brightness: 239
+G0X98.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X96.46S776F285; brightness: 63
-G0X89.46S0; brightness: 255
+G1X97.00S776F285; brightness: 63
+G0X90.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X88.46S148F837; brightness: 239
-G1X87.46S890F185; brightness: 31
-G1X87.46S148F837; brightness: 239
+G1X89.00S148F837; brightness: 239
+G1X88.00S890F185; brightness: 31
+G1X88.00S148F837; brightness: 239
 M3S0; EOL: x=[3 <- 23], y=4
 G0X89.00Y280.00S0; goto line start->
 G1X89.00S547F486; brightness: 127
@@ -1031,30 +1031,30 @@ G4P0.001
 G1X101.00S262F737; brightness: 207
 G1X102.00S319F687; brightness: 191
 M3S0; EOL: x=[4 -> 17], y=3
-G0X102.46Y281.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X101.46S148F837; brightness: 239
-G1X100.46S661F386; brightness: 95
-G1X99.46S148F837; brightness: 239
-G0X97.46S0; brightness: 255
+G0X103.00Y281.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X102.00S148F837; brightness: 239
+G1X101.00S661F386; brightness: 95
+G1X100.00S148F837; brightness: 239
+G0X98.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X96.46S433F586; brightness: 159
-G1X95.46S262F737; brightness: 207
-G0X90.46S0; brightness: 255
+G1X97.00S433F586; brightness: 159
+G1X96.00S262F737; brightness: 207
+G0X91.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X89.46S319F687; brightness: 191
-G1X88.46S943F138; brightness: 16
-G1X87.46S148F837; brightness: 239
-G0X86.46S0; brightness: 255
+G1X90.00S319F687; brightness: 191
+G1X89.00S943F138; brightness: 16
+G1X88.00S148F837; brightness: 239
+G0X87.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X85.46S262F737; brightness: 207
-G1X84.46S604F436; brightness: 111
-G1X84.46S205F787; brightness: 223
+G1X86.00S262F737; brightness: 207
+G1X85.00S604F436; brightness: 111
+G1X85.00S205F787; brightness: 223
 M3S0; EOL: x=[0 <- 18], y=2
 G0X85.00Y282.00S0; goto line start->
 G1X85.00S148F837; brightness: 239
@@ -1077,15 +1077,15 @@ G4P0.001
 G1X102.00S148F837; brightness: 239
 G1X103.00S205F787; brightness: 223
 M3S0; EOL: x=[0 -> 18], y=1
-G0X95.46Y283.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X94.46S148F837; brightness: 239
-G1X93.46S487F539; brightness: 144
-G1X92.46S433F586; brightness: 159
-G1X91.46S604F436; brightness: 111
-G1X90.46S601F439; brightness: 112
-G1X89.46S544F489; brightness: 128
-G1X88.46S487F539; brightness: 144
-G1X88.46S262F737; brightness: 207
+G0X96.00Y283.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X95.00S148F837; brightness: 239
+G1X94.00S487F539; brightness: 144
+G1X93.00S433F586; brightness: 159
+G1X92.00S604F436; brightness: 111
+G1X91.00S601F439; brightness: 112
+G1X90.00S544F489; brightness: 128
+G1X89.00S487F539; brightness: 144
+G1X89.00S262F737; brightness: 207
 M3S0; EOL: x=[4 <- 11], y=0
 ; EndPart
 M3S0
@@ -1097,9 +1097,9 @@ G4P0
 G0X88.00Y306.00S0; goto line start->
 G1X89.00S205F787; brightness: 223
 M3S0; EOL: x=[0 -> 1], y=1
-G0X88.46Y307.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X87.46S376F637; brightness: 175
-G1X87.46S319F687; brightness: 191
+G0X89.00Y307.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X88.00S376F637; brightness: 175
+G1X88.00S319F687; brightness: 191
 M3S0; EOL: x=[0 <- 1], y=0
 ; EndPart
 M3S0
@@ -1116,15 +1116,15 @@ G1X93.00S661F386; brightness: 95
 G1X94.00S547F486; brightness: 127
 G1X95.00S262F737; brightness: 207
 M3S0; EOL: x=[9 -> 14], y=23
-G0X96.46Y317.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X95.46S319F687; brightness: 191
-G1X94.46S776F285; brightness: 63
-G1X93.46S886F188; brightness: 32
-G1X92.46S715F338; brightness: 80
-G1X91.46S544F489; brightness: 128
-G1X89.46S315F690; brightness: 192
-G1X88.46S658F389; brightness: 96
-G1X88.46S547F486; brightness: 127
+G0X97.00Y317.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X96.00S319F687; brightness: 191
+G1X95.00S776F285; brightness: 63
+G1X94.00S886F188; brightness: 32
+G1X93.00S715F338; brightness: 80
+G1X92.00S544F489; brightness: 128
+G1X90.00S315F690; brightness: 192
+G1X89.00S658F389; brightness: 96
+G1X89.00S547F486; brightness: 127
 M3S0; EOL: x=[8 <- 16], y=22
 G0X88.00Y318.00S0; goto line start->
 G1X88.00S148F837; brightness: 239
@@ -1138,16 +1138,16 @@ G1X96.00S601F439; brightness: 112
 G1X97.00S1001F88; brightness: 0
 G1X98.00S604F436; brightness: 111
 M3S0; EOL: x=[7 -> 17], y=21
-G0X98.46Y319.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X97.46S719F335; brightness: 79
-G1X96.46S829F238; brightness: 48
-G1X95.46S319F687; brightness: 191
-G0X88.46S0; brightness: 255
+G0X99.00Y319.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X98.00S719F335; brightness: 79
+G1X97.00S829F238; brightness: 48
+G1X96.00S319F687; brightness: 191
+G0X89.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X87.46S262F737; brightness: 207
-G1X87.46S319F687; brightness: 191
+G1X88.00S262F737; brightness: 207
+G1X88.00S319F687; brightness: 191
 M3S0; EOL: x=[7 <- 18], y=20
 G0X88.00Y320.00S0; goto line start->
 G1X88.00S148F837; brightness: 239
@@ -1160,16 +1160,16 @@ G1X98.00S148F837; brightness: 239
 G1X99.00S943F138; brightness: 16
 G1X100.00S661F386; brightness: 95
 M3S0; EOL: x=[7 -> 19], y=19
-G0X100.46Y321.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X99.46S319F687; brightness: 191
-G1X98.46S943F138; brightness: 16
-G1X97.46S262F737; brightness: 207
-G0X89.46S0; brightness: 255
+G0X101.00Y321.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X100.00S319F687; brightness: 191
+G1X99.00S943F138; brightness: 16
+G1X98.00S262F737; brightness: 207
+G0X90.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X88.46S148F837; brightness: 239
-G1X88.46S490F536; brightness: 143
+G1X89.00S148F837; brightness: 239
+G1X89.00S490F536; brightness: 143
 M3S0; EOL: x=[8 <- 20], y=18
 G0X89.00Y322.00S0; goto line start->
 G1X89.00S148F837; brightness: 239
@@ -1182,21 +1182,21 @@ G4P0.001
 G1X100.00S376F637; brightness: 175
 G1X101.00S890F185; brightness: 31
 M3S0; EOL: x=[8 -> 20], y=17
-G0X103.46Y323.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X102.46S262F737; brightness: 207
-G0X101.46S0; brightness: 255
+G0X104.00Y323.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X103.00S262F737; brightness: 207
+G0X102.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X100.46S376F637; brightness: 175
-G1X99.46S890F185; brightness: 31
-G0X91.46S0; brightness: 255
+G1X101.00S376F637; brightness: 175
+G1X100.00S890F185; brightness: 31
+G0X92.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X90.46S319F687; brightness: 191
-G1X89.46S547F486; brightness: 127
-G1X89.46S148F837; brightness: 239
+G1X91.00S319F687; brightness: 191
+G1X90.00S547F486; brightness: 127
+G1X90.00S148F837; brightness: 239
 M3S0; EOL: x=[9 <- 23], y=16
 G0X92.00Y324.00S0; goto line start->
 G1X92.00S376F637; brightness: 175
@@ -1215,14 +1215,14 @@ G4P0.001
 
 G1X104.00S376F637; brightness: 175
 M3S0; EOL: x=[11 -> 23], y=15
-G0X102.46Y325.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X101.46S490F536; brightness: 143
-G1X100.46S890F185; brightness: 31
-G1X97.46S319F687; brightness: 191
-G1X96.46S433F586; brightness: 159
-G1X94.46S604F436; brightness: 111
-G1X93.46S601F439; brightness: 112
-G1X93.46S319F687; brightness: 191
+G0X103.00Y325.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X102.00S490F536; brightness: 143
+G1X101.00S890F185; brightness: 31
+G1X98.00S319F687; brightness: 191
+G1X97.00S433F586; brightness: 159
+G1X95.00S604F436; brightness: 111
+G1X94.00S601F439; brightness: 112
+G1X94.00S319F687; brightness: 191
 M3S0; EOL: x=[13 <- 22], y=14
 G0X82.00Y326.00S0; goto line start->
 G1X82.00S376F637; brightness: 175
@@ -1254,43 +1254,43 @@ G4P0.001
 G1X109.00S148F837; brightness: 239
 G1X110.00S205F787; brightness: 223
 M3S0; EOL: x=[1 -> 29], y=13
-G0X108.46Y327.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X107.46S776F285; brightness: 63
-G1X106.46S148F837; brightness: 239
-G0X105.46S0; brightness: 255
+G0X109.00Y327.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X108.00S776F285; brightness: 63
+G1X107.00S148F837; brightness: 239
+G0X106.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X104.46S604F436; brightness: 111
-G1X103.46S715F338; brightness: 80
-G1X102.46S604F436; brightness: 111
-G0X101.46S0; brightness: 255
+G1X105.00S604F436; brightness: 111
+G1X104.00S715F338; brightness: 80
+G1X103.00S604F436; brightness: 111
+G0X102.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X100.46S547F486; brightness: 127
-G1X99.46S433F586; brightness: 159
-G1X98.46S372F640; brightness: 176
-G1X97.46S490F536; brightness: 143
-G0X95.46S0; brightness: 255
+G1X101.00S547F486; brightness: 127
+G1X100.00S433F586; brightness: 159
+G1X99.00S372F640; brightness: 176
+G1X98.00S490F536; brightness: 143
+G0X96.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X94.46S205F787; brightness: 223
-G1X93.46S833F235; brightness: 47
-G0X89.46S0; brightness: 255
+G1X95.00S205F787; brightness: 223
+G1X94.00S833F235; brightness: 47
+G0X90.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X87.46S490F536; brightness: 143
-G1X86.46S205F787; brightness: 223
-G0X82.46S0; brightness: 255
+G1X88.00S490F536; brightness: 143
+G1X87.00S205F787; brightness: 223
+G0X83.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X81.46S319F687; brightness: 191
-G1X80.46S1001F88; brightness: 0
-G1X80.46S319F687; brightness: 191
+G1X82.00S319F687; brightness: 191
+G1X81.00S1001F88; brightness: 0
+G1X81.00S319F687; brightness: 191
 M3S0; EOL: x=[0 <- 28], y=12
 G0X81.00Y328.00S0; goto line start->
 G1X81.00S776F285; brightness: 63
@@ -1330,42 +1330,42 @@ G1X107.00S490F536; brightness: 143
 G1X108.00S319F687; brightness: 191
 G1X109.00S776F285; brightness: 63
 M3S0; EOL: x=[0 -> 28], y=11
-G0X108.46Y329.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X107.46S947F135; brightness: 15
-G1X106.46S547F486; brightness: 127
-G1X105.46S433F586; brightness: 159
-G0X104.46S0; brightness: 255
+G0X109.00Y329.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X108.00S947F135; brightness: 15
+G1X107.00S547F486; brightness: 127
+G1X106.00S433F586; brightness: 159
+G0X105.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X103.46S719F335; brightness: 79
-G1X102.46S547F486; brightness: 127
-G1X101.46S262F737; brightness: 207
-G1X99.46S433F586; brightness: 159
-G0X98.46S0; brightness: 255
+G1X104.00S719F335; brightness: 79
+G1X103.00S547F486; brightness: 127
+G1X102.00S262F737; brightness: 207
+G1X100.00S433F586; brightness: 159
+G0X99.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X97.46S719F335; brightness: 79
-G1X96.46S433F586; brightness: 159
-G0X94.46S0; brightness: 255
+G1X98.00S719F335; brightness: 79
+G1X97.00S433F586; brightness: 159
+G0X95.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X93.46S947F135; brightness: 15
-G0X92.46S0; brightness: 255
+G1X94.00S947F135; brightness: 15
+G0X93.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X91.46S148F837; brightness: 239
-G1X90.46S661F386; brightness: 95
-G1X89.46S148F837; brightness: 239
-G0X81.46S0; brightness: 255
+G1X92.00S148F837; brightness: 239
+G1X91.00S661F386; brightness: 95
+G1X90.00S148F837; brightness: 239
+G0X82.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X80.46S547F486; brightness: 127
-G1X80.46S776F285; brightness: 63
+G1X81.00S547F486; brightness: 127
+G1X81.00S776F285; brightness: 63
 M3S0; EOL: x=[0 <- 28], y=10
 G0X81.00Y330.00S0; goto line start->
 G1X81.00S719F335; brightness: 79
@@ -1403,40 +1403,40 @@ G1X108.00S433F586; brightness: 159
 G1X109.00S1001F88; brightness: 0
 G1X110.00S319F687; brightness: 191
 M3S0; EOL: x=[0 -> 29], y=9
-G0X109.46Y331.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X108.46S719F335; brightness: 79
-G1X107.46S776F285; brightness: 63
-G0X106.46S0; brightness: 255
+G0X110.00Y331.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X109.00S719F335; brightness: 79
+G1X108.00S776F285; brightness: 63
+G0X107.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X105.46S262F737; brightness: 207
-G1X104.46S947F135; brightness: 15
-G1X103.46S362F649; brightness: 179
-G1X102.46S148F837; brightness: 239
-G1X101.46S776F285; brightness: 63
-G0X100.46S0; brightness: 255
+G1X106.00S262F737; brightness: 207
+G1X105.00S947F135; brightness: 15
+G1X104.00S362F649; brightness: 179
+G1X103.00S148F837; brightness: 239
+G1X102.00S776F285; brightness: 63
+G0X101.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X99.46S148F837; brightness: 239
-G1X98.46S947F135; brightness: 15
-G1X97.46S547F486; brightness: 127
-G0X95.46S0; brightness: 255
+G1X100.00S148F837; brightness: 239
+G1X99.00S947F135; brightness: 15
+G1X98.00S547F486; brightness: 127
+G0X96.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X94.46S433F586; brightness: 159
-G1X93.46S604F436; brightness: 111
-G1X92.46S376F637; brightness: 175
-G1X91.46S604F436; brightness: 111
-G1X89.46S319F687; brightness: 191
-G0X81.46S0; brightness: 255
+G1X95.00S433F586; brightness: 159
+G1X94.00S604F436; brightness: 111
+G1X93.00S376F637; brightness: 175
+G1X92.00S604F436; brightness: 111
+G1X90.00S319F687; brightness: 191
+G0X82.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X80.46S776F285; brightness: 63
-G1X80.46S490F536; brightness: 143
+G1X81.00S776F285; brightness: 63
+G1X81.00S490F536; brightness: 143
 M3S0; EOL: x=[0 <- 29], y=8
 G0X81.00Y332.00S0; goto line start->
 G1X81.00S148F837; brightness: 239
@@ -1467,36 +1467,36 @@ G1X108.00S262F737; brightness: 207
 G1X109.00S148F837; brightness: 239
 G1X111.00S205F787; brightness: 223
 M3S0; EOL: x=[0 -> 30], y=7
-G0X110.46Y333.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X109.46S148F837; brightness: 239
-G1X108.46S547F486; brightness: 127
-G1X107.46S661F386; brightness: 95
-G1X106.46S886F188; brightness: 32
-G1X105.46S376F637; brightness: 175
-G0X102.46S0; brightness: 255
+G0X111.00Y333.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X110.00S148F837; brightness: 239
+G1X109.00S547F486; brightness: 127
+G1X108.00S661F386; brightness: 95
+G1X107.00S886F188; brightness: 32
+G1X106.00S376F637; brightness: 175
+G0X103.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X101.46S487F539; brightness: 144
-G1X100.46S886F188; brightness: 32
-G1X99.46S319F687; brightness: 191
-G1X98.46S433F586; brightness: 159
-G0X97.46S0; brightness: 255
+G1X102.00S487F539; brightness: 144
+G1X101.00S886F188; brightness: 32
+G1X100.00S319F687; brightness: 191
+G1X99.00S433F586; brightness: 159
+G0X98.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X96.46S148F837; brightness: 239
-G1X95.46S433F586; brightness: 159
-G1X94.46S947F135; brightness: 15
-G1X93.46S148F837; brightness: 239
-G1X92.46S833F235; brightness: 47
-G1X91.46S490F536; brightness: 143
-G0X82.46S0; brightness: 255
+G1X97.00S148F837; brightness: 239
+G1X96.00S433F586; brightness: 159
+G1X95.00S947F135; brightness: 15
+G1X94.00S148F837; brightness: 239
+G1X93.00S833F235; brightness: 47
+G1X92.00S490F536; brightness: 143
+G0X83.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X81.46S776F285; brightness: 63
-G1X81.46S376F637; brightness: 175
+G1X82.00S776F285; brightness: 63
+G1X82.00S376F637; brightness: 175
 M3S0; EOL: x=[1 <- 30], y=6
 G0X83.00Y334.00S0; goto line start->
 G1X83.00S433F586; brightness: 159
@@ -1522,22 +1522,22 @@ G1X100.00S262F737; brightness: 207
 G1X101.00S661F386; brightness: 95
 G1X102.00S544F489; brightness: 128
 M3S0; EOL: x=[2 -> 21], y=5
-G0X98.46Y335.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X97.46S490F536; brightness: 143
-G1X96.46S262F737; brightness: 207
-G1X95.46S833F235; brightness: 47
-G1X94.46S433F586; brightness: 159
-G1X93.46S319F687; brightness: 191
-G1X92.46S376F637; brightness: 175
-G1X91.46S890F185; brightness: 31
-G1X90.46S433F586; brightness: 159
-G0X85.46S0; brightness: 255
+G0X99.00Y335.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X98.00S490F536; brightness: 143
+G1X97.00S262F737; brightness: 207
+G1X96.00S833F235; brightness: 47
+G1X95.00S433F586; brightness: 159
+G1X94.00S319F687; brightness: 191
+G1X93.00S376F637; brightness: 175
+G1X92.00S890F185; brightness: 31
+G1X91.00S433F586; brightness: 159
+G0X86.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X84.46S148F837; brightness: 239
-G1X83.46S604F436; brightness: 111
-G1X83.46S433F586; brightness: 159
+G1X85.00S148F837; brightness: 239
+G1X84.00S604F436; brightness: 111
+G1X84.00S433F586; brightness: 159
 M3S0; EOL: x=[3 <- 18], y=4
 G0X85.00Y336.00S0; goto line start->
 G1X85.00S205F787; brightness: 223
@@ -1566,21 +1566,21 @@ G1X98.00S319F687; brightness: 191
 G1X99.00S547F486; brightness: 127
 G1X100.00S205F787; brightness: 223
 M3S0; EOL: x=[4 -> 19], y=3
-G0X99.46Y337.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X98.46S604F436; brightness: 111
-G1X97.46S148F837; brightness: 239
-G1X96.46S890F185; brightness: 31
-G1X95.46S547F486; brightness: 127
-G0X93.46S0; brightness: 255
+G0X100.00Y337.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X99.00S604F436; brightness: 111
+G1X98.00S148F837; brightness: 239
+G1X97.00S890F185; brightness: 31
+G1X96.00S547F486; brightness: 127
+G0X94.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X92.46S433F586; brightness: 159
-G1X91.46S547F486; brightness: 127
-G1X88.46S319F687; brightness: 191
-G1X87.46S490F536; brightness: 143
-G1X86.46S547F486; brightness: 127
-G1X86.46S262F737; brightness: 207
+G1X93.00S433F586; brightness: 159
+G1X92.00S547F486; brightness: 127
+G1X89.00S319F687; brightness: 191
+G1X88.00S490F536; brightness: 143
+G1X87.00S547F486; brightness: 127
+G1X87.00S262F737; brightness: 207
 M3S0; EOL: x=[6 <- 19], y=2
 G0X90.00Y338.00S0; goto line start->
 G1X90.00S148F837; brightness: 239
@@ -1595,10 +1595,10 @@ G1X99.00S604F436; brightness: 111
 G1X100.00S547F486; brightness: 127
 G1X101.00S148F837; brightness: 239
 M3S0; EOL: x=[9 -> 20], y=1
-G0X99.46Y339.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X98.46S719F335; brightness: 79
-G1X97.46S886F188; brightness: 32
-G1X97.46S262F737; brightness: 207
+G0X100.00Y339.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X99.00S719F335; brightness: 79
+G1X98.00S886F188; brightness: 32
+G1X98.00S262F737; brightness: 207
 M3S0; EOL: x=[17 <- 19], y=0
 ; EndPart
 M3S0
@@ -1645,38 +1645,38 @@ G1X98.00S319F687; brightness: 191
 G1X99.00S547F486; brightness: 127
 G1X100.00S319F687; brightness: 191
 M3S0; EOL: x=[0 -> 23], y=6
-G0X101.46Y351.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X100.46S148F837; brightness: 239
-G1X99.46S776F285; brightness: 63
-G1X98.46S658F389; brightness: 96
-G1X97.46S262F737; brightness: 207
-G1X96.46S604F436; brightness: 111
-G1X95.46S148F837; brightness: 239
-G1X94.46S319F687; brightness: 191
-G1X93.46S658F389; brightness: 96
-G1X92.46S772F288; brightness: 64
-G1X91.46S829F238; brightness: 48
-G1X90.46S715F338; brightness: 80
-G1X89.46S148F837; brightness: 239
-G0X88.46S0; brightness: 255
+G0X102.00Y351.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X101.00S148F837; brightness: 239
+G1X100.00S776F285; brightness: 63
+G1X99.00S658F389; brightness: 96
+G1X98.00S262F737; brightness: 207
+G1X97.00S604F436; brightness: 111
+G1X96.00S148F837; brightness: 239
+G1X95.00S319F687; brightness: 191
+G1X94.00S658F389; brightness: 96
+G1X93.00S772F288; brightness: 64
+G1X92.00S829F238; brightness: 48
+G1X91.00S715F338; brightness: 80
+G1X90.00S148F837; brightness: 239
+G0X89.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X87.46S262F737; brightness: 207
-G1X86.46S833F235; brightness: 47
-G1X85.46S430F589; brightness: 160
-G1X84.46S319F687; brightness: 191
-G1X83.46S547F486; brightness: 127
-G0X82.46S0; brightness: 255
+G1X88.00S262F737; brightness: 207
+G1X87.00S833F235; brightness: 47
+G1X86.00S430F589; brightness: 160
+G1X85.00S319F687; brightness: 191
+G1X84.00S547F486; brightness: 127
+G0X83.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X81.46S487F539; brightness: 144
-G1X79.46S715F338; brightness: 80
-G1X78.46S886F188; brightness: 32
-G1X77.46S433F586; brightness: 159
-G1X76.46S148F837; brightness: 239
-G1X76.46S262F737; brightness: 207
+G1X82.00S487F539; brightness: 144
+G1X80.00S715F338; brightness: 80
+G1X79.00S886F188; brightness: 32
+G1X78.00S433F586; brightness: 159
+G1X77.00S148F837; brightness: 239
+G1X77.00S262F737; brightness: 207
 M3S0; EOL: x=[0 <- 25], y=5
 G0X80.00Y352.00S0; goto line start->
 G1X80.00S262F737; brightness: 207
@@ -1715,41 +1715,41 @@ G1X101.00S376F637; brightness: 175
 G1X102.00S833F235; brightness: 47
 G1X103.00S148F837; brightness: 239
 M3S0; EOL: x=[3 -> 26], y=4
-G0X102.46Y353.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X101.46S604F436; brightness: 111
-G1X100.46S433F586; brightness: 159
-G0X98.46S0; brightness: 255
+G0X103.00Y353.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X102.00S604F436; brightness: 111
+G1X101.00S433F586; brightness: 159
+G0X99.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X97.46S148F837; brightness: 239
-G1X96.46S604F436; brightness: 111
-G0X95.46S0; brightness: 255
+G1X98.00S148F837; brightness: 239
+G1X97.00S604F436; brightness: 111
+G0X96.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X94.46S262F737; brightness: 207
-G1X93.46S719F335; brightness: 79
-G1X92.46S205F787; brightness: 223
-G0X90.46S0; brightness: 255
+G1X95.00S262F737; brightness: 207
+G1X94.00S719F335; brightness: 79
+G1X93.00S205F787; brightness: 223
+G0X91.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X89.46S148F837; brightness: 239
-G1X88.46S890F185; brightness: 31
-G1X87.46S148F837; brightness: 239
-G0X85.46S0; brightness: 255
+G1X90.00S148F837; brightness: 239
+G1X89.00S890F185; brightness: 31
+G1X88.00S148F837; brightness: 239
+G0X86.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X84.46S376F637; brightness: 175
-G1X83.46S319F687; brightness: 191
-G0X82.46S0; brightness: 255
+G1X85.00S376F637; brightness: 175
+G1X84.00S319F687; brightness: 191
+G0X83.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X81.46S433F586; brightness: 159
-G1X81.46S661F386; brightness: 95
+G1X82.00S433F586; brightness: 159
+G1X82.00S661F386; brightness: 95
 M3S0; EOL: x=[5 <- 26], y=3
 G0X81.00Y354.00S0; goto line start->
 G1X81.00S148F837; brightness: 239
@@ -1790,48 +1790,48 @@ G4P0.001
 
 G1X103.00S719F335; brightness: 79
 M3S0; EOL: x=[4 -> 26], y=2
-G0X102.46Y355.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X101.46S547F486; brightness: 127
-G0X99.46S0; brightness: 255
+G0X103.00Y355.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X102.00S547F486; brightness: 127
+G0X100.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X98.46S604F436; brightness: 111
-G1X97.46S319F687; brightness: 191
-G0X96.46S0; brightness: 255
+G1X99.00S604F436; brightness: 111
+G1X98.00S319F687; brightness: 191
+G0X97.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X95.46S776F285; brightness: 63
-G1X94.46S262F737; brightness: 207
-G0X93.46S0; brightness: 255
+G1X96.00S776F285; brightness: 63
+G1X95.00S262F737; brightness: 207
+G0X94.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X92.46S433F586; brightness: 159
-G1X91.46S604F436; brightness: 111
-G0X90.46S0; brightness: 255
+G1X93.00S433F586; brightness: 159
+G1X92.00S604F436; brightness: 111
+G0X91.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X89.46S433F586; brightness: 159
-G1X88.46S262F737; brightness: 207
-G0X87.46S0; brightness: 255
+G1X90.00S433F586; brightness: 159
+G1X89.00S262F737; brightness: 207
+G0X88.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X86.46S148F837; brightness: 239
-G1X85.46S661F386; brightness: 95
-G1X84.46S148F837; brightness: 239
-G1X83.46S205F787; brightness: 223
-G1X82.46S833F235; brightness: 47
-G0X81.46S0; brightness: 255
+G1X87.00S148F837; brightness: 239
+G1X86.00S661F386; brightness: 95
+G1X85.00S148F837; brightness: 239
+G1X84.00S205F787; brightness: 223
+G1X83.00S833F235; brightness: 47
+G0X82.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X80.46S148F837; brightness: 239
-G1X79.46S604F436; brightness: 111
-G1X79.46S319F687; brightness: 191
+G1X81.00S148F837; brightness: 239
+G1X80.00S604F436; brightness: 111
+G1X80.00S319F687; brightness: 191
 M3S0; EOL: x=[3 <- 26], y=1
 G0X81.00Y356.00S0; goto line start->
 G1X81.00S205F787; brightness: 223
@@ -1867,14 +1867,14 @@ M3S0
 G0X69.00Y356.00S0; ; Move to start (69.0,356.0)
 M3S0
 G4P0
-G0X73.46Y350.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X72.46S205F787; brightness: 223
-G0X70.46S0; brightness: 255
+G0X74.00Y350.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X73.00S205F787; brightness: 223
+G0X71.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X68.46S205F787; brightness: 223
-G1X68.46S148F837; brightness: 239
+G1X69.00S205F787; brightness: 223
+G1X69.00S148F837; brightness: 239
 M3S0; EOL: x=[0 <- 5], y=6
 G0X69.00Y351.00S0; goto line start->
 G1X70.00S205F787; brightness: 223
@@ -1885,14 +1885,14 @@ G4P0.001
 
 G1X74.00S547F486; brightness: 127
 M3S0; EOL: x=[0 -> 5], y=5
-G0X73.46Y352.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X72.46S661F386; brightness: 95
-G0X71.46S0; brightness: 255
+G0X74.00Y352.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X73.00S661F386; brightness: 95
+G0X72.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X70.46S205F787; brightness: 223
-G1X70.46S547F486; brightness: 127
+G1X71.00S205F787; brightness: 223
+G1X71.00S547F486; brightness: 127
 M3S0; EOL: x=[2 <- 5], y=4
 G0X71.00Y353.00S0; goto line start->
 G1X71.00S262F737; brightness: 207
@@ -1904,11 +1904,11 @@ G4P0.001
 G1X74.00S661F386; brightness: 95
 G1X75.00S262F737; brightness: 207
 M3S0; EOL: x=[2 -> 6], y=3
-G0X74.46Y354.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X73.46S661F386; brightness: 95
-G1X72.46S205F787; brightness: 223
-G1X71.46S148F837; brightness: 239
-G1X71.46S776F285; brightness: 63
+G0X75.00Y354.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X74.00S661F386; brightness: 95
+G1X73.00S205F787; brightness: 223
+G1X72.00S148F837; brightness: 239
+G1X72.00S776F285; brightness: 63
 M3S0; EOL: x=[3 <- 6], y=2
 G0X72.00Y355.00S0; goto line start->
 G1X72.00S719F335; brightness: 79
@@ -1917,15 +1917,15 @@ G1X74.00S205F787; brightness: 223
 G1X75.00S890F185; brightness: 31
 G1X76.00S205F787; brightness: 223
 M3S0; EOL: x=[3 -> 7], y=1
-G0X75.46Y356.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X74.46S604F436; brightness: 111
-G1X73.46S433F586; brightness: 159
-G0X72.46S0; brightness: 255
+G0X76.00Y356.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X75.00S604F436; brightness: 111
+G1X74.00S433F586; brightness: 159
+G0X73.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X71.46S772F288; brightness: 64
-G1X71.46S148F837; brightness: 239
+G1X72.00S772F288; brightness: 64
+G1X72.00S148F837; brightness: 239
 M3S0; EOL: x=[3 <- 7], y=0
 ; EndPart
 M3S0
@@ -1955,19 +1955,19 @@ G4P0.001
 
 G1X67.00S319F687; brightness: 191
 M3S0; EOL: x=[0 -> 11], y=6
-G0X66.46Y351.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X65.46S319F687; brightness: 191
-G1X64.46S658F389; brightness: 96
-G1X63.46S772F288; brightness: 64
-G1X62.46S829F238; brightness: 48
-G1X61.46S715F338; brightness: 80
-G1X60.46S148F837; brightness: 239
-G1X59.46S262F737; brightness: 207
-G1X58.46S658F389; brightness: 96
-G1X57.46S772F288; brightness: 64
-G1X56.46S829F238; brightness: 48
-G1X55.46S772F288; brightness: 64
-G1X55.46S148F837; brightness: 239
+G0X67.00Y351.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X66.00S319F687; brightness: 191
+G1X65.00S658F389; brightness: 96
+G1X64.00S772F288; brightness: 64
+G1X63.00S829F238; brightness: 48
+G1X62.00S715F338; brightness: 80
+G1X61.00S148F837; brightness: 239
+G1X60.00S262F737; brightness: 207
+G1X59.00S658F389; brightness: 96
+G1X58.00S772F288; brightness: 64
+G1X57.00S829F238; brightness: 48
+G1X56.00S772F288; brightness: 64
+G1X56.00S148F837; brightness: 239
 M3S0; EOL: x=[0 <- 11], y=5
 G0X58.00Y352.00S0; goto line start->
 G1X58.00S490F536; brightness: 143
@@ -1981,17 +1981,17 @@ G1X64.00S433F586; brightness: 159
 G1X65.00S661F386; brightness: 95
 G1X66.00S148F837; brightness: 239
 M3S0; EOL: x=[2 -> 10], y=4
-G0X66.46Y353.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X65.46S262F737; brightness: 207
-G1X64.46S719F335; brightness: 79
-G1X63.46S205F787; brightness: 223
-G0X60.46S0; brightness: 255
+G0X67.00Y353.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X66.00S262F737; brightness: 207
+G1X65.00S719F335; brightness: 79
+G1X64.00S205F787; brightness: 223
+G0X61.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X59.46S262F737; brightness: 207
-G1X58.46S661F386; brightness: 95
-G1X58.46S262F737; brightness: 207
+G1X60.00S262F737; brightness: 207
+G1X59.00S661F386; brightness: 95
+G1X59.00S262F737; brightness: 207
 M3S0; EOL: x=[3 <- 11], y=3
 G0X58.00Y354.00S0; goto line start->
 G1X58.00S148F837; brightness: 239
@@ -2015,27 +2015,27 @@ G1X66.00S148F837; brightness: 239
 G1X67.00S890F185; brightness: 31
 G1X68.00S262F737; brightness: 207
 M3S0; EOL: x=[2 -> 12], y=2
-G0X67.46Y355.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X66.46S776F285; brightness: 63
-G1X65.46S262F737; brightness: 207
-G0X64.46S0; brightness: 255
+G0X68.00Y355.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X67.00S776F285; brightness: 63
+G1X66.00S262F737; brightness: 207
+G0X65.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X63.46S433F586; brightness: 159
-G1X62.46S661F386; brightness: 95
-G0X61.46S0; brightness: 255
+G1X64.00S433F586; brightness: 159
+G1X63.00S661F386; brightness: 95
+G0X62.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X60.46S776F285; brightness: 63
-G1X59.46S319F687; brightness: 191
-G0X58.46S0; brightness: 255
+G1X61.00S776F285; brightness: 63
+G1X60.00S319F687; brightness: 191
+G0X59.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X57.46S319F687; brightness: 191
-G1X57.46S661F386; brightness: 95
+G1X58.00S319F687; brightness: 191
+G1X58.00S661F386; brightness: 95
 M3S0; EOL: x=[2 <- 12], y=1
 G0X59.00Y356.00S0; goto line start->
 G1X59.00S433F586; brightness: 159
@@ -2058,15 +2058,15 @@ M3S0
 G0X58.00Y337.00S0; ; Move to start (58.0,337.0)
 M3S0
 G4P0
-G0X58.46Y335.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X57.46S547F486; brightness: 127
-G1X57.46S490F536; brightness: 143
+G0X59.00Y335.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X58.00S547F486; brightness: 127
+G1X58.00S490F536; brightness: 143
 M3S0; EOL: x=[0 <- 1], y=2
 G0X59.00Y336.00S0; goto line start->
 G1X59.00S604F436; brightness: 111
 M3S0; EOL: x=[1 -> 1], y=1
-G0X59.46Y337.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X59.46S148F837; brightness: 239
+G0X60.00Y337.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X60.00S148F837; brightness: 239
 M3S0; EOL: x=[2 <- 2], y=0
 ; EndPart
 M3S0
@@ -2084,35 +2084,35 @@ G4P0.001
 
 G1X55.00S262F737; brightness: 207
 M3S0; EOL: x=[1 -> 10], y=14
-G0X72.46Y326.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X71.46S205F787; brightness: 223
-G1X70.46S319F687; brightness: 191
-G0X66.46S0; brightness: 255
+G0X73.00Y326.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X72.00S205F787; brightness: 223
+G1X71.00S319F687; brightness: 191
+G0X67.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X65.46S262F737; brightness: 207
-G1X64.46S661F386; brightness: 95
-G1X63.46S776F285; brightness: 63
-G1X62.46S376F637; brightness: 175
-G0X60.46S0; brightness: 255
+G1X66.00S262F737; brightness: 207
+G1X65.00S661F386; brightness: 95
+G1X64.00S776F285; brightness: 63
+G1X63.00S376F637; brightness: 175
+G0X61.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X58.46S262F737; brightness: 207
-G0X56.46S0; brightness: 255
+G1X59.00S262F737; brightness: 207
+G0X57.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X55.46S205F787; brightness: 223
-G1X54.46S262F737; brightness: 207
-G1X53.46S490F536; brightness: 143
-G0X46.46S0; brightness: 255
+G1X56.00S205F787; brightness: 223
+G1X55.00S262F737; brightness: 207
+G1X54.00S490F536; brightness: 143
+G0X47.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X45.46S490F536; brightness: 143
-G1X44.46S719F335; brightness: 79
+G1X46.00S490F536; brightness: 143
+G1X45.00S719F335; brightness: 79
 M3S0; EOL: x=[0 <- 28], y=13
 G0X45.00Y327.00S0; goto line start->
 G1X45.00S319F687; brightness: 191
@@ -2147,44 +2147,44 @@ G1X72.00S315F690; brightness: 192
 G1X73.00S604F436; brightness: 111
 G1X74.00S433F586; brightness: 159
 M3S0; EOL: x=[0 -> 29], y=12
-G0X74.46Y328.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X72.46S433F586; brightness: 159
-G0X70.46S0; brightness: 255
+G0X75.00Y328.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X73.00S433F586; brightness: 159
+G0X71.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X69.46S776F285; brightness: 63
-G1X68.46S319F687; brightness: 191
-G1X67.46S205F787; brightness: 223
-G1X66.46S890F185; brightness: 31
-G1X65.46S262F737; brightness: 207
-G0X64.46S0; brightness: 255
+G1X70.00S776F285; brightness: 63
+G1X69.00S319F687; brightness: 191
+G1X68.00S205F787; brightness: 223
+G1X67.00S890F185; brightness: 31
+G1X66.00S262F737; brightness: 207
+G0X65.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X63.46S490F536; brightness: 143
-G1X62.46S262F737; brightness: 207
-G1X61.46S604F436; brightness: 111
-G1X60.46S262F737; brightness: 207
-G0X58.46S0; brightness: 255
+G1X64.00S490F536; brightness: 143
+G1X63.00S262F737; brightness: 207
+G1X62.00S604F436; brightness: 111
+G1X61.00S262F737; brightness: 207
+G0X59.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X57.46S1001F88; brightness: 0
-G0X55.46S0; brightness: 255
+G1X58.00S1001F88; brightness: 0
+G0X56.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X54.46S1001F88; brightness: 0
-G1X52.46S148F837; brightness: 239
-G1X48.46S315F690; brightness: 192
-G1X47.46S205F787; brightness: 223
-G0X46.46S0; brightness: 255
+G1X55.00S1001F88; brightness: 0
+G1X53.00S148F837; brightness: 239
+G1X49.00S315F690; brightness: 192
+G1X48.00S205F787; brightness: 223
+G0X47.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X45.46S661F386; brightness: 95
-G1X45.46S148F837; brightness: 239
+G1X46.00S661F386; brightness: 95
+G1X46.00S148F837; brightness: 239
 M3S0; EOL: x=[1 <- 30], y=11
 G0X47.00Y329.00S0; goto line start->
 G1X47.00S833F235; brightness: 47
@@ -2223,42 +2223,42 @@ G4P0.001
 G1X75.00S433F586; brightness: 159
 G1X76.00S262F737; brightness: 207
 M3S0; EOL: x=[2 -> 31], y=10
-G0X75.46Y330.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X74.46S262F737; brightness: 207
-G0X73.46S0; brightness: 255
+G0X76.00Y330.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X75.00S262F737; brightness: 207
+G0X74.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X72.46S433F586; brightness: 159
-G1X70.46S547F486; brightness: 127
-G1X69.46S776F285; brightness: 63
-G1X68.46S319F687; brightness: 191
-G1X67.46S890F185; brightness: 31
-G0X65.46S0; brightness: 255
+G1X73.00S433F586; brightness: 159
+G1X71.00S547F486; brightness: 127
+G1X70.00S776F285; brightness: 63
+G1X69.00S319F687; brightness: 191
+G1X68.00S890F185; brightness: 31
+G0X66.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X64.46S319F687; brightness: 191
-G1X63.46S776F285; brightness: 63
-G1X62.46S262F737; brightness: 207
-G1X61.46S148F837; brightness: 239
-G1X60.46S547F486; brightness: 127
-G1X59.46S376F637; brightness: 175
-G1X58.46S776F285; brightness: 63
-G1X57.46S547F486; brightness: 127
-G0X56.46S0; brightness: 255
+G1X65.00S319F687; brightness: 191
+G1X64.00S776F285; brightness: 63
+G1X63.00S262F737; brightness: 207
+G1X62.00S148F837; brightness: 239
+G1X61.00S547F486; brightness: 127
+G1X60.00S376F637; brightness: 175
+G1X59.00S776F285; brightness: 63
+G1X58.00S547F486; brightness: 127
+G0X57.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X55.46S604F436; brightness: 111
-G1X54.46S719F335; brightness: 79
-G0X48.46S0; brightness: 255
+G1X56.00S604F436; brightness: 111
+G1X55.00S719F335; brightness: 79
+G0X49.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X47.46S148F837; brightness: 239
-G1X46.46S433F586; brightness: 159
-G1X46.46S661F386; brightness: 95
+G1X48.00S148F837; brightness: 239
+G1X47.00S433F586; brightness: 159
+G1X47.00S661F386; brightness: 95
 M3S0; EOL: x=[2 <- 31], y=9
 G0X47.00Y331.00S0; goto line start->
 G1X47.00S262F737; brightness: 207
@@ -2296,42 +2296,42 @@ G1X73.00S262F737; brightness: 207
 G1X74.00S319F687; brightness: 191
 G1X75.00S661F386; brightness: 95
 M3S0; EOL: x=[2 -> 30], y=8
-G0X75.46Y332.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X74.46S262F737; brightness: 207
-G1X73.46S661F386; brightness: 95
-G1X72.46S262F737; brightness: 207
-G1X71.46S947F135; brightness: 15
-G1X70.46S433F586; brightness: 159
-G0X69.46S0; brightness: 255
+G0X76.00Y332.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X75.00S262F737; brightness: 207
+G1X74.00S661F386; brightness: 95
+G1X73.00S262F737; brightness: 207
+G1X72.00S947F135; brightness: 15
+G1X71.00S433F586; brightness: 159
+G0X70.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X68.46S661F386; brightness: 95
-G1X67.46S547F486; brightness: 127
-G0X66.46S0; brightness: 255
+G1X69.00S661F386; brightness: 95
+G1X68.00S547F486; brightness: 127
+G0X67.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X65.46S719F335; brightness: 79
-G1X64.46S943F138; brightness: 16
-G1X63.46S148F837; brightness: 239
-G1X62.46S490F536; brightness: 143
-G1X60.46S433F586; brightness: 159
-G1X59.46S943F138; brightness: 16
-G1X58.46S262F737; brightness: 207
-G0X57.46S0; brightness: 255
+G1X66.00S719F335; brightness: 79
+G1X65.00S943F138; brightness: 16
+G1X64.00S148F837; brightness: 239
+G1X63.00S490F536; brightness: 143
+G1X61.00S433F586; brightness: 159
+G1X60.00S943F138; brightness: 16
+G1X59.00S262F737; brightness: 207
+G0X58.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X56.46S433F586; brightness: 159
-G1X55.46S947F135; brightness: 15
-G0X49.46S0; brightness: 255
+G1X57.00S433F586; brightness: 159
+G1X56.00S947F135; brightness: 15
+G0X50.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X48.46S376F637; brightness: 175
-G1X47.46S319F687; brightness: 191
-G1X47.46S890F185; brightness: 31
+G1X49.00S376F637; brightness: 175
+G1X48.00S319F687; brightness: 191
+G1X48.00S890F185; brightness: 31
 M3S0; EOL: x=[3 <- 31], y=7
 G0X48.00Y333.00S0; goto line start->
 G1X48.00S490F536; brightness: 143
@@ -2370,19 +2370,19 @@ G1X74.00S833F235; brightness: 47
 G1X75.00S719F335; brightness: 79
 G1X76.00S148F837; brightness: 239
 M3S0; EOL: x=[3 -> 31], y=6
-G0X67.46Y334.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X66.46S148F837; brightness: 239
-G1X65.46S947F135; brightness: 15
-G1X64.46S205F787; brightness: 223
-G0X51.46S0; brightness: 255
+G0X68.00Y334.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X67.00S148F837; brightness: 239
+G1X66.00S947F135; brightness: 15
+G1X65.00S205F787; brightness: 223
+G0X52.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X50.46S319F687; brightness: 191
-G1X49.46S262F737; brightness: 207
-G1X48.46S433F586; brightness: 159
-G1X47.46S943F138; brightness: 16
-G1X47.46S148F837; brightness: 239
+G1X51.00S319F687; brightness: 191
+G1X50.00S262F737; brightness: 207
+G1X49.00S433F586; brightness: 159
+G1X48.00S943F138; brightness: 16
+G1X48.00S148F837; brightness: 239
 M3S0; EOL: x=[3 <- 23], y=5
 G0X49.00Y335.00S0; goto line start->
 G1X49.00S547F486; brightness: 127
@@ -2400,22 +2400,22 @@ G4P0.001
 G1X67.00S719F335; brightness: 79
 G1X68.00S547F486; brightness: 127
 M3S0; EOL: x=[4 -> 23], y=4
-G0X68.46Y336.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X67.46S148F837; brightness: 239
-G1X66.46S947F135; brightness: 15
-G1X65.46S376F637; brightness: 175
-G0X52.46S0; brightness: 255
+G0X69.00Y336.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X68.00S148F837; brightness: 239
+G1X67.00S947F135; brightness: 15
+G1X66.00S376F637; brightness: 175
+G0X53.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X51.46S604F436; brightness: 111
-G0X50.46S0; brightness: 255
+G1X52.00S604F436; brightness: 111
+G0X51.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X49.46S547F486; brightness: 127
-G1X48.46S943F138; brightness: 16
-G1X48.46S148F837; brightness: 239
+G1X50.00S547F486; brightness: 127
+G1X49.00S943F138; brightness: 16
+G1X49.00S148F837; brightness: 239
 M3S0; EOL: x=[4 <- 24], y=3
 G0X50.00Y337.00S0; goto line start->
 G1X50.00S490F536; brightness: 143
@@ -2430,19 +2430,19 @@ G4P0.001
 G1X68.00S1001F88; brightness: 0
 G1X69.00S433F586; brightness: 159
 M3S0; EOL: x=[5 -> 24], y=2
-G0X68.46Y338.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X67.46S376F637; brightness: 175
-G1X66.46S833F235; brightness: 47
-G1X65.46S319F687; brightness: 191
-G1X64.46S148F837; brightness: 239
-G0X53.46S0; brightness: 255
+G0X69.00Y338.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X68.00S376F637; brightness: 175
+G1X67.00S833F235; brightness: 47
+G1X66.00S319F687; brightness: 191
+G1X65.00S148F837; brightness: 239
+G0X54.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X52.46S661F386; brightness: 95
-G1X51.46S148F837; brightness: 239
-G1X50.46S833F235; brightness: 47
-G1X50.46S719F335; brightness: 79
+G1X53.00S661F386; brightness: 95
+G1X52.00S148F837; brightness: 239
+G1X51.00S833F235; brightness: 47
+G1X51.00S719F335; brightness: 79
 M3S0; EOL: x=[6 <- 24], y=1
 G0X51.00Y339.00S0; goto line start->
 G1X51.00S148F837; brightness: 239
@@ -2463,18 +2463,18 @@ M3S0
 G0X72.00Y315.00S0; ; Move to start (72.0,315.0)
 M3S0
 G4P0
-G0X82.46Y306.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X81.46S376F637; brightness: 175
-G1X80.46S719F335; brightness: 79
-G1X79.46S829F238; brightness: 48
-G1X78.46S544F489; brightness: 128
-G1X77.46S487F539; brightness: 144
-G1X76.46S490F536; brightness: 143
-G1X75.46S262F737; brightness: 207
-G1X74.46S376F637; brightness: 175
-G1X73.46S604F436; brightness: 111
-G1X72.46S661F386; brightness: 95
-G1X72.46S319F687; brightness: 191
+G0X83.00Y306.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X82.00S376F637; brightness: 175
+G1X81.00S719F335; brightness: 79
+G1X80.00S829F238; brightness: 48
+G1X79.00S544F489; brightness: 128
+G1X78.00S487F539; brightness: 144
+G1X77.00S490F536; brightness: 143
+G1X76.00S262F737; brightness: 207
+G1X75.00S376F637; brightness: 175
+G1X74.00S604F436; brightness: 111
+G1X73.00S661F386; brightness: 95
+G1X73.00S319F687; brightness: 191
 M3S0; EOL: x=[1 <- 11], y=9
 G0X73.00Y307.00S0; goto line start->
 G1X73.00S376F637; brightness: 175
@@ -2495,23 +2495,23 @@ G1X83.00S772F288; brightness: 64
 G1X84.00S776F285; brightness: 63
 G1X85.00S148F837; brightness: 239
 M3S0; EOL: x=[1 -> 13], y=8
-G0X84.46Y308.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X83.46S833F235; brightness: 47
-G1X82.46S604F436; brightness: 111
-G0X78.46S0; brightness: 255
+G0X85.00Y308.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X84.00S833F235; brightness: 47
+G1X83.00S604F436; brightness: 111
+G0X79.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X77.46S262F737; brightness: 207
-G1X76.46S947F135; brightness: 15
-G1X75.46S547F486; brightness: 127
-G0X73.46S0; brightness: 255
+G1X78.00S262F737; brightness: 207
+G1X77.00S947F135; brightness: 15
+G1X76.00S547F486; brightness: 127
+G0X74.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X72.46S148F837; brightness: 239
-G1X71.46S490F536; brightness: 143
-G1X71.46S262F737; brightness: 207
+G1X73.00S148F837; brightness: 239
+G1X72.00S490F536; brightness: 143
+G1X72.00S262F737; brightness: 207
 M3S0; EOL: x=[0 <- 13], y=7
 G0X73.00Y309.00S0; goto line start->
 G1X73.00S776F285; brightness: 63
@@ -2530,20 +2530,20 @@ G4P0.001
 G1X85.00S604F436; brightness: 111
 G1X86.00S490F536; brightness: 143
 M3S0; EOL: x=[1 -> 14], y=6
-G0X85.46Y310.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X84.46S719F335; brightness: 79
-G0X80.46S0; brightness: 255
+G0X86.00Y310.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X85.00S719F335; brightness: 79
+G0X81.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X78.46S262F737; brightness: 207
-G1X77.46S719F335; brightness: 79
-G1X76.46S319F687; brightness: 191
-G1X75.46S205F787; brightness: 223
-G1X74.46S661F386; brightness: 95
-G1X73.46S433F586; brightness: 159
-G1X72.46S604F436; brightness: 111
-G1X72.46S547F486; brightness: 127
+G1X79.00S262F737; brightness: 207
+G1X78.00S719F335; brightness: 79
+G1X77.00S319F687; brightness: 191
+G1X76.00S205F787; brightness: 223
+G1X75.00S661F386; brightness: 95
+G1X74.00S433F586; brightness: 159
+G1X73.00S604F436; brightness: 111
+G1X73.00S547F486; brightness: 127
 M3S0; EOL: x=[1 <- 14], y=5
 G0X74.00Y311.00S0; goto line start->
 G1X74.00S833F235; brightness: 47
@@ -2563,19 +2563,19 @@ G4P0.001
 G1X85.00S376F637; brightness: 175
 G1X86.00S490F536; brightness: 143
 M3S0; EOL: x=[2 -> 14], y=4
-G0X84.46Y312.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X83.46S430F589; brightness: 160
-G1X82.46S601F439; brightness: 112
-G1X81.46S544F489; brightness: 128
-G1X80.46S601F439; brightness: 112
-G1X79.46S890F185; brightness: 31
-G0X75.46S0; brightness: 255
+G0X85.00Y312.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X84.00S430F589; brightness: 160
+G1X83.00S601F439; brightness: 112
+G1X82.00S544F489; brightness: 128
+G1X81.00S601F439; brightness: 112
+G1X80.00S890F185; brightness: 31
+G0X76.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X74.46S262F737; brightness: 207
-G1X73.46S890F185; brightness: 31
-G1X73.46S205F787; brightness: 223
+G1X75.00S262F737; brightness: 207
+G1X74.00S890F185; brightness: 31
+G1X74.00S205F787; brightness: 223
 M3S0; EOL: x=[2 <- 13], y=3
 G0X75.00Y313.00S0; goto line start->
 G1X75.00S262F737; brightness: 207
@@ -2593,18 +2593,18 @@ G4P0.001
 
 G1X84.00S148F837; brightness: 239
 M3S0; EOL: x=[3 -> 12], y=2
-G0X86.46Y314.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X85.46S205F787; brightness: 223
-G1X84.46S719F335; brightness: 79
-G1X81.46S1001F88; brightness: 0
-G1X80.46S833F235; brightness: 47
-G0X77.46S0; brightness: 255
+G0X87.00Y314.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X86.00S205F787; brightness: 223
+G1X85.00S719F335; brightness: 79
+G1X82.00S1001F88; brightness: 0
+G1X81.00S833F235; brightness: 47
+G0X78.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X76.46S547F486; brightness: 127
-G1X75.46S943F138; brightness: 16
-G1X75.46S262F737; brightness: 207
+G1X77.00S547F486; brightness: 127
+G1X76.00S943F138; brightness: 16
+G1X76.00S262F737; brightness: 207
 M3S0; EOL: x=[4 <- 15], y=1
 G0X77.00Y315.00S0; goto line start->
 G1X77.00S205F787; brightness: 223
@@ -2619,24 +2619,24 @@ M3S0
 G0X64.00Y282.00S0; ; Move to start (64.0,282.0)
 M3S0
 G4P0
-G0X76.46Y273.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X75.46S319F687; brightness: 191
-G1X73.46S205F787; brightness: 223
-G1X72.46S490F536; brightness: 143
-G1X71.46S319F687; brightness: 191
-G0X70.46S0; brightness: 255
+G0X77.00Y273.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X76.00S319F687; brightness: 191
+G1X74.00S205F787; brightness: 223
+G1X73.00S490F536; brightness: 143
+G1X72.00S319F687; brightness: 191
+G0X71.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X69.46S148F837; brightness: 239
-G1X68.46S319F687; brightness: 191
-G1X67.46S205F787; brightness: 223
-G0X64.46S0; brightness: 255
+G1X70.00S148F837; brightness: 239
+G1X69.00S319F687; brightness: 191
+G1X68.00S205F787; brightness: 223
+G0X65.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X63.46S376F637; brightness: 175
-G1X63.46S490F536; brightness: 143
+G1X64.00S376F637; brightness: 175
+G1X64.00S490F536; brightness: 143
 M3S0; EOL: x=[0 <- 13], y=9
 G0X64.00Y274.00S0; goto line start->
 G1X64.00S1001F88; brightness: 0
@@ -2658,26 +2658,26 @@ G4P0.001
 G1X76.00S319F687; brightness: 191
 G1X77.00S719F335; brightness: 79
 M3S0; EOL: x=[0 -> 13], y=8
-G0X77.46Y275.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X76.46S148F837; brightness: 239
-G1X75.46S947F135; brightness: 15
-G0X73.46S0; brightness: 255
+G0X78.00Y275.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X77.00S148F837; brightness: 239
+G1X76.00S947F135; brightness: 15
+G0X74.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X72.46S604F436; brightness: 111
-G1X71.46S433F586; brightness: 159
-G1X70.46S547F486; brightness: 127
-G1X69.46S490F536; brightness: 143
-G0X68.46S0; brightness: 255
+G1X73.00S604F436; brightness: 111
+G1X72.00S433F586; brightness: 159
+G1X71.00S547F486; brightness: 127
+G1X70.00S490F536; brightness: 143
+G0X69.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X67.46S776F285; brightness: 63
-G1X65.46S262F737; brightness: 207
-G1X64.46S433F586; brightness: 159
-G1X63.46S319F687; brightness: 191
-G1X63.46S719F335; brightness: 79
+G1X68.00S776F285; brightness: 63
+G1X66.00S262F737; brightness: 207
+G1X65.00S433F586; brightness: 159
+G1X64.00S319F687; brightness: 191
+G1X64.00S719F335; brightness: 79
 M3S0; EOL: x=[0 <- 14], y=7
 G0X64.00Y276.00S0; goto line start->
 G1X64.00S262F737; brightness: 207
@@ -2704,32 +2704,32 @@ G4P0.001
 G1X77.00S661F386; brightness: 95
 G1X78.00S604F436; brightness: 111
 M3S0; EOL: x=[0 -> 14], y=6
-G0X80.46Y277.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X79.46S547F486; brightness: 127
-G1X78.46S376F637; brightness: 175
-G1X77.46S319F687; brightness: 191
-G1X76.46S719F335; brightness: 79
-G1X75.46S433F586; brightness: 159
-G0X74.46S0; brightness: 255
+G0X81.00Y277.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X80.00S547F486; brightness: 127
+G1X79.00S376F637; brightness: 175
+G1X78.00S319F687; brightness: 191
+G1X77.00S719F335; brightness: 79
+G1X76.00S433F586; brightness: 159
+G0X75.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X73.46S376F637; brightness: 175
-G1X72.46S833F235; brightness: 47
-G0X71.46S0; brightness: 255
+G1X74.00S376F637; brightness: 175
+G1X73.00S833F235; brightness: 47
+G0X72.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X70.46S1001F88; brightness: 0
-G0X68.46S0; brightness: 255
+G1X71.00S1001F88; brightness: 0
+G0X69.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X67.46S776F285; brightness: 63
-G1X66.46S661F386; brightness: 95
-G1X65.46S148F837; brightness: 239
-G1X64.46S205F787; brightness: 223
-G1X64.46S490F536; brightness: 143
+G1X68.00S776F285; brightness: 63
+G1X67.00S661F386; brightness: 95
+G1X66.00S148F837; brightness: 239
+G1X65.00S205F787; brightness: 223
+G1X65.00S490F536; brightness: 143
 M3S0; EOL: x=[1 <- 17], y=5
 G0X66.00Y278.00S0; goto line start->
 G1X66.00S490F536; brightness: 143
@@ -2760,36 +2760,36 @@ G1X78.00S947F135; brightness: 15
 G1X79.00S205F787; brightness: 223
 G1X81.00S661F386; brightness: 95
 M3S0; EOL: x=[2 -> 17], y=4
-G0X81.46Y279.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X80.46S205F787; brightness: 223
-G1X79.46S715F338; brightness: 80
-G1X78.46S148F837; brightness: 239
-G0X77.46S0; brightness: 255
+G0X82.00Y279.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X81.00S205F787; brightness: 223
+G1X80.00S715F338; brightness: 80
+G1X79.00S148F837; brightness: 239
+G0X78.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X76.46S776F285; brightness: 63
-G1X75.46S205F787; brightness: 223
-G0X74.46S0; brightness: 255
+G1X77.00S776F285; brightness: 63
+G1X76.00S205F787; brightness: 223
+G0X75.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X73.46S544F489; brightness: 128
-G1X72.46S148F837; brightness: 239
-G0X71.46S0; brightness: 255
+G1X74.00S544F489; brightness: 128
+G1X73.00S148F837; brightness: 239
+G0X72.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X70.46S205F787; brightness: 223
-G1X70.46S376F637; brightness: 175
+G1X71.00S205F787; brightness: 223
+G1X71.00S376F637; brightness: 175
 M3S0; EOL: x=[7 <- 18], y=3
 G0X75.00Y280.00S0; goto line start->
 G1X75.00S262F737; brightness: 207
 G1X76.00S319F687; brightness: 191
 M3S0; EOL: x=[11 -> 12], y=2
-G0X75.46Y281.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X74.46S719F335; brightness: 79
-G1X74.46S148F837; brightness: 239
+G0X76.00Y281.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X75.00S719F335; brightness: 79
+G1X75.00S148F837; brightness: 239
 M3S0; EOL: x=[11 <- 12], y=1
 G0X76.00Y282.00S0; goto line start->
 G1X77.00S148F837; brightness: 239
@@ -2801,13 +2801,13 @@ M3S0
 G0X93.00Y321.00S0; ; Move to start (93.0,321.0)
 M3S0
 G4P0
-G0X97.46Y243.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X96.46S205F787; brightness: 223
-G1X95.46S719F335; brightness: 79
-G1X94.46S833F235; brightness: 47
-G1X93.46S661F386; brightness: 95
-G1X92.46S547F486; brightness: 127
-G1X92.46S205F787; brightness: 223
+G0X98.00Y243.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X97.00S205F787; brightness: 223
+G1X96.00S719F335; brightness: 79
+G1X95.00S833F235; brightness: 47
+G1X94.00S661F386; brightness: 95
+G1X93.00S547F486; brightness: 127
+G1X93.00S205F787; brightness: 223
 M3S0; EOL: x=[0 <- 5], y=78
 G0X94.00Y244.00S0; goto line start->
 G1X94.00S262F737; brightness: 207
@@ -2817,13 +2817,13 @@ G1X98.00S1001F88; brightness: 0
 G1X99.00S719F335; brightness: 79
 G1X100.00S319F687; brightness: 191
 M3S0; EOL: x=[1 -> 7], y=77
-G0X101.46Y245.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X100.46S319F687; brightness: 191
-G1X99.46S776F285; brightness: 63
-G1X98.46S1001F88; brightness: 0
-G1X97.46S886F188; brightness: 32
-G1X96.46S544F489; brightness: 128
-G1X96.46S148F837; brightness: 239
+G0X102.00Y245.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X101.00S319F687; brightness: 191
+G1X100.00S776F285; brightness: 63
+G1X99.00S1001F88; brightness: 0
+G1X98.00S886F188; brightness: 32
+G1X97.00S544F489; brightness: 128
+G1X97.00S148F837; brightness: 239
 M3S0; EOL: x=[4 <- 9], y=76
 G0X100.00Y246.00S0; goto line start->
 G1X100.00S376F637; brightness: 175
@@ -2832,12 +2832,12 @@ G1X102.00S1001F88; brightness: 0
 G1X103.00S833F235; brightness: 47
 G1X104.00S319F687; brightness: 191
 M3S0; EOL: x=[7 -> 11], y=75
-G0X105.46Y247.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X104.46S148F837; brightness: 239
-G1X103.46S661F386; brightness: 95
-G1X102.46S1001F88; brightness: 0
-G1X101.46S829F238; brightness: 48
-G1X101.46S319F687; brightness: 191
+G0X106.00Y247.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X105.00S148F837; brightness: 239
+G1X104.00S661F386; brightness: 95
+G1X103.00S1001F88; brightness: 0
+G1X102.00S829F238; brightness: 48
+G1X102.00S319F687; brightness: 191
 M3S0; EOL: x=[9 <- 13], y=74
 G0X104.00Y248.00S0; goto line start->
 G1X104.00S376F637; brightness: 175
@@ -2845,17 +2845,17 @@ G1X105.00S943F138; brightness: 16
 G1X106.00S947F135; brightness: 15
 G1X107.00S376F637; brightness: 175
 M3S0; EOL: x=[11 -> 14], y=73
-G0X130.46Y249.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X129.46S405F611; brightness: 167
-G1X127.46S262F737; brightness: 207
-G0X107.46S0; brightness: 255
+G0X131.00Y249.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X130.00S405F611; brightness: 167
+G1X128.00S262F737; brightness: 207
+G0X108.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X106.46S604F436; brightness: 111
-G1X105.46S1001F88; brightness: 0
-G1X104.46S772F288; brightness: 64
-G1X104.46S205F787; brightness: 223
+G1X107.00S604F436; brightness: 111
+G1X106.00S1001F88; brightness: 0
+G1X105.00S772F288; brightness: 64
+G1X105.00S205F787; brightness: 223
 M3S0; EOL: x=[12 <- 38], y=72
 G0X107.00Y250.00S0; goto line start->
 G1X107.00S490F536; brightness: 143
@@ -2875,27 +2875,27 @@ G4P0.001
 
 G1X131.00S490F536; brightness: 143
 M3S0; EOL: x=[14 -> 38], y=71
-G0X130.46Y251.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X129.46S776F285; brightness: 63
-G0X127.46S0; brightness: 255
+G0X131.00Y251.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X130.00S776F285; brightness: 63
+G0X128.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X126.46S319F687; brightness: 191
-G0X124.46S0; brightness: 255
+G1X127.00S319F687; brightness: 191
+G0X125.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X123.46S376F637; brightness: 175
-G1X122.46S148F837; brightness: 239
-G0X110.46S0; brightness: 255
+G1X124.00S376F637; brightness: 175
+G1X123.00S148F837; brightness: 239
+G0X111.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X109.46S262F737; brightness: 207
-G1X108.46S947F135; brightness: 15
-G1X107.46S829F238; brightness: 48
-G1X107.46S205F787; brightness: 223
+G1X110.00S262F737; brightness: 207
+G1X109.00S947F135; brightness: 15
+G1X108.00S829F238; brightness: 48
+G1X108.00S205F787; brightness: 223
 M3S0; EOL: x=[15 <- 38], y=70
 G0X109.00Y252.00S0; goto line start->
 G1X109.00S205F787; brightness: 223
@@ -2914,28 +2914,28 @@ G1X128.00S576F461; brightness: 119
 G1X130.00S205F787; brightness: 223
 G1X131.00S661F386; brightness: 95
 M3S0; EOL: x=[16 -> 38], y=69
-G0X130.46Y253.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X129.46S661F386; brightness: 95
-G0X127.46S0; brightness: 255
+G0X131.00Y253.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X130.00S661F386; brightness: 95
+G0X128.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X126.46S148F837; brightness: 239
-G1X125.46S719F335; brightness: 79
-G1X124.46S205F787; brightness: 223
-G0X123.46S0; brightness: 255
+G1X127.00S148F837; brightness: 239
+G1X126.00S719F335; brightness: 79
+G1X125.00S205F787; brightness: 223
+G0X124.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X122.46S719F335; brightness: 79
-G1X121.46S148F837; brightness: 239
-G0X112.46S0; brightness: 255
+G1X123.00S719F335; brightness: 79
+G1X122.00S148F837; brightness: 239
+G0X113.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X111.46S262F737; brightness: 207
-G1X110.46S947F135; brightness: 15
-G1X110.46S661F386; brightness: 95
+G1X112.00S262F737; brightness: 207
+G1X111.00S947F135; brightness: 15
+G1X111.00S661F386; brightness: 95
 M3S0; EOL: x=[18 <- 38], y=68
 G0X112.00Y254.00S0; goto line start->
 G1X112.00S661F386; brightness: 95
@@ -2958,24 +2958,24 @@ G1X129.00S319F687; brightness: 191
 G1X130.00S148F837; brightness: 239
 G1X131.00S776F285; brightness: 63
 M3S0; EOL: x=[19 -> 38], y=67
-G0X130.46Y255.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X129.46S719F335; brightness: 79
-G0X126.46S0; brightness: 255
+G0X131.00Y255.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X130.00S719F335; brightness: 79
+G0X127.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X125.46S376F637; brightness: 175
-G1X124.46S319F687; brightness: 191
-G1X123.46S262F737; brightness: 207
-G1X122.46S376F637; brightness: 175
-G1X121.46S547F486; brightness: 127
-G0X114.46S0; brightness: 255
+G1X126.00S376F637; brightness: 175
+G1X125.00S319F687; brightness: 191
+G1X124.00S262F737; brightness: 207
+G1X123.00S376F637; brightness: 175
+G1X122.00S547F486; brightness: 127
+G0X115.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X113.46S262F737; brightness: 207
-G1X112.46S947F135; brightness: 15
-G1X112.46S661F386; brightness: 95
+G1X114.00S262F737; brightness: 207
+G1X113.00S947F135; brightness: 15
+G1X113.00S661F386; brightness: 95
 M3S0; EOL: x=[20 <- 38], y=66
 G0X114.00Y256.00S0; goto line start->
 G1X114.00S661F386; brightness: 95
@@ -3009,37 +3009,37 @@ G1X134.00S433F586; brightness: 159
 G1X136.00S547F486; brightness: 127
 G1X137.00S262F737; brightness: 207
 M3S0; EOL: x=[21 -> 44], y=65
-G0X138.46Y257.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X137.46S205F787; brightness: 223
-G1X136.46S547F486; brightness: 127
-G1X135.46S433F586; brightness: 159
-G0X134.46S0; brightness: 255
+G0X139.00Y257.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X138.00S205F787; brightness: 223
+G1X137.00S547F486; brightness: 127
+G1X136.00S433F586; brightness: 159
+G0X135.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X133.46S215F778; brightness: 220
-G0X132.46S0; brightness: 255
+G1X134.00S215F778; brightness: 220
+G0X133.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X131.46S148F837; brightness: 239
-G1X130.46S205F787; brightness: 223
-G1X129.46S262F737; brightness: 207
-G1X128.46S433F586; brightness: 159
-G0X125.46S0; brightness: 255
+G1X132.00S148F837; brightness: 239
+G1X131.00S205F787; brightness: 223
+G1X130.00S262F737; brightness: 207
+G1X129.00S433F586; brightness: 159
+G0X126.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X124.46S490F536; brightness: 143
-G1X123.46S262F737; brightness: 207
-G1X122.46S719F335; brightness: 79
-G0X116.46S0; brightness: 255
+G1X125.00S490F536; brightness: 143
+G1X124.00S262F737; brightness: 207
+G1X123.00S719F335; brightness: 79
+G0X117.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X115.46S148F837; brightness: 239
-G1X114.46S833F235; brightness: 47
-G1X114.46S661F386; brightness: 95
+G1X116.00S148F837; brightness: 239
+G1X115.00S833F235; brightness: 47
+G1X115.00S661F386; brightness: 95
 M3S0; EOL: x=[22 <- 46], y=64
 G0X115.00Y258.00S0; goto line start->
 G1X115.00S148F837; brightness: 239
@@ -3071,35 +3071,35 @@ G4P0.001
 G1X139.00S319F687; brightness: 191
 G1X140.00S376F637; brightness: 175
 M3S0; EOL: x=[22 -> 47], y=63
-G0X140.46Y259.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X139.46S433F586; brightness: 159
-G1X138.46S205F787; brightness: 223
-G1X136.46S319F687; brightness: 191
-G1X135.46S490F536; brightness: 143
-G1X134.46S319F687; brightness: 191
-G1X133.46S654F392; brightness: 97
-G1X132.46S433F586; brightness: 159
-G1X131.46S255F743; brightness: 209
-G0X130.46S0; brightness: 255
+G0X141.00Y259.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X140.00S433F586; brightness: 159
+G1X139.00S205F787; brightness: 223
+G1X137.00S319F687; brightness: 191
+G1X136.00S490F536; brightness: 143
+G1X135.00S319F687; brightness: 191
+G1X134.00S654F392; brightness: 97
+G1X133.00S433F586; brightness: 159
+G1X132.00S255F743; brightness: 209
+G0X131.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X128.46S319F687; brightness: 191
-G0X126.46S0; brightness: 255
+G1X129.00S319F687; brightness: 191
+G0X127.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X125.46S205F787; brightness: 223
-G1X124.46S148F837; brightness: 239
-G1X123.46S604F436; brightness: 111
-G0X118.46S0; brightness: 255
+G1X126.00S205F787; brightness: 223
+G1X125.00S148F837; brightness: 239
+G1X124.00S604F436; brightness: 111
+G0X119.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X117.46S205F787; brightness: 223
-G1X116.46S661F386; brightness: 95
-G1X115.46S1001F88; brightness: 0
-G1X115.46S890F185; brightness: 31
+G1X118.00S205F787; brightness: 223
+G1X117.00S661F386; brightness: 95
+G1X116.00S1001F88; brightness: 0
+G1X116.00S890F185; brightness: 31
 M3S0; EOL: x=[23 <- 48], y=62
 G0X115.00Y260.00S0; goto line start->
 G1X115.00S148F837; brightness: 239
@@ -3126,34 +3126,34 @@ G4P0.001
 G1X135.00S376F637; brightness: 175
 G1X138.00S262F737; brightness: 207
 M3S0; EOL: x=[22 -> 45], y=61
-G0X135.46Y261.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X134.46S319F687; brightness: 191
-G0X133.46S0; brightness: 255
+G0X136.00Y261.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X135.00S319F687; brightness: 191
+G0X134.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X132.46S262F737; brightness: 207
-G1X131.46S148F837; brightness: 239
-G0X130.46S0; brightness: 255
+G1X133.00S262F737; brightness: 207
+G1X132.00S148F837; brightness: 239
+G0X131.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X129.46S376F637; brightness: 175
-G1X128.46S490F536; brightness: 143
-G1X127.46S262F737; brightness: 207
-G1X125.46S315F690; brightness: 192
-G1X124.46S544F489; brightness: 128
-G1X123.46S487F539; brightness: 144
-G1X122.46S315F690; brightness: 192
-G1X121.46S433F586; brightness: 159
-G1X120.46S547F486; brightness: 127
-G0X119.46S0; brightness: 255
+G1X130.00S376F637; brightness: 175
+G1X129.00S490F536; brightness: 143
+G1X128.00S262F737; brightness: 207
+G1X126.00S315F690; brightness: 192
+G1X125.00S544F489; brightness: 128
+G1X124.00S487F539; brightness: 144
+G1X123.00S315F690; brightness: 192
+G1X122.00S433F586; brightness: 159
+G1X121.00S547F486; brightness: 127
+G0X120.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X118.46S262F737; brightness: 207
-G1X117.46S1001F88; brightness: 0
-G1X117.46S433F586; brightness: 159
+G1X119.00S262F737; brightness: 207
+G1X118.00S1001F88; brightness: 0
+G1X118.00S433F586; brightness: 159
 M3S0; EOL: x=[25 <- 43], y=60
 G0X119.00Y262.00S0; goto line start->
 G1X119.00S719F335; brightness: 79
@@ -3171,28 +3171,28 @@ G4P0.001
 G1X131.00S661F386; brightness: 95
 G1X132.00S205F787; brightness: 223
 M3S0; EOL: x=[26 -> 39], y=59
-G0X136.46Y263.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X135.46S205F787; brightness: 223
-G1X134.46S490F536; brightness: 143
-G1X132.46S547F486; brightness: 127
-G1X131.46S661F386; brightness: 95
-G1X130.46S604F436; brightness: 111
-G1X129.46S148F837; brightness: 239
-G0X126.46S0; brightness: 255
+G0X137.00Y263.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X136.00S205F787; brightness: 223
+G1X135.00S490F536; brightness: 143
+G1X133.00S547F486; brightness: 127
+G1X132.00S661F386; brightness: 95
+G1X131.00S604F436; brightness: 111
+G1X130.00S148F837; brightness: 239
+G0X127.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X125.46S547F486; brightness: 127
-G1X124.46S487F539; brightness: 144
-G1X122.46S205F787; brightness: 223
-G1X121.46S490F536; brightness: 143
-G0X120.46S0; brightness: 255
+G1X126.00S547F486; brightness: 127
+G1X125.00S487F539; brightness: 144
+G1X123.00S205F787; brightness: 223
+G1X122.00S490F536; brightness: 143
+G0X121.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X119.46S319F687; brightness: 191
-G1X118.46S601F439; brightness: 112
-G1X118.46S148F837; brightness: 239
+G1X120.00S319F687; brightness: 191
+G1X119.00S601F439; brightness: 112
+G1X119.00S148F837; brightness: 239
 M3S0; EOL: x=[26 <- 44], y=58
 G0X120.00Y264.00S0; goto line start->
 G1X120.00S376F637; brightness: 175
@@ -3211,23 +3211,23 @@ G4P0.001
 G1X134.00S319F687; brightness: 191
 G1X135.00S205F787; brightness: 223
 M3S0; EOL: x=[27 -> 42], y=57
-G0X127.46Y265.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X126.46S719F335; brightness: 79
-G0X123.46S0; brightness: 255
+G0X128.00Y265.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X127.00S719F335; brightness: 79
+G0X124.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X122.46S490F536; brightness: 143
-G0X121.46S0; brightness: 255
+G1X123.00S490F536; brightness: 143
+G0X122.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X120.46S433F586; brightness: 159
-G0X119.46S0; brightness: 255
+G1X121.00S433F586; brightness: 159
+G0X120.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X119.46S719F335; brightness: 79
+G1X120.00S719F335; brightness: 79
 M3S0; EOL: x=[27 <- 35], y=56
 G0X120.00Y266.00S0; goto line start->
 G1X120.00S661F386; brightness: 95
@@ -3238,24 +3238,24 @@ G1X126.00S319F687; brightness: 191
 G1X127.00S148F837; brightness: 239
 G1X128.00S547F486; brightness: 127
 M3S0; EOL: x=[27 -> 35], y=55
-G0X127.46Y267.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X126.46S604F436; brightness: 111
-G0X124.46S0; brightness: 255
+G0X128.00Y267.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X127.00S604F436; brightness: 111
+G0X125.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X123.46S604F436; brightness: 111
-G0X122.46S0; brightness: 255
+G1X124.00S604F436; brightness: 111
+G0X123.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X121.46S205F787; brightness: 223
-G0X120.46S0; brightness: 255
+G1X122.00S205F787; brightness: 223
+G0X121.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X119.46S547F486; brightness: 127
-G1X119.46S319F687; brightness: 191
+G1X120.00S547F486; brightness: 127
+G1X120.00S319F687; brightness: 191
 M3S0; EOL: x=[27 <- 35], y=54
 G0X121.00Y268.00S0; goto line start->
 G1X121.00S490F536; brightness: 143
@@ -3273,20 +3273,20 @@ G4P0.001
 
 G1X128.00S547F486; brightness: 127
 M3S0; EOL: x=[28 -> 35], y=53
-G0X127.46Y269.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X126.46S205F787; brightness: 223
-G1X125.46S262F737; brightness: 207
-G0X124.46S0; brightness: 255
+G0X128.00Y269.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X127.00S205F787; brightness: 223
+G1X126.00S262F737; brightness: 207
+G0X125.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X123.46S490F536; brightness: 143
-G0X122.46S0; brightness: 255
+G1X124.00S490F536; brightness: 143
+G0X123.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X121.46S376F637; brightness: 175
-G1X121.46S490F536; brightness: 143
+G1X122.00S376F637; brightness: 175
+G1X122.00S490F536; brightness: 143
 M3S0; EOL: x=[29 <- 35], y=52
 G0X123.00Y270.00S0; goto line start->
 G1X123.00S661F386; brightness: 95
@@ -3301,9 +3301,9 @@ G4P0.001
 
 G1X127.00S205F787; brightness: 223
 M3S0; EOL: x=[30 -> 34], y=51
-G0X123.46Y271.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X122.46S262F737; brightness: 207
-G1X122.46S376F637; brightness: 175
+G0X124.00Y271.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X123.00S262F737; brightness: 207
+G1X123.00S376F637; brightness: 175
 M3S0; EOL: x=[30 <- 31], y=50
 G0X123.00Y272.00S0; goto line start->
 G1X123.00S262F737; brightness: 207
@@ -3311,10 +3311,10 @@ G1X124.00S661F386; brightness: 95
 G1X125.00S319F687; brightness: 191
 G1X126.00S433F586; brightness: 159
 M3S0; EOL: x=[30 -> 33], y=49
-G0X126.46Y273.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X125.46S205F787; brightness: 223
-G1X124.46S1001F88; brightness: 0
-G1X124.46S776F285; brightness: 63
+G0X127.00Y273.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X126.00S205F787; brightness: 223
+G1X125.00S1001F88; brightness: 0
+G1X125.00S776F285; brightness: 63
 M3S0; EOL: x=[32 <- 34], y=48
 G0X125.00Y274.00S0; goto line start->
 G1X125.00S776F285; brightness: 63
@@ -3322,11 +3322,11 @@ G1X126.00S1001F88; brightness: 0
 G1X127.00S719F335; brightness: 79
 G1X128.00S148F837; brightness: 239
 M3S0; EOL: x=[32 -> 35], y=47
-G0X127.46Y275.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X126.46S547F486; brightness: 127
-G1X125.46S1001F88; brightness: 0
-G1X124.46S661F386; brightness: 95
-G1X124.46S886F188; brightness: 32
+G0X128.00Y275.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X127.00S547F486; brightness: 127
+G1X126.00S1001F88; brightness: 0
+G1X125.00S661F386; brightness: 95
+G1X125.00S886F188; brightness: 32
 M3S0; EOL: x=[32 <- 35], y=46
 G0X125.00Y276.00S0; goto line start->
 G1X125.00S890F185; brightness: 31
@@ -3335,21 +3335,21 @@ G1X127.00S1001F88; brightness: 0
 G1X128.00S943F138; brightness: 16
 G1X129.00S433F586; brightness: 159
 M3S0; EOL: x=[32 -> 36], y=45
-G0X129.46Y277.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X128.46S433F586; brightness: 159
-G1X127.46S829F238; brightness: 48
-G1X126.46S604F436; brightness: 111
-G1X125.46S829F238; brightness: 48
-G0X124.46S0; brightness: 255
+G0X130.00Y277.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X129.00S433F586; brightness: 159
+G1X128.00S829F238; brightness: 48
+G1X127.00S604F436; brightness: 111
+G1X126.00S829F238; brightness: 48
+G0X125.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X123.46S776F285; brightness: 63
-G0X117.46S0; brightness: 255
+G1X124.00S776F285; brightness: 63
+G0X118.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X116.46S262F737; brightness: 207
+G1X117.00S262F737; brightness: 207
 M3S0; EOL: x=[24 <- 37], y=44
 G0X115.00Y278.00S0; goto line start->
 G1X115.00S262F737; brightness: 207
@@ -3373,41 +3373,41 @@ G1X129.00S205F787; brightness: 223
 G1X130.00S1001F88; brightness: 0
 G1X131.00S319F687; brightness: 191
 M3S0; EOL: x=[22 -> 38], y=43
-G0X131.46Y279.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X130.46S262F737; brightness: 207
-G1X129.46S947F135; brightness: 15
-G1X128.46S433F586; brightness: 159
-G1X127.46S376F637; brightness: 175
-G1X126.46S943F138; brightness: 16
-G1X125.46S148F837; brightness: 239
-G0X124.46S0; brightness: 255
+G0X132.00Y279.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X131.00S262F737; brightness: 207
+G1X130.00S947F135; brightness: 15
+G1X129.00S433F586; brightness: 159
+G1X128.00S376F637; brightness: 175
+G1X127.00S943F138; brightness: 16
+G1X126.00S148F837; brightness: 239
+G0X125.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X123.46S262F737; brightness: 207
-G1X122.46S547F486; brightness: 127
-G0X120.46S0; brightness: 255
+G1X124.00S262F737; brightness: 207
+G1X123.00S547F486; brightness: 127
+G0X121.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X119.46S319F687; brightness: 191
-G1X118.46S490F536; brightness: 143
-G0X117.46S0; brightness: 255
+G1X120.00S319F687; brightness: 191
+G1X119.00S490F536; brightness: 143
+G0X118.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X116.46S205F787; brightness: 223
-G0X115.46S0; brightness: 255
+G1X117.00S205F787; brightness: 223
+G0X116.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X114.46S319F687; brightness: 191
-G0X113.46S0; brightness: 255
+G1X115.00S319F687; brightness: 191
+G0X114.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X112.46S244F753; brightness: 212
-G1X112.46S383F630; brightness: 173
+G1X113.00S244F753; brightness: 212
+G1X113.00S383F630; brightness: 173
 M3S0; EOL: x=[20 <- 39], y=42
 G0X111.00Y280.00S0; goto line start->
 G1X111.00S205F787; brightness: 223
@@ -3447,41 +3447,41 @@ G1X131.00S433F586; brightness: 159
 G1X132.00S947F135; brightness: 15
 G1X133.00S604F436; brightness: 111
 M3S0; EOL: x=[18 -> 40], y=41
-G0X133.46Y281.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X132.46S205F787; brightness: 223
-G1X131.46S1001F88; brightness: 0
-G1X130.46S433F586; brightness: 159
-G0X128.46S0; brightness: 255
+G0X134.00Y281.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X133.00S205F787; brightness: 223
+G1X132.00S1001F88; brightness: 0
+G1X131.00S433F586; brightness: 159
+G0X129.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X127.46S719F335; brightness: 79
-G1X126.46S776F285; brightness: 63
-G0X124.46S0; brightness: 255
+G1X128.00S719F335; brightness: 79
+G1X127.00S776F285; brightness: 63
+G0X125.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X123.46S433F586; brightness: 159
-G1X122.46S547F486; brightness: 127
-G1X121.46S604F436; brightness: 111
-G1X120.46S262F737; brightness: 207
-G1X119.46S547F486; brightness: 127
-G0X118.46S0; brightness: 255
+G1X124.00S433F586; brightness: 159
+G1X123.00S547F486; brightness: 127
+G1X122.00S604F436; brightness: 111
+G1X121.00S262F737; brightness: 207
+G1X120.00S547F486; brightness: 127
+G0X119.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X117.46S401F615; brightness: 168
-G1X116.46S415F602; brightness: 164
-G1X114.46S433F586; brightness: 159
-G1X113.46S262F737; brightness: 207
-G1X112.46S376F637; brightness: 175
-G1X111.46S205F787; brightness: 223
-G0X110.46S0; brightness: 255
+G1X118.00S401F615; brightness: 168
+G1X117.00S415F602; brightness: 164
+G1X115.00S433F586; brightness: 159
+G1X114.00S262F737; brightness: 207
+G1X113.00S376F637; brightness: 175
+G1X112.00S205F787; brightness: 223
+G0X111.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X109.46S319F687; brightness: 191
-G1X109.46S433F586; brightness: 159
+G1X110.00S319F687; brightness: 191
+G1X110.00S433F586; brightness: 159
 M3S0; EOL: x=[17 <- 41], y=40
 G0X110.00Y282.00S0; goto line start->
 G1X110.00S490F536; brightness: 143
@@ -3520,41 +3520,41 @@ G1X133.00S433F586; brightness: 159
 G1X134.00S833F235; brightness: 47
 G1X135.00S205F787; brightness: 223
 M3S0; EOL: x=[17 -> 42], y=39
-G0X135.46Y283.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X134.46S262F737; brightness: 207
-G1X133.46S890F185; brightness: 31
-G1X132.46S262F737; brightness: 207
-G0X129.46S0; brightness: 255
+G0X136.00Y283.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X135.00S262F737; brightness: 207
+G1X134.00S890F185; brightness: 31
+G1X133.00S262F737; brightness: 207
+G0X130.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X128.46S604F436; brightness: 111
-G1X127.46S719F335; brightness: 79
-G0X125.46S0; brightness: 255
+G1X129.00S604F436; brightness: 111
+G1X128.00S719F335; brightness: 79
+G0X126.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X124.46S205F787; brightness: 223
-G1X123.46S308F696; brightness: 194
-G0X122.46S0; brightness: 255
+G1X125.00S205F787; brightness: 223
+G1X124.00S308F696; brightness: 194
+G0X123.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X121.46S148F837; brightness: 239
-G1X120.46S490F536; brightness: 143
-G0X119.46S0; brightness: 255
+G1X122.00S148F837; brightness: 239
+G1X121.00S490F536; brightness: 143
+G0X120.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X118.46S205F787; brightness: 223
-G0X114.46S0; brightness: 255
+G1X119.00S205F787; brightness: 223
+G0X115.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X113.46S148F837; brightness: 239
-G1X112.46S547F486; brightness: 127
-G1X111.46S604F436; brightness: 111
-G1X111.46S205F787; brightness: 223
+G1X114.00S148F837; brightness: 239
+G1X113.00S547F486; brightness: 127
+G1X112.00S604F436; brightness: 111
+G1X112.00S205F787; brightness: 223
 M3S0; EOL: x=[19 <- 43], y=38
 G0X114.00Y284.00S0; goto line start->
 G1X114.00S148F837; brightness: 239
@@ -3589,39 +3589,39 @@ G1X135.00S262F737; brightness: 207
 G1X136.00S890F185; brightness: 31
 G1X137.00S262F737; brightness: 207
 M3S0; EOL: x=[21 -> 44], y=37
-G0X143.46Y285.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X142.46S262F737; brightness: 207
-G1X141.46S547F486; brightness: 127
-G1X140.46S776F285; brightness: 63
-G1X139.46S661F386; brightness: 95
-G1X138.46S433F586; brightness: 159
-G1X137.46S205F787; brightness: 223
-G1X136.46S319F687; brightness: 191
-G1X135.46S890F185; brightness: 31
-G1X134.46S262F737; brightness: 207
-G0X130.46S0; brightness: 255
+G0X144.00Y285.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X143.00S262F737; brightness: 207
+G1X142.00S547F486; brightness: 127
+G1X141.00S776F285; brightness: 63
+G1X140.00S661F386; brightness: 95
+G1X139.00S433F586; brightness: 159
+G1X138.00S205F787; brightness: 223
+G1X137.00S319F687; brightness: 191
+G1X136.00S890F185; brightness: 31
+G1X135.00S262F737; brightness: 207
+G0X131.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X129.46S148F837; brightness: 239
-G1X128.46S1001F88; brightness: 0
-G1X127.46S205F787; brightness: 223
-G1X126.46S148F837; brightness: 239
-G1X125.46S547F486; brightness: 127
-G0X124.46S0; brightness: 255
+G1X130.00S148F837; brightness: 239
+G1X129.00S1001F88; brightness: 0
+G1X128.00S205F787; brightness: 223
+G1X127.00S148F837; brightness: 239
+G1X126.00S547F486; brightness: 127
+G0X125.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X123.46S547F486; brightness: 127
-G0X122.46S0; brightness: 255
+G1X124.00S547F486; brightness: 127
+G0X123.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X121.46S319F687; brightness: 191
-G1X119.46S262F737; brightness: 207
-G1X117.46S547F486; brightness: 127
-G1X115.46S319F687; brightness: 191
-G1X115.46S262F737; brightness: 207
+G1X122.00S319F687; brightness: 191
+G1X120.00S262F737; brightness: 207
+G1X118.00S547F486; brightness: 127
+G1X116.00S319F687; brightness: 191
+G1X116.00S262F737; brightness: 207
 M3S0; EOL: x=[23 <- 51], y=36
 G0X113.00Y286.00S0; goto line start->
 G1X113.00S148F837; brightness: 239
@@ -3669,50 +3669,50 @@ G1X143.00S372F640; brightness: 176
 G1X144.00S772F288; brightness: 64
 G1X145.00S604F436; brightness: 111
 M3S0; EOL: x=[20 -> 52], y=35
-G0X145.46Y287.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X144.46S433F586; brightness: 159
-G1X143.46S544F489; brightness: 128
-G0X139.46S0; brightness: 255
+G0X146.00Y287.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X145.00S433F586; brightness: 159
+G1X144.00S544F489; brightness: 128
+G0X140.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X138.46S205F787; brightness: 223
-G1X137.46S376F637; brightness: 175
-G1X136.46S776F285; brightness: 63
-G0X130.46S0; brightness: 255
+G1X139.00S205F787; brightness: 223
+G1X138.00S376F637; brightness: 175
+G1X137.00S776F285; brightness: 63
+G0X131.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X129.46S547F486; brightness: 127
-G1X128.46S604F436; brightness: 111
-G0X127.46S0; brightness: 255
+G1X130.00S547F486; brightness: 127
+G1X129.00S604F436; brightness: 111
+G0X128.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X126.46S547F486; brightness: 127
-G1X125.46S262F737; brightness: 207
-G1X124.46S376F637; brightness: 175
-G1X123.46S547F486; brightness: 127
-G1X122.46S205F787; brightness: 223
-G0X121.46S0; brightness: 255
+G1X127.00S547F486; brightness: 127
+G1X126.00S262F737; brightness: 207
+G1X125.00S376F637; brightness: 175
+G1X124.00S547F486; brightness: 127
+G1X123.00S205F787; brightness: 223
+G0X122.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X120.46S376F637; brightness: 175
-G1X118.46S319F687; brightness: 191
-G0X117.46S0; brightness: 255
+G1X121.00S376F637; brightness: 175
+G1X119.00S319F687; brightness: 191
+G0X118.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X116.46S405F611; brightness: 167
-G1X115.46S376F637; brightness: 175
-G1X114.46S148F837; brightness: 239
-G0X113.46S0; brightness: 255
+G1X117.00S405F611; brightness: 167
+G1X116.00S376F637; brightness: 175
+G1X115.00S148F837; brightness: 239
+G0X114.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X112.46S205F787; brightness: 223
-G1X112.46S547F486; brightness: 127
+G1X113.00S205F787; brightness: 223
+G1X113.00S547F486; brightness: 127
 M3S0; EOL: x=[20 <- 53], y=34
 G0X112.00Y288.00S0; goto line start->
 G1X112.00S205F787; brightness: 223
@@ -3759,49 +3759,49 @@ G4P0.001
 G1X146.00S433F586; brightness: 159
 G1X147.00S547F486; brightness: 127
 M3S0; EOL: x=[19 -> 54], y=33
-G0X147.46Y289.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X146.46S433F586; brightness: 159
-G1X145.46S205F787; brightness: 223
-G0X137.46S0; brightness: 255
+G0X148.00Y289.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X147.00S433F586; brightness: 159
+G1X146.00S205F787; brightness: 223
+G0X138.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X136.46S833F235; brightness: 47
-G0X130.46S0; brightness: 255
+G1X137.00S833F235; brightness: 47
+G0X131.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X129.46S890F185; brightness: 31
-G1X128.46S319F687; brightness: 191
-G0X127.46S0; brightness: 255
+G1X130.00S890F185; brightness: 31
+G1X129.00S319F687; brightness: 191
+G0X128.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X126.46S490F536; brightness: 143
-G0X125.46S0; brightness: 255
+G1X127.00S490F536; brightness: 143
+G0X126.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X124.46S262F737; brightness: 207
-G1X123.46S494F533; brightness: 142
-G0X121.46S0; brightness: 255
+G1X125.00S262F737; brightness: 207
+G1X124.00S494F533; brightness: 142
+G0X122.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X120.46S490F536; brightness: 143
-G1X119.46S319F687; brightness: 191
-G1X118.46S604F436; brightness: 111
-G1X117.46S148F837; brightness: 239
-G1X116.46S262F737; brightness: 207
-G0X115.46S0; brightness: 255
+G1X121.00S490F536; brightness: 143
+G1X120.00S319F687; brightness: 191
+G1X119.00S604F436; brightness: 111
+G1X118.00S148F837; brightness: 239
+G1X117.00S262F737; brightness: 207
+G0X116.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X114.46S319F687; brightness: 191
-G1X113.46S205F787; brightness: 223
-G1X112.46S433F586; brightness: 159
-G1X111.46S305F699; brightness: 195
-G1X111.46S604F436; brightness: 111
+G1X115.00S319F687; brightness: 191
+G1X114.00S205F787; brightness: 223
+G1X113.00S433F586; brightness: 159
+G1X112.00S305F699; brightness: 195
+G1X112.00S604F436; brightness: 111
 M3S0; EOL: x=[19 <- 55], y=32
 G0X112.00Y290.00S0; goto line start->
 G1X112.00S776F285; brightness: 63
@@ -3860,61 +3860,61 @@ G4P0.001
 G1X148.00S661F386; brightness: 95
 G1X149.00S148F837; brightness: 239
 M3S0; EOL: x=[19 -> 56], y=31
-G0X148.46Y291.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X147.46S433F586; brightness: 159
-G1X146.46S148F837; brightness: 239
-G0X145.46S0; brightness: 255
+G0X149.00Y291.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X148.00S433F586; brightness: 159
+G1X147.00S148F837; brightness: 239
+G0X146.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X144.46S148F837; brightness: 239
-G0X143.46S0; brightness: 255
+G1X145.00S148F837; brightness: 239
+G0X144.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X142.46S315F690; brightness: 192
-G1X140.46S544F489; brightness: 128
-G1X139.46S487F539; brightness: 144
-G1X138.46S262F737; brightness: 207
-G1X137.46S547F486; brightness: 127
-G1X136.46S433F586; brightness: 159
-G0X131.46S0; brightness: 255
+G1X143.00S315F690; brightness: 192
+G1X141.00S544F489; brightness: 128
+G1X140.00S487F539; brightness: 144
+G1X139.00S262F737; brightness: 207
+G1X138.00S547F486; brightness: 127
+G1X137.00S433F586; brightness: 159
+G0X132.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X130.46S319F687; brightness: 191
-G1X129.46S829F238; brightness: 48
-G0X127.46S0; brightness: 255
+G1X131.00S319F687; brightness: 191
+G1X130.00S829F238; brightness: 48
+G0X128.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X126.46S205F787; brightness: 223
-G1X125.46S319F687; brightness: 191
-G1X124.46S148F837; brightness: 239
-G1X123.46S401F615; brightness: 168
-G0X122.46S0; brightness: 255
+G1X127.00S205F787; brightness: 223
+G1X126.00S319F687; brightness: 191
+G1X125.00S148F837; brightness: 239
+G1X124.00S401F615; brightness: 168
+G0X123.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X121.46S205F787; brightness: 223
-G1X120.46S547F486; brightness: 127
-G0X118.46S0; brightness: 255
+G1X122.00S205F787; brightness: 223
+G1X121.00S547F486; brightness: 127
+G0X119.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X117.46S355F655; brightness: 181
-G1X116.46S262F737; brightness: 207
-G0X114.46S0; brightness: 255
+G1X118.00S355F655; brightness: 181
+G1X117.00S262F737; brightness: 207
+G0X115.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X113.46S205F787; brightness: 223
-G0X111.46S0; brightness: 255
+G1X114.00S205F787; brightness: 223
+G0X112.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X110.46S604F436; brightness: 111
-G1X110.46S148F837; brightness: 239
+G1X111.00S604F436; brightness: 111
+G1X111.00S148F837; brightness: 239
 M3S0; EOL: x=[18 <- 56], y=30
 G0X111.00Y292.00S0; goto line start->
 G1X111.00S319F687; brightness: 191
@@ -3961,44 +3961,44 @@ G4P0.001
 
 G1X149.00S205F787; brightness: 223
 M3S0; EOL: x=[18 -> 56], y=29
-G0X149.46Y293.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X148.46S255F743; brightness: 209
-G1X147.46S148F837; brightness: 239
-G1X146.46S205F787; brightness: 223
-G0X145.46S0; brightness: 255
+G0X150.00Y293.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X149.00S255F743; brightness: 209
+G1X148.00S148F837; brightness: 239
+G1X147.00S205F787; brightness: 223
+G0X146.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X144.46S547F486; brightness: 127
-G0X141.46S0; brightness: 255
+G1X145.00S547F486; brightness: 127
+G0X142.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X140.46S262F737; brightness: 207
-G1X139.46S776F285; brightness: 63
-G1X138.46S544F489; brightness: 128
-G0X131.46S0; brightness: 255
+G1X141.00S262F737; brightness: 207
+G1X140.00S776F285; brightness: 63
+G1X139.00S544F489; brightness: 128
+G0X132.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X130.46S547F486; brightness: 127
-G1X129.46S719F335; brightness: 79
-G0X126.46S0; brightness: 255
+G1X131.00S547F486; brightness: 127
+G1X130.00S719F335; brightness: 79
+G0X127.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X125.46S148F837; brightness: 239
-G1X124.46S433F586; brightness: 159
-G1X123.46S205F787; brightness: 223
-G1X122.46S319F687; brightness: 191
-G1X121.46S433F586; brightness: 159
-G0X113.46S0; brightness: 255
+G1X126.00S148F837; brightness: 239
+G1X125.00S433F586; brightness: 159
+G1X124.00S205F787; brightness: 223
+G1X123.00S319F687; brightness: 191
+G1X122.00S433F586; brightness: 159
+G0X114.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X111.46S148F837; brightness: 239
-G1X110.46S719F335; brightness: 79
-G1X110.46S319F687; brightness: 191
+G1X112.00S148F837; brightness: 239
+G1X111.00S719F335; brightness: 79
+G1X111.00S319F687; brightness: 191
 M3S0; EOL: x=[18 <- 57], y=28
 G0X111.00Y294.00S0; goto line start->
 G1X112.00S148F837; brightness: 239
@@ -4037,34 +4037,34 @@ G4P0.001
 
 G1X150.00S148F837; brightness: 239
 M3S0; EOL: x=[18 -> 57], y=27
-G0X149.46Y295.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X148.46S148F837; brightness: 239
-G0X147.46S0; brightness: 255
+G0X150.00Y295.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X149.00S148F837; brightness: 239
+G0X148.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X146.46S376F637; brightness: 175
-G0X145.46S0; brightness: 255
+G1X147.00S376F637; brightness: 175
+G0X146.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X144.46S376F637; brightness: 175
-G1X143.46S148F837; brightness: 239
-G1X142.46S776F285; brightness: 63
-G1X141.46S487F539; brightness: 144
-G0X132.46S0; brightness: 255
+G1X145.00S376F637; brightness: 175
+G1X144.00S148F837; brightness: 239
+G1X143.00S776F285; brightness: 63
+G1X142.00S487F539; brightness: 144
+G0X133.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X131.46S205F787; brightness: 223
-G1X130.46S829F238; brightness: 48
-G1X129.46S433F586; brightness: 159
-G0X124.46S0; brightness: 255
+G1X132.00S205F787; brightness: 223
+G1X131.00S829F238; brightness: 48
+G1X130.00S433F586; brightness: 159
+G0X125.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X123.46S148F837; brightness: 239
-G1X123.46S661F386; brightness: 95
+G1X124.00S148F837; brightness: 239
+G1X124.00S661F386; brightness: 95
 M3S0; EOL: x=[31 <- 57], y=26
 G0X131.00Y296.00S0; goto line start->
 G1X131.00S319F687; brightness: 191
@@ -4080,34 +4080,34 @@ G1X147.00S376F637; brightness: 175
 G1X148.00S490F536; brightness: 143
 G1X149.00S148F837; brightness: 239
 M3S0; EOL: x=[38 -> 56], y=25
-G0X145.46Y297.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X143.46S262F737; brightness: 207
-G0X131.46S0; brightness: 255
+G0X146.00Y297.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X144.00S262F737; brightness: 207
+G0X132.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X130.46S776F285; brightness: 63
-G1X130.46S319F687; brightness: 191
+G1X131.00S776F285; brightness: 63
+G1X131.00S319F687; brightness: 191
 M3S0; EOL: x=[38 <- 53], y=24
 G0X131.00Y298.00S0; goto line start->
 G1X131.00S319F687; brightness: 191
 G1X132.00S776F285; brightness: 63
 M3S0; EOL: x=[38 -> 39], y=23
-G0X131.46Y299.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X130.46S776F285; brightness: 63
-G1X130.46S319F687; brightness: 191
+G0X132.00Y299.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X131.00S776F285; brightness: 63
+G1X131.00S319F687; brightness: 191
 M3S0; EOL: x=[38 <- 39], y=22
 G0X131.00Y300.00S0; goto line start->
 G1X131.00S262F737; brightness: 207
 G1X132.00S719F335; brightness: 79
 G1X133.00S262F737; brightness: 207
 M3S0; EOL: x=[38 -> 40], y=21
-G0X133.46Y301.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X132.46S604F436; brightness: 111
-G1X131.46S487F539; brightness: 144
-G1X129.46S262F737; brightness: 207
-G1X128.46S433F586; brightness: 159
-G1X128.46S148F837; brightness: 239
+G0X134.00Y301.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X133.00S604F436; brightness: 111
+G1X132.00S487F539; brightness: 144
+G1X130.00S262F737; brightness: 207
+G1X129.00S433F586; brightness: 159
+G1X129.00S148F837; brightness: 239
 M3S0; EOL: x=[36 <- 41], y=20
 G0X129.00Y302.00S0; goto line start->
 G1X129.00S604F436; brightness: 111
@@ -4119,19 +4119,19 @@ G4P0.001
 G1X134.00S490F536; brightness: 143
 G1X135.00S262F737; brightness: 207
 M3S0; EOL: x=[36 -> 42], y=19
-G0X135.46Y303.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X134.46S262F737; brightness: 207
-G1X133.46S776F285; brightness: 63
-G1X132.46S604F436; brightness: 111
-G1X131.46S547F486; brightness: 127
-G1X130.46S604F436; brightness: 111
-G1X129.46S547F486; brightness: 127
-G1X128.46S490F536; brightness: 143
-G1X127.46S394F621; brightness: 170
-G1X126.46S604F436; brightness: 111
-G1X125.46S490F536; brightness: 143
-G1X124.46S376F637; brightness: 175
-G1X124.46S148F837; brightness: 239
+G0X136.00Y303.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X135.00S262F737; brightness: 207
+G1X134.00S776F285; brightness: 63
+G1X133.00S604F436; brightness: 111
+G1X132.00S547F486; brightness: 127
+G1X131.00S604F436; brightness: 111
+G1X130.00S547F486; brightness: 127
+G1X129.00S490F536; brightness: 143
+G1X128.00S394F621; brightness: 170
+G1X127.00S604F436; brightness: 111
+G1X126.00S490F536; brightness: 143
+G1X125.00S376F637; brightness: 175
+G1X125.00S148F837; brightness: 239
 M3S0; EOL: x=[32 <- 43], y=18
 G0X123.00Y304.00S0; goto line start->
 G1X123.00S148F837; brightness: 239
@@ -4151,24 +4151,24 @@ G1X136.00S544F489; brightness: 128
 G1X137.00S833F235; brightness: 47
 G1X138.00S319F687; brightness: 191
 M3S0; EOL: x=[30 -> 45], y=17
-G0X139.46Y305.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X138.46S148F837; brightness: 239
-G1X137.46S604F436; brightness: 111
-G1X136.46S601F439; brightness: 112
-G0X127.46S0; brightness: 255
+G0X140.00Y305.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X139.00S148F837; brightness: 239
+G1X138.00S604F436; brightness: 111
+G1X137.00S601F439; brightness: 112
+G0X128.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X126.46S376F637; brightness: 175
-G1X125.46S205F787; brightness: 223
-G0X122.46S0; brightness: 255
+G1X127.00S376F637; brightness: 175
+G1X126.00S205F787; brightness: 223
+G0X123.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X121.46S376F637; brightness: 175
-G1X120.46S319F687; brightness: 191
-G1X119.46S205F787; brightness: 223
-G1X119.46S262F737; brightness: 207
+G1X122.00S376F637; brightness: 175
+G1X121.00S319F687; brightness: 191
+G1X120.00S205F787; brightness: 223
+G1X120.00S262F737; brightness: 207
 M3S0; EOL: x=[27 <- 47], y=16
 G0X119.00Y306.00S0; goto line start->
 G1X119.00S148F837; brightness: 239
@@ -4192,27 +4192,27 @@ G1X139.00S319F687; brightness: 191
 G1X140.00S776F285; brightness: 63
 G1X141.00S148F837; brightness: 239
 M3S0; EOL: x=[26 -> 48], y=15
-G0X140.46Y307.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X139.46S776F285; brightness: 63
-G1X138.46S262F737; brightness: 207
-G0X130.46S0; brightness: 255
+G0X141.00Y307.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X140.00S776F285; brightness: 63
+G1X139.00S262F737; brightness: 207
+G0X131.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X129.46S205F787; brightness: 223
-G1X128.46S547F486; brightness: 127
-G1X127.46S205F787; brightness: 223
-G0X123.46S0; brightness: 255
+G1X130.00S205F787; brightness: 223
+G1X129.00S547F486; brightness: 127
+G1X128.00S205F787; brightness: 223
+G0X124.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X121.46S148F837; brightness: 239
-G0X119.46S0; brightness: 255
+G1X122.00S148F837; brightness: 239
+G0X120.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X118.46S604F436; brightness: 111
-G1X118.46S262F737; brightness: 207
+G1X119.00S604F436; brightness: 111
+G1X119.00S262F737; brightness: 207
 M3S0; EOL: x=[26 <- 48], y=14
 G0X120.00Y308.00S0; goto line start->
 G1X120.00S661F386; brightness: 95
@@ -4236,28 +4236,28 @@ G4P0.001
 G1X141.00S262F737; brightness: 207
 G1X142.00S547F486; brightness: 127
 M3S0; EOL: x=[27 -> 49], y=13
-G0X141.46Y309.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X140.46S719F335; brightness: 79
-G0X138.46S0; brightness: 255
+G0X142.00Y309.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X141.00S719F335; brightness: 79
+G0X139.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X137.46S148F837; brightness: 239
-G1X136.46S547F486; brightness: 127
-G1X135.46S719F335; brightness: 79
-G1X134.46S430F589; brightness: 160
-G1X133.46S148F837; brightness: 239
-G0X127.46S0; brightness: 255
+G1X138.00S148F837; brightness: 239
+G1X137.00S547F486; brightness: 127
+G1X136.00S719F335; brightness: 79
+G1X135.00S430F589; brightness: 160
+G1X134.00S148F837; brightness: 239
+G0X128.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X126.46S661F386; brightness: 95
-G1X125.46S262F737; brightness: 207
-G0X119.46S0; brightness: 255
+G1X127.00S661F386; brightness: 95
+G1X126.00S262F737; brightness: 207
+G0X120.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X119.46S776F285; brightness: 63
+G1X120.00S776F285; brightness: 63
 M3S0; EOL: x=[27 <- 49], y=12
 G0X119.00Y310.00S0; goto line start->
 G1X119.00S319F687; brightness: 191
@@ -4281,25 +4281,25 @@ G4P0.001
 
 G1X142.00S776F285; brightness: 63
 M3S0; EOL: x=[26 -> 49], y=11
-G0X141.46Y311.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X140.46S376F637; brightness: 175
-G1X139.46S319F687; brightness: 191
-G1X138.46S604F436; brightness: 111
-G1X137.46S205F787; brightness: 223
-G0X131.46S0; brightness: 255
+G0X142.00Y311.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X141.00S376F637; brightness: 175
+G1X140.00S319F687; brightness: 191
+G1X139.00S604F436; brightness: 111
+G1X138.00S205F787; brightness: 223
+G0X132.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X130.46S205F787; brightness: 223
-G1X127.46S319F687; brightness: 191
-G1X126.46S262F737; brightness: 207
-G1X125.46S205F787; brightness: 223
-G0X119.46S0; brightness: 255
+G1X131.00S205F787; brightness: 223
+G1X128.00S319F687; brightness: 191
+G1X127.00S262F737; brightness: 207
+G1X126.00S205F787; brightness: 223
+G0X120.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X118.46S547F486; brightness: 127
-G1X118.46S319F687; brightness: 191
+G1X119.00S547F486; brightness: 127
+G1X119.00S319F687; brightness: 191
 M3S0; EOL: x=[26 <- 49], y=10
 G0X120.00Y312.00S0; goto line start->
 G1X120.00S833F235; brightness: 47
@@ -4321,27 +4321,27 @@ G4P0.001
 G1X140.00S661F386; brightness: 95
 G1X141.00S490F536; brightness: 143
 M3S0; EOL: x=[27 -> 48], y=9
-G0X140.46Y313.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X139.46S319F687; brightness: 191
-G1X138.46S547F486; brightness: 127
-G0X134.46S0; brightness: 255
+G0X141.00Y313.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X140.00S319F687; brightness: 191
+G1X139.00S547F486; brightness: 127
+G0X135.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X133.46S604F436; brightness: 111
-G1X132.46S433F586; brightness: 159
-G0X125.46S0; brightness: 255
+G1X134.00S604F436; brightness: 111
+G1X133.00S433F586; brightness: 159
+G0X126.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X124.46S433F586; brightness: 159
-G1X123.46S205F787; brightness: 223
-G0X120.46S0; brightness: 255
+G1X125.00S433F586; brightness: 159
+G1X124.00S205F787; brightness: 223
+G0X121.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X119.46S547F486; brightness: 127
-G1X119.46S490F536; brightness: 143
+G1X120.00S547F486; brightness: 127
+G1X120.00S490F536; brightness: 143
 M3S0; EOL: x=[27 <- 48], y=8
 G0X121.00Y314.00S0; goto line start->
 G1X121.00S661F386; brightness: 95
@@ -4366,31 +4366,31 @@ G4P0.001
 
 G1X141.00S319F687; brightness: 191
 M3S0; EOL: x=[28 -> 48], y=7
-G0X140.46Y315.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X139.46S262F737; brightness: 207
-G1X138.46S319F687; brightness: 191
-G0X135.46S0; brightness: 255
+G0X141.00Y315.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X140.00S262F737; brightness: 207
+G1X139.00S319F687; brightness: 191
+G0X136.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X134.46S376F637; brightness: 175
-G1X133.46S833F235; brightness: 47
-G1X132.46S487F539; brightness: 144
-G1X131.46S205F787; brightness: 223
-G1X130.46S319F687; brightness: 191
-G1X129.46S148F837; brightness: 239
-G1X128.46S547F486; brightness: 127
-G1X127.46S405F611; brightness: 167
-G1X126.46S415F602; brightness: 164
-G1X125.46S376F637; brightness: 175
-G0X124.46S0; brightness: 255
+G1X135.00S376F637; brightness: 175
+G1X134.00S833F235; brightness: 47
+G1X133.00S487F539; brightness: 144
+G1X132.00S205F787; brightness: 223
+G1X131.00S319F687; brightness: 191
+G1X130.00S148F837; brightness: 239
+G1X129.00S547F486; brightness: 127
+G1X128.00S405F611; brightness: 167
+G1X127.00S415F602; brightness: 164
+G1X126.00S376F637; brightness: 175
+G0X125.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X123.46S376F637; brightness: 175
-G1X122.46S433F586; brightness: 159
-G1X121.46S148F837; brightness: 239
-G1X121.46S890F185; brightness: 31
+G1X124.00S376F637; brightness: 175
+G1X123.00S433F586; brightness: 159
+G1X122.00S148F837; brightness: 239
+G1X122.00S890F185; brightness: 31
 M3S0; EOL: x=[29 <- 48], y=6
 G0X121.00Y316.00S0; goto line start->
 G1X121.00S205F787; brightness: 223
@@ -4418,36 +4418,36 @@ G4P0.001
 
 G1X140.00S148F837; brightness: 239
 M3S0; EOL: x=[28 -> 47], y=5
-G0X139.46Y317.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X138.46S205F787; brightness: 223
-G1X137.46S547F486; brightness: 127
-G1X136.46S376F637; brightness: 175
-G1X135.46S661F386; brightness: 95
-G0X133.46S0; brightness: 255
+G0X140.00Y317.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X139.00S205F787; brightness: 223
+G1X138.00S547F486; brightness: 127
+G1X137.00S376F637; brightness: 175
+G1X136.00S661F386; brightness: 95
+G0X134.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X132.46S547F486; brightness: 127
-G0X131.46S0; brightness: 255
+G1X133.00S547F486; brightness: 127
+G0X132.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X130.46S547F486; brightness: 127
-G1X129.46S262F737; brightness: 207
-G0X128.46S0; brightness: 255
+G1X131.00S547F486; brightness: 127
+G1X130.00S262F737; brightness: 207
+G0X129.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X126.46S319F687; brightness: 191
-G1X125.46S148F837; brightness: 239
-G1X124.46S833F235; brightness: 47
-G1X123.46S490F536; brightness: 143
-G0X121.46S0; brightness: 255
+G1X127.00S319F687; brightness: 191
+G1X126.00S148F837; brightness: 239
+G1X125.00S833F235; brightness: 47
+G1X124.00S490F536; brightness: 143
+G0X122.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X120.46S833F235; brightness: 47
-G1X120.46S148F837; brightness: 239
+G1X121.00S833F235; brightness: 47
+G1X121.00S148F837; brightness: 239
 M3S0; EOL: x=[28 <- 47], y=4
 G0X122.00Y318.00S0; goto line start->
 G1X122.00S490F536; brightness: 143
@@ -4475,26 +4475,26 @@ G4P0.001
 G1X137.00S319F687; brightness: 191
 G1X138.00S376F637; brightness: 175
 M3S0; EOL: x=[29 -> 45], y=3
-G0X136.46Y319.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X135.46S255F743; brightness: 209
-G0X132.46S0; brightness: 255
+G0X137.00Y319.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X136.00S255F743; brightness: 209
+G0X133.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X131.46S430F589; brightness: 160
-G1X130.46S547F486; brightness: 127
-G1X129.46S604F436; brightness: 111
-G1X128.46S376F637; brightness: 175
-G1X127.46S319F687; brightness: 191
-G1X126.46S547F486; brightness: 127
-G1X125.46S776F285; brightness: 63
-G1X124.46S376F637; brightness: 175
-G0X123.46S0; brightness: 255
+G1X132.00S430F589; brightness: 160
+G1X131.00S547F486; brightness: 127
+G1X130.00S604F436; brightness: 111
+G1X129.00S376F637; brightness: 175
+G1X128.00S319F687; brightness: 191
+G1X127.00S547F486; brightness: 127
+G1X126.00S776F285; brightness: 63
+G1X125.00S376F637; brightness: 175
+G0X124.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X122.46S262F737; brightness: 207
-G1X122.46S719F335; brightness: 79
+G1X123.00S262F737; brightness: 207
+G1X123.00S719F335; brightness: 79
 M3S0; EOL: x=[30 <- 44], y=2
 G0X123.00Y320.00S0; goto line start->
 G1X123.00S205F787; brightness: 223
@@ -4517,18 +4517,18 @@ G1X135.00S376F637; brightness: 175
 G1X136.00S308F696; brightness: 194
 G1X137.00S148F837; brightness: 239
 M3S0; EOL: x=[30 -> 44], y=1
-G0X134.46Y321.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X133.46S148F837; brightness: 239
-G1X132.46S544F489; brightness: 128
-G1X130.46S604F436; brightness: 111
-G1X129.46S658F389; brightness: 96
-G1X128.46S372F640; brightness: 176
-G1X127.46S544F489; brightness: 128
-G1X126.46S658F389; brightness: 96
-G1X125.46S772F288; brightness: 64
-G1X124.46S658F389; brightness: 96
-G1X123.46S544F489; brightness: 128
-G1X123.46S205F787; brightness: 223
+G0X135.00Y321.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X134.00S148F837; brightness: 239
+G1X133.00S544F489; brightness: 128
+G1X131.00S604F436; brightness: 111
+G1X130.00S658F389; brightness: 96
+G1X129.00S372F640; brightness: 176
+G1X128.00S544F489; brightness: 128
+G1X127.00S658F389; brightness: 96
+G1X126.00S772F288; brightness: 64
+G1X125.00S658F389; brightness: 96
+G1X124.00S544F489; brightness: 128
+G1X124.00S205F787; brightness: 223
 M3S0; EOL: x=[31 <- 42], y=0
 ; EndPart
 M3S0
@@ -4583,61 +4583,61 @@ G4P0.001
 G1X67.00S148F837; brightness: 239
 G1X68.00S205F787; brightness: 223
 M3S0; EOL: x=[1 -> 33], y=11
-G0X67.46Y307.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X66.46S205F787; brightness: 223
-G1X65.46S719F335; brightness: 79
-G0X64.46S0; brightness: 255
+G0X68.00Y307.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X67.00S205F787; brightness: 223
+G1X66.00S719F335; brightness: 79
+G0X65.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X63.46S205F787; brightness: 223
-G1X62.46S947F135; brightness: 15
-G1X61.46S262F737; brightness: 207
-G0X60.46S0; brightness: 255
+G1X64.00S205F787; brightness: 223
+G1X63.00S947F135; brightness: 15
+G1X62.00S262F737; brightness: 207
+G0X61.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X59.46S319F687; brightness: 191
-G1X58.46S776F285; brightness: 63
-G0X57.46S0; brightness: 255
+G1X60.00S319F687; brightness: 191
+G1X59.00S776F285; brightness: 63
+G0X58.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X56.46S547F486; brightness: 127
-G1X55.46S319F687; brightness: 191
-G0X54.46S0; brightness: 255
+G1X57.00S547F486; brightness: 127
+G1X56.00S319F687; brightness: 191
+G0X55.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X53.46S719F335; brightness: 79
-G0X52.46S0; brightness: 255
+G1X54.00S719F335; brightness: 79
+G0X53.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X51.46S776F285; brightness: 63
-G0X49.46S0; brightness: 255
+G1X52.00S776F285; brightness: 63
+G0X50.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X48.46S547F486; brightness: 127
-G1X47.46S604F436; brightness: 111
-G1X46.46S148F837; brightness: 239
-G1X45.46S433F586; brightness: 159
-G1X44.46S547F486; brightness: 127
-G1X43.46S148F837; brightness: 239
-G1X42.46S547F486; brightness: 127
-G1X41.46S148F837; brightness: 239
-G1X40.46S319F687; brightness: 191
-G1X39.46S490F536; brightness: 143
-G0X38.46S0; brightness: 255
+G1X49.00S547F486; brightness: 127
+G1X48.00S604F436; brightness: 111
+G1X47.00S148F837; brightness: 239
+G1X46.00S433F586; brightness: 159
+G1X45.00S547F486; brightness: 127
+G1X44.00S148F837; brightness: 239
+G1X43.00S547F486; brightness: 127
+G1X42.00S148F837; brightness: 239
+G1X41.00S319F687; brightness: 191
+G1X40.00S490F536; brightness: 143
+G0X39.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X37.46S604F436; brightness: 111
-G1X36.46S148F837; brightness: 239
-G1X35.46S776F285; brightness: 63
-G1X34.46S376F637; brightness: 175
-G1X34.46S604F436; brightness: 111
+G1X38.00S604F436; brightness: 111
+G1X37.00S148F837; brightness: 239
+G1X36.00S776F285; brightness: 63
+G1X35.00S376F637; brightness: 175
+G1X35.00S604F436; brightness: 111
 M3S0; EOL: x=[0 <- 33], y=10
 G0X35.00Y308.00S0; goto line start->
 G1X35.00S604F436; brightness: 111
@@ -4691,51 +4691,51 @@ G4P0.001
 
 G1X67.00S776F285; brightness: 63
 M3S0; EOL: x=[0 -> 32], y=9
-G0X67.46Y309.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X66.46S319F687; brightness: 191
-G1X65.46S776F285; brightness: 63
-G1X64.46S490F536; brightness: 143
-G1X63.46S433F586; brightness: 159
-G1X62.46S776F285; brightness: 63
-G0X61.46S0; brightness: 255
+G0X68.00Y309.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X67.00S319F687; brightness: 191
+G1X66.00S776F285; brightness: 63
+G1X65.00S490F536; brightness: 143
+G1X64.00S433F586; brightness: 159
+G1X63.00S776F285; brightness: 63
+G0X62.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X60.46S262F737; brightness: 207
-G1X59.46S1001F88; brightness: 0
-G1X58.46S255F743; brightness: 209
-G1X57.46S262F737; brightness: 207
-G1X56.46S148F837; brightness: 239
-G1X55.46S490F536; brightness: 143
-G1X54.46S433F586; brightness: 159
-G1X53.46S661F386; brightness: 95
-G0X52.46S0; brightness: 255
+G1X61.00S262F737; brightness: 207
+G1X60.00S1001F88; brightness: 0
+G1X59.00S255F743; brightness: 209
+G1X58.00S262F737; brightness: 207
+G1X57.00S148F837; brightness: 239
+G1X56.00S490F536; brightness: 143
+G1X55.00S433F586; brightness: 159
+G1X54.00S661F386; brightness: 95
+G0X53.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X51.46S947F135; brightness: 15
-G0X50.46S0; brightness: 255
+G1X52.00S947F135; brightness: 15
+G0X51.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X49.46S547F486; brightness: 127
-G1X48.46S947F135; brightness: 15
-G0X46.46S0; brightness: 255
+G1X50.00S547F486; brightness: 127
+G1X49.00S947F135; brightness: 15
+G0X47.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X45.46S890F185; brightness: 31
-G1X44.46S447F574; brightness: 155
-G1X43.46S148F837; brightness: 239
-G1X41.46S319F687; brightness: 191
-G1X40.46S776F285; brightness: 63
-G1X39.46S319F687; brightness: 191
-G1X38.46S376F637; brightness: 175
-G1X37.46S776F285; brightness: 63
-G1X36.46S433F586; brightness: 159
-G1X35.46S148F837; brightness: 239
-G1X34.46S890F185; brightness: 31
-G1X34.46S319F687; brightness: 191
+G1X46.00S890F185; brightness: 31
+G1X45.00S447F574; brightness: 155
+G1X44.00S148F837; brightness: 239
+G1X42.00S319F687; brightness: 191
+G1X41.00S776F285; brightness: 63
+G1X40.00S319F687; brightness: 191
+G1X39.00S376F637; brightness: 175
+G1X38.00S776F285; brightness: 63
+G1X37.00S433F586; brightness: 159
+G1X36.00S148F837; brightness: 239
+G1X35.00S890F185; brightness: 31
+G1X35.00S319F687; brightness: 191
 M3S0; EOL: x=[0 <- 33], y=8
 G0X36.00Y310.00S0; goto line start->
 G1X37.00S661F386; brightness: 95
@@ -4789,54 +4789,54 @@ G1X66.00S262F737; brightness: 207
 G1X67.00S833F235; brightness: 47
 G1X68.00S604F436; brightness: 111
 M3S0; EOL: x=[1 -> 33], y=7
-G0X67.46Y311.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X66.46S433F586; brightness: 159
-G1X65.46S262F737; brightness: 207
-G0X64.46S0; brightness: 255
+G0X68.00Y311.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X67.00S433F586; brightness: 159
+G1X66.00S262F737; brightness: 207
+G0X65.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X63.46S547F486; brightness: 127
-G1X61.46S604F436; brightness: 111
-G1X60.46S661F386; brightness: 95
-G1X59.46S719F335; brightness: 79
-G0X58.46S0; brightness: 255
+G1X64.00S547F486; brightness: 127
+G1X62.00S604F436; brightness: 111
+G1X61.00S661F386; brightness: 95
+G1X60.00S719F335; brightness: 79
+G0X59.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X57.46S661F386; brightness: 95
-G1X56.46S262F737; brightness: 207
-G1X55.46S833F235; brightness: 47
-G1X54.46S433F586; brightness: 159
-G0X53.46S0; brightness: 255
+G1X58.00S661F386; brightness: 95
+G1X57.00S262F737; brightness: 207
+G1X56.00S833F235; brightness: 47
+G1X55.00S433F586; brightness: 159
+G0X54.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X52.46S719F335; brightness: 79
-G1X51.46S661F386; brightness: 95
-G1X50.46S262F737; brightness: 207
-G1X49.46S661F386; brightness: 95
-G1X48.46S547F486; brightness: 127
-G0X47.46S0; brightness: 255
+G1X53.00S719F335; brightness: 79
+G1X52.00S661F386; brightness: 95
+G1X51.00S262F737; brightness: 207
+G1X50.00S661F386; brightness: 95
+G1X49.00S547F486; brightness: 127
+G0X48.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X46.46S661F386; brightness: 95
-G1X45.46S490F536; brightness: 143
-G1X44.46S205F787; brightness: 223
-G1X43.46S661F386; brightness: 95
-G1X42.46S433F586; brightness: 159
-G1X41.46S886F188; brightness: 32
-G1X40.46S148F837; brightness: 239
-G1X39.46S205F787; brightness: 223
-G1X38.46S890F185; brightness: 31
-G0X37.46S0; brightness: 255
+G1X47.00S661F386; brightness: 95
+G1X46.00S490F536; brightness: 143
+G1X45.00S205F787; brightness: 223
+G1X44.00S661F386; brightness: 95
+G1X43.00S433F586; brightness: 159
+G1X42.00S886F188; brightness: 32
+G1X41.00S148F837; brightness: 239
+G1X40.00S205F787; brightness: 223
+G1X39.00S890F185; brightness: 31
+G0X38.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X36.46S433F586; brightness: 159
-G1X35.46S829F238; brightness: 48
-G1X35.46S148F837; brightness: 239
+G1X37.00S433F586; brightness: 159
+G1X36.00S829F238; brightness: 48
+G1X36.00S148F837; brightness: 239
 M3S0; EOL: x=[1 <- 33], y=6
 G0X37.00Y312.00S0; goto line start->
 G1X37.00S148F837; brightness: 239
@@ -4886,21 +4886,21 @@ G1X63.00S262F737; brightness: 207
 G1X64.00S772F288; brightness: 64
 G1X65.00S262F737; brightness: 207
 M3S0; EOL: x=[2 -> 30], y=5
-G0X60.46Y313.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X59.46S205F787; brightness: 223
-G0X49.46S0; brightness: 255
+G0X61.00Y313.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X60.00S205F787; brightness: 223
+G0X50.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X48.46S148F837; brightness: 239
-G1X46.46S205F787; brightness: 223
-G0X41.46S0; brightness: 255
+G1X49.00S148F837; brightness: 239
+G1X47.00S205F787; brightness: 223
+G0X42.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X40.46S205F787; brightness: 223
-G1X39.46S1001F88; brightness: 0
-G1X39.46S148F837; brightness: 239
+G1X41.00S205F787; brightness: 223
+G1X40.00S1001F88; brightness: 0
+G1X40.00S148F837; brightness: 239
 M3S0; EOL: x=[5 <- 26], y=4
 G0X41.00Y314.00S0; goto line start->
 G1X42.00S661F386; brightness: 95
@@ -4911,23 +4911,23 @@ G4P0.001
 G1X48.00S148F837; brightness: 239
 G1X49.00S719F335; brightness: 79
 M3S0; EOL: x=[6 -> 14], y=3
-G0X49.46Y315.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X47.46S148F837; brightness: 239
-G0X42.46S0; brightness: 255
+G0X50.00Y315.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X48.00S148F837; brightness: 239
+G0X43.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X41.46S148F837; brightness: 239
-G1X40.46S947F135; brightness: 15
-G1X40.46S262F737; brightness: 207
+G1X42.00S148F837; brightness: 239
+G1X41.00S947F135; brightness: 15
+G1X41.00S262F737; brightness: 207
 M3S0; EOL: x=[6 <- 15], y=2
 G0X41.00Y316.00S0; goto line start->
 G1X41.00S319F687; brightness: 191
 G1X42.00S890F185; brightness: 31
 G1X43.00S205F787; brightness: 223
 M3S0; EOL: x=[6 -> 8], y=1
-G0X40.46Y317.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X40.46S148F837; brightness: 239
+G0X41.00Y317.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X41.00S148F837; brightness: 239
 M3S0; EOL: x=[6 <- 6], y=0
 ; EndPart
 M3S0
@@ -4941,14 +4941,14 @@ G1X67.00S148F837; brightness: 239
 G1X68.00S319F687; brightness: 191
 G1X69.00S148F837; brightness: 239
 M3S0; EOL: x=[43 -> 45], y=20
-G0X71.46Y281.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X70.46S205F787; brightness: 223
-G1X69.46S547F486; brightness: 127
-G1X68.46S947F135; brightness: 15
-G1X67.46S886F188; brightness: 32
-G1X65.46S772F288; brightness: 64
-G1X64.46S719F335; brightness: 79
-G1X64.46S148F837; brightness: 239
+G0X72.00Y281.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X71.00S205F787; brightness: 223
+G1X70.00S547F486; brightness: 127
+G1X69.00S947F135; brightness: 15
+G1X68.00S886F188; brightness: 32
+G1X66.00S772F288; brightness: 64
+G1X65.00S719F335; brightness: 79
+G1X65.00S148F837; brightness: 239
 M3S0; EOL: x=[41 <- 48], y=19
 G0X65.00Y282.00S0; goto line start->
 G1X65.00S547F486; brightness: 127
@@ -4962,15 +4962,15 @@ G1X71.00S544F489; brightness: 128
 G1X72.00S947F135; brightness: 15
 G1X73.00S490F536; brightness: 143
 M3S0; EOL: x=[41 -> 49], y=18
-G0X73.46Y283.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X72.46S661F386; brightness: 95
-G1X71.46S829F238; brightness: 48
-G1X70.46S262F737; brightness: 207
-G0X64.46S0; brightness: 255
+G0X74.00Y283.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X73.00S661F386; brightness: 95
+G1X72.00S829F238; brightness: 48
+G1X71.00S262F737; brightness: 207
+G0X65.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X64.46S376F637; brightness: 175
+G1X65.00S376F637; brightness: 175
 M3S0; EOL: x=[41 <- 50], y=17
 G0X65.00Y284.00S0; goto line start->
 G1X65.00S376F637; brightness: 175
@@ -4982,22 +4982,22 @@ G1X73.00S148F837; brightness: 239
 G1X74.00S829F238; brightness: 48
 G1X75.00S490F536; brightness: 143
 M3S0; EOL: x=[41 -> 51], y=16
-G0X75.46Y285.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X74.46S205F787; brightness: 223
-G1X73.46S943F138; brightness: 16
-G1X72.46S262F737; brightness: 207
-G0X65.46S0; brightness: 255
+G0X76.00Y285.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X75.00S205F787; brightness: 223
+G1X74.00S943F138; brightness: 16
+G1X73.00S262F737; brightness: 207
+G0X66.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X64.46S376F637; brightness: 175
-G1X63.46S262F737; brightness: 207
-G0X28.46S0; brightness: 255
+G1X65.00S376F637; brightness: 175
+G1X64.00S262F737; brightness: 207
+G0X29.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X27.46S205F787; brightness: 223
-G1X27.46S148F837; brightness: 239
+G1X28.00S205F787; brightness: 223
+G1X28.00S148F837; brightness: 239
 M3S0; EOL: x=[4 <- 52], y=15
 G0X29.00Y286.00S0; goto line start->
 G1X29.00S319F687; brightness: 191
@@ -5020,27 +5020,27 @@ G4P0.001
 
 G1X79.00S148F837; brightness: 239
 M3S0; EOL: x=[5 -> 55], y=14
-G0X78.46Y287.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X77.46S205F787; brightness: 223
-G1X76.46S148F837; brightness: 239
-G0X75.46S0; brightness: 255
+G0X79.00Y287.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X78.00S205F787; brightness: 223
+G1X77.00S148F837; brightness: 239
+G0X76.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X74.46S890F185; brightness: 31
-G0X68.46S0; brightness: 255
+G1X75.00S890F185; brightness: 31
+G0X69.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X67.46S319F687; brightness: 191
-G1X66.46S547F486; brightness: 127
-G1X65.46S205F787; brightness: 223
-G0X30.46S0; brightness: 255
+G1X68.00S319F687; brightness: 191
+G1X67.00S547F486; brightness: 127
+G1X66.00S205F787; brightness: 223
+G0X31.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X29.46S433F586; brightness: 159
-G1X29.46S319F687; brightness: 191
+G1X30.00S433F586; brightness: 159
+G1X30.00S319F687; brightness: 191
 M3S0; EOL: x=[6 <- 55], y=13
 G0X31.00Y288.00S0; goto line start->
 G1X31.00S547F486; brightness: 127
@@ -5061,70 +5061,70 @@ G1X76.00S490F536; brightness: 143
 G1X77.00S547F486; brightness: 127
 G1X78.00S319F687; brightness: 191
 M3S0; EOL: x=[7 -> 54], y=12
-G0X76.46Y289.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X75.46S319F687; brightness: 191
-G1X74.46S601F439; brightness: 112
-G1X72.46S544F489; brightness: 128
-G1X71.46S412F605; brightness: 165
-G1X70.46S262F737; brightness: 207
-G0X68.46S0; brightness: 255
+G0X77.00Y289.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X76.00S319F687; brightness: 191
+G1X75.00S601F439; brightness: 112
+G1X73.00S544F489; brightness: 128
+G1X72.00S412F605; brightness: 165
+G1X71.00S262F737; brightness: 207
+G0X69.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X67.46S148F837; brightness: 239
-G0X65.46S0; brightness: 255
+G1X68.00S148F837; brightness: 239
+G0X66.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X64.46S148F837; brightness: 239
-G1X63.46S319F687; brightness: 191
-G0X61.46S0; brightness: 255
+G1X65.00S148F837; brightness: 239
+G1X64.00S319F687; brightness: 191
+G0X62.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X60.46S433F586; brightness: 159
-G1X59.46S490F536; brightness: 143
-G1X58.46S148F837; brightness: 239
-G0X57.46S0; brightness: 255
+G1X61.00S433F586; brightness: 159
+G1X60.00S490F536; brightness: 143
+G1X59.00S148F837; brightness: 239
+G0X58.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X56.46S319F687; brightness: 191
-G1X55.46S205F787; brightness: 223
-G0X50.46S0; brightness: 255
+G1X57.00S319F687; brightness: 191
+G1X56.00S205F787; brightness: 223
+G0X51.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X49.46S205F787; brightness: 223
-G1X48.46S148F837; brightness: 239
-G0X46.46S0; brightness: 255
+G1X50.00S205F787; brightness: 223
+G1X49.00S148F837; brightness: 239
+G0X47.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X45.46S148F837; brightness: 239
-G0X41.46S0; brightness: 255
+G1X46.00S148F837; brightness: 239
+G0X42.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X40.46S319F687; brightness: 191
-G1X39.46S604F436; brightness: 111
-G1X38.46S376F637; brightness: 175
-G0X36.46S0; brightness: 255
+G1X41.00S319F687; brightness: 191
+G1X40.00S604F436; brightness: 111
+G1X39.00S376F637; brightness: 175
+G0X37.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X35.46S205F787; brightness: 223
-G0X31.46S0; brightness: 255
+G1X36.00S205F787; brightness: 223
+G0X32.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X30.46S719F335; brightness: 79
-G1X29.46S148F837; brightness: 239
-G1X28.46S205F787; brightness: 223
-G1X27.46S490F536; brightness: 143
-G1X26.46S433F586; brightness: 159
-G1X24.46S661F386; brightness: 95
-G1X24.46S433F586; brightness: 159
+G1X31.00S719F335; brightness: 79
+G1X30.00S148F837; brightness: 239
+G1X29.00S205F787; brightness: 223
+G1X28.00S490F536; brightness: 143
+G1X27.00S433F586; brightness: 159
+G1X25.00S661F386; brightness: 95
+G1X25.00S433F586; brightness: 159
 M3S0; EOL: x=[1 <- 53], y=11
 G0X24.00Y290.00S0; goto line start->
 G1X24.00S547F486; brightness: 127
@@ -5199,90 +5199,90 @@ G1X75.00S376F637; brightness: 175
 G1X76.00S604F436; brightness: 111
 G1X77.00S262F737; brightness: 207
 M3S0; EOL: x=[0 -> 53], y=10
-G0X76.46Y291.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X75.46S319F687; brightness: 191
-G1X74.46S490F536; brightness: 143
-G0X73.46S0; brightness: 255
+G0X77.00Y291.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X76.00S319F687; brightness: 191
+G1X75.00S490F536; brightness: 143
+G0X74.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X72.46S547F486; brightness: 127
-G1X71.46S319F687; brightness: 191
-G1X70.46S890F185; brightness: 31
-G1X69.46S148F837; brightness: 239
-G1X68.46S604F436; brightness: 111
-G1X67.46S148F837; brightness: 239
-G1X66.46S890F185; brightness: 31
-G0X64.46S0; brightness: 255
+G1X73.00S547F486; brightness: 127
+G1X72.00S319F687; brightness: 191
+G1X71.00S890F185; brightness: 31
+G1X70.00S148F837; brightness: 239
+G1X69.00S604F436; brightness: 111
+G1X68.00S148F837; brightness: 239
+G1X67.00S890F185; brightness: 31
+G0X65.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X63.46S890F185; brightness: 31
-G0X62.46S0; brightness: 255
+G1X64.00S890F185; brightness: 31
+G0X63.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X61.46S319F687; brightness: 191
-G1X60.46S490F536; brightness: 143
-G0X57.46S0; brightness: 255
+G1X62.00S319F687; brightness: 191
+G1X61.00S490F536; brightness: 143
+G0X58.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X56.46S319F687; brightness: 191
-G1X55.46S719F335; brightness: 79
-G0X52.46S0; brightness: 255
+G1X57.00S319F687; brightness: 191
+G1X56.00S719F335; brightness: 79
+G0X53.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X51.46S433F586; brightness: 159
-G1X50.46S604F436; brightness: 111
-G0X49.46S0; brightness: 255
+G1X52.00S433F586; brightness: 159
+G1X51.00S604F436; brightness: 111
+G0X50.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X48.46S776F285; brightness: 63
-G0X47.46S0; brightness: 255
+G1X49.00S776F285; brightness: 63
+G0X48.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X46.46S547F486; brightness: 127
-G0X45.46S0; brightness: 255
+G1X47.00S547F486; brightness: 127
+G0X46.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X44.46S947F135; brightness: 15
-G0X43.46S0; brightness: 255
+G1X45.00S947F135; brightness: 15
+G0X44.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X42.46S490F536; brightness: 143
-G1X41.46S661F386; brightness: 95
-G0X40.46S0; brightness: 255
+G1X43.00S490F536; brightness: 143
+G1X42.00S661F386; brightness: 95
+G0X41.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X39.46S262F737; brightness: 207
-G1X38.46S319F687; brightness: 191
-G1X37.46S490F536; brightness: 143
-G1X36.46S148F837; brightness: 239
-G0X35.46S0; brightness: 255
+G1X40.00S262F737; brightness: 207
+G1X39.00S319F687; brightness: 191
+G1X38.00S490F536; brightness: 143
+G1X37.00S148F837; brightness: 239
+G0X36.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X34.46S547F486; brightness: 127
-G1X33.46S376F637; brightness: 175
-G0X32.46S0; brightness: 255
+G1X35.00S547F486; brightness: 127
+G1X34.00S376F637; brightness: 175
+G0X33.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X31.46S833F235; brightness: 47
-G1X30.46S604F436; brightness: 111
-G1X29.46S319F687; brightness: 191
-G0X23.46S0; brightness: 255
+G1X32.00S833F235; brightness: 47
+G1X31.00S604F436; brightness: 111
+G1X30.00S319F687; brightness: 191
+G0X24.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X23.46S890F185; brightness: 31
+G1X24.00S890F185; brightness: 31
 M3S0; EOL: x=[0 <- 53], y=9
 G0X24.00Y292.00S0; goto line start->
 G1X24.00S776F285; brightness: 63
@@ -5359,89 +5359,89 @@ G4P0.001
 G1X76.00S376F637; brightness: 175
 G1X77.00S604F436; brightness: 111
 M3S0; EOL: x=[0 -> 53], y=8
-G0X76.46Y293.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X75.46S547F486; brightness: 127
-G0X74.46S0; brightness: 255
+G0X77.00Y293.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X76.00S547F486; brightness: 127
+G0X75.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X73.46S604F436; brightness: 111
-G1X72.46S833F235; brightness: 47
-G1X71.46S547F486; brightness: 127
-G1X70.46S833F235; brightness: 47
-G1X69.46S148F837; brightness: 239
-G1X68.46S262F737; brightness: 207
-G1X67.46S886F188; brightness: 32
-G1X66.46S148F837; brightness: 239
-G0X65.46S0; brightness: 255
+G1X74.00S604F436; brightness: 111
+G1X73.00S833F235; brightness: 47
+G1X72.00S547F486; brightness: 127
+G1X71.00S833F235; brightness: 47
+G1X70.00S148F837; brightness: 239
+G1X69.00S262F737; brightness: 207
+G1X68.00S886F188; brightness: 32
+G1X67.00S148F837; brightness: 239
+G0X66.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X64.46S776F285; brightness: 63
-G1X63.46S433F586; brightness: 159
-G0X60.46S0; brightness: 255
+G1X65.00S776F285; brightness: 63
+G1X64.00S433F586; brightness: 159
+G0X61.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X59.46S490F536; brightness: 143
-G0X58.46S0; brightness: 255
+G1X60.00S490F536; brightness: 143
+G0X59.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X57.46S205F787; brightness: 223
-G1X56.46S947F135; brightness: 15
-G1X55.46S148F837; brightness: 239
-G1X54.46S376F637; brightness: 175
-G0X53.46S0; brightness: 255
+G1X58.00S205F787; brightness: 223
+G1X57.00S947F135; brightness: 15
+G1X56.00S148F837; brightness: 239
+G1X55.00S376F637; brightness: 175
+G0X54.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X52.46S376F637; brightness: 175
-G1X51.46S1001F88; brightness: 0
-G0X50.46S0; brightness: 255
+G1X53.00S376F637; brightness: 175
+G1X52.00S1001F88; brightness: 0
+G0X51.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X49.46S376F637; brightness: 175
-G1X48.46S947F135; brightness: 15
-G1X47.46S376F637; brightness: 175
-G0X46.46S0; brightness: 255
+G1X50.00S376F637; brightness: 175
+G1X49.00S947F135; brightness: 15
+G1X48.00S376F637; brightness: 175
+G0X47.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X45.46S776F285; brightness: 63
-G1X44.46S376F637; brightness: 175
-G1X43.46S490F536; brightness: 143
-G1X42.46S604F436; brightness: 111
-G0X41.46S0; brightness: 255
+G1X46.00S776F285; brightness: 63
+G1X45.00S376F637; brightness: 175
+G1X44.00S490F536; brightness: 143
+G1X43.00S604F436; brightness: 111
+G0X42.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X40.46S262F737; brightness: 207
-G1X39.46S890F185; brightness: 31
-G0X38.46S0; brightness: 255
+G1X41.00S262F737; brightness: 207
+G1X40.00S890F185; brightness: 31
+G0X39.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X37.46S376F637; brightness: 175
-G1X36.46S490F536; brightness: 143
-G1X35.46S547F486; brightness: 127
-G1X34.46S719F335; brightness: 79
-G0X33.46S0; brightness: 255
+G1X38.00S376F637; brightness: 175
+G1X37.00S490F536; brightness: 143
+G1X36.00S547F486; brightness: 127
+G1X35.00S719F335; brightness: 79
+G0X34.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X32.46S776F285; brightness: 63
-G1X31.46S319F687; brightness: 191
-G1X30.46S205F787; brightness: 223
-G1X29.46S319F687; brightness: 191
-G1X28.46S547F486; brightness: 127
-G1X27.46S262F737; brightness: 207
-G0X23.46S0; brightness: 255
+G1X33.00S776F285; brightness: 63
+G1X32.00S319F687; brightness: 191
+G1X31.00S205F787; brightness: 223
+G1X30.00S319F687; brightness: 191
+G1X29.00S547F486; brightness: 127
+G1X28.00S262F737; brightness: 207
+G0X24.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X23.46S833F235; brightness: 47
+G1X24.00S833F235; brightness: 47
 M3S0; EOL: x=[0 <- 53], y=7
 G0X24.00Y294.00S0; goto line start->
 G1X24.00S547F486; brightness: 127
@@ -5520,60 +5520,60 @@ G1X77.00S661F386; brightness: 95
 G1X78.00S433F586; brightness: 159
 G1X79.00S319F687; brightness: 191
 M3S0; EOL: x=[0 -> 55], y=6
-G0X77.46Y295.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X76.46S372F640; brightness: 176
-G1X75.46S886F188; brightness: 32
-G1X74.46S601F439; brightness: 112
-G1X73.46S547F486; brightness: 127
-G1X72.46S148F837; brightness: 239
-G1X70.46S604F436; brightness: 111
-G1X69.46S833F235; brightness: 47
-G1X68.46S262F737; brightness: 207
-G1X67.46S376F637; brightness: 175
-G1X66.46S604F436; brightness: 111
-G1X65.46S1001F88; brightness: 0
-G1X64.46S833F235; brightness: 47
-G1X63.46S355F655; brightness: 181
-G1X62.46S604F436; brightness: 111
-G1X61.46S833F235; brightness: 47
-G1X60.46S683F367; brightness: 89
-G1X59.46S547F486; brightness: 127
-G1X58.46S833F235; brightness: 47
-G1X57.46S1001F88; brightness: 0
-G1X56.46S776F285; brightness: 63
-G1X55.46S490F536; brightness: 143
-G1X54.46S715F338; brightness: 80
-G1X53.46S148F837; brightness: 239
-G1X52.46S490F536; brightness: 143
-G1X51.46S604F436; brightness: 111
-G1X50.46S205F787; brightness: 223
-G1X49.46S943F138; brightness: 16
-G1X48.46S205F787; brightness: 223
-G0X47.46S0; brightness: 255
+G0X78.00Y295.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X77.00S372F640; brightness: 176
+G1X76.00S886F188; brightness: 32
+G1X75.00S601F439; brightness: 112
+G1X74.00S547F486; brightness: 127
+G1X73.00S148F837; brightness: 239
+G1X71.00S604F436; brightness: 111
+G1X70.00S833F235; brightness: 47
+G1X69.00S262F737; brightness: 207
+G1X68.00S376F637; brightness: 175
+G1X67.00S604F436; brightness: 111
+G1X66.00S1001F88; brightness: 0
+G1X65.00S833F235; brightness: 47
+G1X64.00S355F655; brightness: 181
+G1X63.00S604F436; brightness: 111
+G1X62.00S833F235; brightness: 47
+G1X61.00S683F367; brightness: 89
+G1X60.00S547F486; brightness: 127
+G1X59.00S833F235; brightness: 47
+G1X58.00S1001F88; brightness: 0
+G1X57.00S776F285; brightness: 63
+G1X56.00S490F536; brightness: 143
+G1X55.00S715F338; brightness: 80
+G1X54.00S148F837; brightness: 239
+G1X53.00S490F536; brightness: 143
+G1X52.00S604F436; brightness: 111
+G1X51.00S205F787; brightness: 223
+G1X50.00S943F138; brightness: 16
+G1X49.00S205F787; brightness: 223
+G0X48.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X46.46S719F335; brightness: 79
-G1X45.46S490F536; brightness: 143
-G0X44.46S0; brightness: 255
+G1X47.00S719F335; brightness: 79
+G1X46.00S490F536; brightness: 143
+G0X45.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X43.46S376F637; brightness: 175
-G1X42.46S547F486; brightness: 127
-G1X41.46S604F436; brightness: 111
-G1X40.46S1001F88; brightness: 0
-G1X39.46S148F837; brightness: 239
-G1X38.46S319F687; brightness: 191
-G1X37.46S719F335; brightness: 79
-G1X36.46S833F235; brightness: 47
-G1X35.46S262F737; brightness: 207
-G0X24.46S0; brightness: 255
+G1X44.00S376F637; brightness: 175
+G1X43.00S547F486; brightness: 127
+G1X42.00S604F436; brightness: 111
+G1X41.00S1001F88; brightness: 0
+G1X40.00S148F837; brightness: 239
+G1X39.00S319F687; brightness: 191
+G1X38.00S719F335; brightness: 79
+G1X37.00S833F235; brightness: 47
+G1X36.00S262F737; brightness: 207
+G0X25.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X23.46S719F335; brightness: 79
-G1X23.46S148F837; brightness: 239
+G1X24.00S719F335; brightness: 79
+G1X24.00S148F837; brightness: 239
 M3S0; EOL: x=[0 <- 54], y=5
 G0X25.00Y296.00S0; goto line start->
 G1X25.00S376F637; brightness: 175
@@ -5639,33 +5639,33 @@ G1X75.00S433F586; brightness: 159
 G1X76.00S604F436; brightness: 111
 G1X77.00S262F737; brightness: 207
 M3S0; EOL: x=[1 -> 53], y=4
-G0X67.46Y297.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X66.46S148F837; brightness: 239
-G1X65.46S776F285; brightness: 63
-G0X59.46S0; brightness: 255
+G0X68.00Y297.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X67.00S148F837; brightness: 239
+G1X66.00S776F285; brightness: 63
+G0X60.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X58.46S547F486; brightness: 127
-G1X57.46S433F586; brightness: 159
-G0X42.46S0; brightness: 255
+G1X59.00S547F486; brightness: 127
+G1X58.00S433F586; brightness: 159
+G0X43.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X41.46S890F185; brightness: 31
-G1X40.46S262F737; brightness: 207
-G0X33.46S0; brightness: 255
+G1X42.00S890F185; brightness: 31
+G1X41.00S262F737; brightness: 207
+G0X34.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X32.46S490F536; brightness: 143
-G1X31.46S319F687; brightness: 191
-G0X26.46S0; brightness: 255
+G1X33.00S490F536; brightness: 143
+G1X32.00S319F687; brightness: 191
+G0X27.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X25.46S604F436; brightness: 111
-G1X25.46S433F586; brightness: 159
+G1X26.00S604F436; brightness: 111
+G1X26.00S433F586; brightness: 159
 M3S0; EOL: x=[2 <- 44], y=3
 G0X27.00Y298.00S0; goto line start->
 G1X27.00S262F737; brightness: 207
@@ -5697,20 +5697,20 @@ G4P0.001
 G1X66.00S148F837; brightness: 239
 G1X67.00S376F637; brightness: 175
 M3S0; EOL: x=[3 -> 43], y=2
-G0X43.46Y299.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X42.46S604F436; brightness: 111
-G1X41.46S547F486; brightness: 127
-G0X34.46S0; brightness: 255
+G0X44.00Y299.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X43.00S604F436; brightness: 111
+G1X42.00S547F486; brightness: 127
+G0X35.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X33.46S319F687; brightness: 191
-G1X32.46S776F285; brightness: 63
-G1X31.46S376F637; brightness: 175
-G1X30.46S490F536; brightness: 143
-G1X29.46S376F637; brightness: 175
-G1X28.46S433F586; brightness: 159
-G1X28.46S376F637; brightness: 175
+G1X34.00S319F687; brightness: 191
+G1X33.00S776F285; brightness: 63
+G1X32.00S376F637; brightness: 175
+G1X31.00S490F536; brightness: 143
+G1X30.00S376F637; brightness: 175
+G1X29.00S433F586; brightness: 159
+G1X29.00S376F637; brightness: 175
 M3S0; EOL: x=[5 <- 20], y=1
 G0X34.00Y300.00S0; goto line start->
 G1X34.00S148F837; brightness: 239
@@ -5730,8 +5730,8 @@ M3S0
 G0X29.00Y284.00S0; ; Move to start (29.0,284.0)
 M3S0
 G4P0
-G0X43.46Y272.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X43.46S148F837; brightness: 239
+G0X44.00Y272.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X44.00S148F837; brightness: 239
 M3S0; EOL: x=[15 <- 15], y=12
 G0X29.00Y273.00S0; goto line start->
 G1X29.00S490F536; brightness: 143
@@ -5780,51 +5780,51 @@ G4P0.001
 G1X58.00S376F637; brightness: 175
 G1X59.00S319F687; brightness: 191
 M3S0; EOL: x=[0 -> 30], y=11
-G0X57.46Y274.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X56.46S776F285; brightness: 63
-G0X54.46S0; brightness: 255
+G0X58.00Y274.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X57.00S776F285; brightness: 63
+G0X55.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X53.46S719F335; brightness: 79
-G1X52.46S490F536; brightness: 143
-G1X51.46S148F837; brightness: 239
-G1X50.46S547F486; brightness: 127
-G1X49.46S148F837; brightness: 239
-G1X48.46S262F737; brightness: 207
-G1X47.46S661F386; brightness: 95
-G0X46.46S0; brightness: 255
+G1X54.00S719F335; brightness: 79
+G1X53.00S490F536; brightness: 143
+G1X52.00S148F837; brightness: 239
+G1X51.00S547F486; brightness: 127
+G1X50.00S148F837; brightness: 239
+G1X49.00S262F737; brightness: 207
+G1X48.00S661F386; brightness: 95
+G0X47.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X45.46S719F335; brightness: 79
-G0X43.46S0; brightness: 255
+G1X46.00S719F335; brightness: 79
+G0X44.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X42.46S776F285; brightness: 63
-G1X41.46S433F586; brightness: 159
-G1X39.46S376F637; brightness: 175
-G0X38.46S0; brightness: 255
+G1X43.00S776F285; brightness: 63
+G1X42.00S433F586; brightness: 159
+G1X40.00S376F637; brightness: 175
+G0X39.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X37.46S719F335; brightness: 79
-G1X36.46S205F787; brightness: 223
-G1X35.46S719F335; brightness: 79
-G1X34.46S262F737; brightness: 207
-G0X32.46S0; brightness: 255
+G1X38.00S719F335; brightness: 79
+G1X37.00S205F787; brightness: 223
+G1X36.00S719F335; brightness: 79
+G1X35.00S262F737; brightness: 207
+G0X33.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X31.46S376F637; brightness: 175
-G1X30.46S433F586; brightness: 159
-G0X29.46S0; brightness: 255
+G1X32.00S376F637; brightness: 175
+G1X31.00S433F586; brightness: 159
+G0X30.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X28.46S319F687; brightness: 191
-G1X28.46S833F235; brightness: 47
+G1X29.00S319F687; brightness: 191
+G1X29.00S833F235; brightness: 47
 M3S0; EOL: x=[0 <- 29], y=10
 G0X29.00Y275.00S0; goto line start->
 G1X29.00S604F436; brightness: 111
@@ -5874,44 +5874,44 @@ G4P0.001
 
 G1X58.00S833F235; brightness: 47
 M3S0; EOL: x=[0 -> 29], y=9
-G0X58.46Y276.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X57.46S205F787; brightness: 223
-G1X56.46S947F135; brightness: 15
-G1X55.46S148F837; brightness: 239
-G1X54.46S547F486; brightness: 127
-G1X53.46S890F185; brightness: 31
-G1X52.46S319F687; brightness: 191
-G1X51.46S148F837; brightness: 239
-G1X49.46S376F637; brightness: 175
-G1X48.46S776F285; brightness: 63
-G1X47.46S376F637; brightness: 175
-G1X46.46S262F737; brightness: 207
-G1X45.46S890F185; brightness: 31
-G1X44.46S776F285; brightness: 63
-G1X43.46S661F386; brightness: 95
-G1X42.46S376F637; brightness: 175
-G1X41.46S205F787; brightness: 223
-G0X39.46S0; brightness: 255
+G0X59.00Y276.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X58.00S205F787; brightness: 223
+G1X57.00S947F135; brightness: 15
+G1X56.00S148F837; brightness: 239
+G1X55.00S547F486; brightness: 127
+G1X54.00S890F185; brightness: 31
+G1X53.00S319F687; brightness: 191
+G1X52.00S148F837; brightness: 239
+G1X50.00S376F637; brightness: 175
+G1X49.00S776F285; brightness: 63
+G1X48.00S376F637; brightness: 175
+G1X47.00S262F737; brightness: 207
+G1X46.00S890F185; brightness: 31
+G1X45.00S776F285; brightness: 63
+G1X44.00S661F386; brightness: 95
+G1X43.00S376F637; brightness: 175
+G1X42.00S205F787; brightness: 223
+G0X40.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X38.46S319F687; brightness: 191
-G1X37.46S776F285; brightness: 63
-G0X35.46S0; brightness: 255
+G1X39.00S319F687; brightness: 191
+G1X38.00S776F285; brightness: 63
+G0X36.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X34.46S319F687; brightness: 191
-G1X33.46S262F737; brightness: 207
-G0X32.46S0; brightness: 255
+G1X35.00S319F687; brightness: 191
+G1X34.00S262F737; brightness: 207
+G0X33.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X31.46S719F335; brightness: 79
-G1X30.46S376F637; brightness: 175
-G1X29.46S433F586; brightness: 159
-G1X28.46S776F285; brightness: 63
-G1X28.46S319F687; brightness: 191
+G1X32.00S719F335; brightness: 79
+G1X31.00S376F637; brightness: 175
+G1X30.00S433F586; brightness: 159
+G1X29.00S776F285; brightness: 63
+G1X29.00S319F687; brightness: 191
 M3S0; EOL: x=[0 <- 30], y=8
 G0X30.00Y277.00S0; goto line start->
 G1X30.00S947F135; brightness: 15
@@ -5954,49 +5954,49 @@ G1X57.00S490F536; brightness: 143
 G1X58.00S719F335; brightness: 79
 G1X59.00S490F536; brightness: 143
 M3S0; EOL: x=[1 -> 30], y=7
-G0X58.46Y278.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X57.46S890F185; brightness: 31
-G1X56.46S661F386; brightness: 95
-G1X55.46S205F787; brightness: 223
-G1X54.46S776F285; brightness: 63
-G1X53.46S433F586; brightness: 159
-G0X52.46S0; brightness: 255
+G0X59.00Y278.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X58.00S890F185; brightness: 31
+G1X57.00S661F386; brightness: 95
+G1X56.00S205F787; brightness: 223
+G1X55.00S776F285; brightness: 63
+G1X54.00S433F586; brightness: 159
+G0X53.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X51.46S719F335; brightness: 79
-G1X50.46S433F586; brightness: 159
-G1X49.46S886F188; brightness: 32
-G1X48.46S148F837; brightness: 239
-G0X47.46S0; brightness: 255
+G1X52.00S719F335; brightness: 79
+G1X51.00S433F586; brightness: 159
+G1X50.00S886F188; brightness: 32
+G1X49.00S148F837; brightness: 239
+G0X48.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X46.46S890F185; brightness: 31
-G1X45.46S376F637; brightness: 175
-G1X44.46S433F586; brightness: 159
-G1X43.46S547F486; brightness: 127
-G0X42.46S0; brightness: 255
+G1X47.00S890F185; brightness: 31
+G1X46.00S376F637; brightness: 175
+G1X45.00S433F586; brightness: 159
+G1X44.00S547F486; brightness: 127
+G0X43.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X41.46S547F486; brightness: 127
-G1X40.46S205F787; brightness: 223
-G1X39.46S833F235; brightness: 47
-G1X38.46S433F586; brightness: 159
-G0X37.46S0; brightness: 255
+G1X42.00S547F486; brightness: 127
+G1X41.00S205F787; brightness: 223
+G1X40.00S833F235; brightness: 47
+G1X39.00S433F586; brightness: 159
+G0X38.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X36.46S148F837; brightness: 239
-G1X35.46S433F586; brightness: 159
-G1X34.46S890F185; brightness: 31
-G1X33.46S205F787; brightness: 223
-G1X32.46S490F536; brightness: 143
-G1X31.46S776F285; brightness: 63
-G1X30.46S319F687; brightness: 191
-G1X29.46S376F637; brightness: 175
-G1X29.46S776F285; brightness: 63
+G1X37.00S148F837; brightness: 239
+G1X36.00S433F586; brightness: 159
+G1X35.00S890F185; brightness: 31
+G1X34.00S205F787; brightness: 223
+G1X33.00S490F536; brightness: 143
+G1X32.00S776F285; brightness: 63
+G1X31.00S319F687; brightness: 191
+G1X30.00S376F637; brightness: 175
+G1X30.00S776F285; brightness: 63
 M3S0; EOL: x=[1 <- 30], y=6
 G0X29.00Y279.00S0; goto line start->
 G1X29.00S148F837; brightness: 239
@@ -6055,26 +6055,26 @@ G4P0.001
 G1X59.00S490F536; brightness: 143
 G1X60.00S205F787; brightness: 223
 M3S0; EOL: x=[0 -> 31], y=5
-G0X46.46Y280.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X45.46S433F586; brightness: 159
-G1X45.46S661F386; brightness: 95
+G0X47.00Y280.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X46.00S433F586; brightness: 159
+G1X46.00S661F386; brightness: 95
 M3S0; EOL: x=[17 <- 18], y=4
 G0X46.00Y281.00S0; goto line start->
 G1X46.00S262F737; brightness: 207
 G1X47.00S890F185; brightness: 31
 M3S0; EOL: x=[17 -> 18], y=3
-G0X47.46Y282.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X46.46S262F737; brightness: 207
-G1X46.46S890F185; brightness: 31
+G0X48.00Y282.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X47.00S262F737; brightness: 207
+G1X47.00S890F185; brightness: 31
 M3S0; EOL: x=[18 <- 19], y=2
 G0X46.00Y283.00S0; goto line start->
 G1X46.00S262F737; brightness: 207
 G1X47.00S833F235; brightness: 47
 G1X48.00S376F637; brightness: 175
 M3S0; EOL: x=[17 -> 19], y=1
-G0X46.46Y284.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X45.46S148F837; brightness: 239
-G1X45.46S205F787; brightness: 223
+G0X47.00Y284.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X46.00S148F837; brightness: 239
+G1X46.00S205F787; brightness: 223
 M3S0; EOL: x=[17 <- 18], y=0
 ; EndPart
 M3S0
@@ -6120,37 +6120,37 @@ G1X42.00S886F188; brightness: 32
 G1X43.00S776F285; brightness: 63
 G1X44.00S148F837; brightness: 239
 M3S0; EOL: x=[0 -> 20], y=11
-G0X43.46Y257.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X42.46S262F737; brightness: 207
-G1X41.46S719F335; brightness: 79
-G0X39.46S0; brightness: 255
+G0X44.00Y257.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X43.00S262F737; brightness: 207
+G1X42.00S719F335; brightness: 79
+G0X40.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X37.46S376F637; brightness: 175
-G0X36.46S0; brightness: 255
+G1X38.00S376F637; brightness: 175
+G0X37.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X35.46S547F486; brightness: 127
-G1X34.46S319F687; brightness: 191
-G0X33.46S0; brightness: 255
+G1X36.00S547F486; brightness: 127
+G1X35.00S319F687; brightness: 191
+G0X34.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X32.46S719F335; brightness: 79
-G0X30.46S0; brightness: 255
+G1X33.00S719F335; brightness: 79
+G0X31.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X29.46S604F436; brightness: 111
-G1X28.46S205F787; brightness: 223
-G1X27.46S262F737; brightness: 207
-G1X26.46S719F335; brightness: 79
-G1X25.46S148F837; brightness: 239
-G1X24.46S547F486; brightness: 127
-G1X23.46S376F637; brightness: 175
-G1X23.46S661F386; brightness: 95
+G1X30.00S604F436; brightness: 111
+G1X29.00S205F787; brightness: 223
+G1X28.00S262F737; brightness: 207
+G1X27.00S719F335; brightness: 79
+G1X26.00S148F837; brightness: 239
+G1X25.00S547F486; brightness: 127
+G1X24.00S376F637; brightness: 175
+G1X24.00S661F386; brightness: 95
 M3S0; EOL: x=[0 <- 20], y=10
 G0X24.00Y258.00S0; goto line start->
 G1X24.00S433F586; brightness: 159
@@ -6183,33 +6183,33 @@ G1X40.00S319F687; brightness: 191
 G1X42.00S262F737; brightness: 207
 G1X43.00S490F536; brightness: 143
 M3S0; EOL: x=[0 -> 19], y=9
-G0X41.46Y259.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X40.46S547F486; brightness: 127
-G1X39.46S319F687; brightness: 191
-G1X38.46S148F837; brightness: 239
-G1X37.46S547F486; brightness: 127
-G1X36.46S376F637; brightness: 175
-G1X35.46S890F185; brightness: 31
-G0X34.46S0; brightness: 255
+G0X42.00Y259.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X41.00S547F486; brightness: 127
+G1X40.00S319F687; brightness: 191
+G1X39.00S148F837; brightness: 239
+G1X38.00S547F486; brightness: 127
+G1X37.00S376F637; brightness: 175
+G1X36.00S890F185; brightness: 31
+G0X35.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X33.46S319F687; brightness: 191
-G1X32.46S547F486; brightness: 127
-G0X30.46S0; brightness: 255
+G1X34.00S319F687; brightness: 191
+G1X33.00S547F486; brightness: 127
+G0X31.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X29.46S776F285; brightness: 63
-G0X28.46S0; brightness: 255
+G1X30.00S776F285; brightness: 63
+G0X29.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X27.46S661F386; brightness: 95
-G1X26.46S776F285; brightness: 63
-G1X25.46S148F837; brightness: 239
-G1X24.46S262F737; brightness: 207
-G1X24.46S890F185; brightness: 31
+G1X28.00S661F386; brightness: 95
+G1X27.00S776F285; brightness: 63
+G1X26.00S148F837; brightness: 239
+G1X25.00S262F737; brightness: 207
+G1X25.00S890F185; brightness: 31
 M3S0; EOL: x=[1 <- 18], y=8
 G0X25.00Y260.00S0; goto line start->
 G1X25.00S319F687; brightness: 191
@@ -6240,28 +6240,28 @@ G1X40.00S661F386; brightness: 95
 G1X41.00S148F837; brightness: 239
 G1X42.00S719F335; brightness: 79
 M3S0; EOL: x=[1 -> 18], y=7
-G0X44.46Y261.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X43.46S319F687; brightness: 191
-G1X42.46S376F637; brightness: 175
-G1X41.46S776F285; brightness: 63
-G1X40.46S490F536; brightness: 143
-G1X38.46S433F586; brightness: 159
-G1X37.46S833F235; brightness: 47
-G1X36.46S604F436; brightness: 111
-G0X35.46S0; brightness: 255
+G0X45.00Y261.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X44.00S319F687; brightness: 191
+G1X43.00S376F637; brightness: 175
+G1X42.00S776F285; brightness: 63
+G1X41.00S490F536; brightness: 143
+G1X39.00S433F586; brightness: 159
+G1X38.00S833F235; brightness: 47
+G1X37.00S604F436; brightness: 111
+G0X36.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X34.46S376F637; brightness: 175
-G1X33.46S833F235; brightness: 47
-G1X31.46S148F837; brightness: 239
-G1X30.46S604F436; brightness: 111
-G1X29.46S490F536; brightness: 143
-G1X28.46S376F637; brightness: 175
-G1X27.46S148F837; brightness: 239
-G1X26.46S319F687; brightness: 191
-G1X25.46S776F285; brightness: 63
-G1X25.46S433F586; brightness: 159
+G1X35.00S376F637; brightness: 175
+G1X34.00S833F235; brightness: 47
+G1X32.00S148F837; brightness: 239
+G1X31.00S604F436; brightness: 111
+G1X30.00S490F536; brightness: 143
+G1X29.00S376F637; brightness: 175
+G1X28.00S148F837; brightness: 239
+G1X27.00S319F687; brightness: 191
+G1X26.00S776F285; brightness: 63
+G1X26.00S433F586; brightness: 159
 M3S0; EOL: x=[2 <- 21], y=6
 G0X27.00Y262.00S0; goto line start->
 G1X27.00S205F787; brightness: 223
@@ -6296,13 +6296,13 @@ G1X43.00S376F637; brightness: 175
 G1X44.00S772F288; brightness: 64
 G1X45.00S433F586; brightness: 159
 M3S0; EOL: x=[3 -> 21], y=5
-G0X37.46Y263.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X36.46S148F837; brightness: 239
-G1X35.46S490F536; brightness: 143
-G1X34.46S661F386; brightness: 95
-G1X32.46S433F586; brightness: 159
-G1X31.46S262F737; brightness: 207
-G1X31.46S890F185; brightness: 31
+G0X38.00Y263.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X37.00S148F837; brightness: 239
+G1X36.00S490F536; brightness: 143
+G1X35.00S661F386; brightness: 95
+G1X33.00S433F586; brightness: 159
+G1X32.00S262F737; brightness: 207
+G1X32.00S890F185; brightness: 31
 M3S0; EOL: x=[8 <- 14], y=4
 G0X32.00Y264.00S0; goto line start->
 G1X32.00S433F586; brightness: 159
@@ -6313,14 +6313,14 @@ G1X36.00S947F135; brightness: 15
 G1X37.00S262F737; brightness: 207
 G1X38.00S490F536; brightness: 143
 M3S0; EOL: x=[8 -> 14], y=3
-G0X38.46Y265.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X37.46S319F687; brightness: 191
-G1X36.46S433F586; brightness: 159
-G1X35.46S719F335; brightness: 79
-G1X33.46S547F486; brightness: 127
-G1X32.46S262F737; brightness: 207
-G1X31.46S943F138; brightness: 16
-G1X31.46S148F837; brightness: 239
+G0X39.00Y265.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X38.00S319F687; brightness: 191
+G1X37.00S433F586; brightness: 159
+G1X36.00S719F335; brightness: 79
+G1X34.00S547F486; brightness: 127
+G1X33.00S262F737; brightness: 207
+G1X32.00S943F138; brightness: 16
+G1X32.00S148F837; brightness: 239
 M3S0; EOL: x=[8 <- 15], y=2
 G0X33.00Y266.00S0; goto line start->
 G1X33.00S490F536; brightness: 143
@@ -6331,16 +6331,16 @@ G1X37.00S886F188; brightness: 32
 G1X38.00S433F586; brightness: 159
 G1X39.00S490F536; brightness: 143
 M3S0; EOL: x=[9 -> 15], y=1
-G0X38.46Y267.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X37.46S262F737; brightness: 207
-G1X36.46S601F439; brightness: 112
-G1X35.46S262F737; brightness: 207
-G0X34.46S0; brightness: 255
+G0X39.00Y267.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X38.00S262F737; brightness: 207
+G1X37.00S601F439; brightness: 112
+G1X36.00S262F737; brightness: 207
+G0X35.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X33.46S544F489; brightness: 128
-G1X33.46S547F486; brightness: 127
+G1X34.00S544F489; brightness: 128
+G1X34.00S547F486; brightness: 127
 M3S0; EOL: x=[10 <- 15], y=0
 ; EndPart
 M3S0
@@ -6371,31 +6371,31 @@ G4P0.001
 
 G1X26.00S433F586; brightness: 159
 M3S0; EOL: x=[0 -> 15], y=8
-G0X24.46Y274.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X23.46S776F285; brightness: 63
-G0X22.46S0; brightness: 255
+G0X25.00Y274.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X24.00S776F285; brightness: 63
+G0X23.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X21.46S490F536; brightness: 143
-G1X20.46S148F837; brightness: 239
-G1X19.46S947F135; brightness: 15
-G0X18.46S0; brightness: 255
+G1X22.00S490F536; brightness: 143
+G1X21.00S148F837; brightness: 239
+G1X20.00S947F135; brightness: 15
+G0X19.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X17.46S776F285; brightness: 63
-G1X16.46S205F787; brightness: 223
-G1X15.46S776F285; brightness: 63
-G1X14.46S148F837; brightness: 239
-G0X13.46S0; brightness: 255
+G1X18.00S776F285; brightness: 63
+G1X17.00S205F787; brightness: 223
+G1X16.00S776F285; brightness: 63
+G1X15.00S148F837; brightness: 239
+G0X14.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X12.46S319F687; brightness: 191
-G1X11.46S433F586; brightness: 159
-G1X10.46S833F235; brightness: 47
-G1X10.46S262F737; brightness: 207
+G1X13.00S319F687; brightness: 191
+G1X12.00S433F586; brightness: 159
+G1X11.00S833F235; brightness: 47
+G1X11.00S262F737; brightness: 207
 M3S0; EOL: x=[0 <- 14], y=7
 G0X12.00Y275.00S0; goto line start->
 G1X12.00S833F235; brightness: 47
@@ -6415,29 +6415,29 @@ G1X22.00S262F737; brightness: 207
 G1X24.00S319F687; brightness: 191
 G1X25.00S947F135; brightness: 15
 M3S0; EOL: x=[1 -> 14], y=6
-G0X25.46Y276.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X24.46S262F737; brightness: 207
-G1X23.46S833F235; brightness: 47
-G1X22.46S490F536; brightness: 143
-G0X21.46S0; brightness: 255
+G0X26.00Y276.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X25.00S262F737; brightness: 207
+G1X24.00S833F235; brightness: 47
+G1X23.00S490F536; brightness: 143
+G0X22.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X20.46S661F386; brightness: 95
-G1X19.46S433F586; brightness: 159
-G1X18.46S776F285; brightness: 63
-G1X17.46S319F687; brightness: 191
-G0X16.46S0; brightness: 255
+G1X21.00S661F386; brightness: 95
+G1X20.00S433F586; brightness: 159
+G1X19.00S776F285; brightness: 63
+G1X18.00S319F687; brightness: 191
+G0X17.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X13.46S547F486; brightness: 127
-G0X12.46S0; brightness: 255
+G1X14.00S547F486; brightness: 127
+G0X13.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X11.46S604F436; brightness: 111
-G1X11.46S376F637; brightness: 175
+G1X12.00S604F436; brightness: 111
+G1X12.00S376F637; brightness: 175
 M3S0; EOL: x=[1 <- 15], y=5
 G0X13.00Y277.00S0; goto line start->
 G1X13.00S547F486; brightness: 127
@@ -6458,33 +6458,33 @@ G1X24.00S148F837; brightness: 239
 G1X25.00S947F135; brightness: 15
 G1X26.00S604F436; brightness: 111
 M3S0; EOL: x=[2 -> 15], y=4
-G0X26.46Y278.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X25.46S148F837; brightness: 239
-G1X24.46S947F135; brightness: 15
-G1X23.46S376F637; brightness: 175
-G0X22.46S0; brightness: 255
+G0X27.00Y278.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X26.00S148F837; brightness: 239
+G1X25.00S947F135; brightness: 15
+G1X24.00S376F637; brightness: 175
+G0X23.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X21.46S661F386; brightness: 95
-G1X20.46S604F436; brightness: 111
-G0X19.46S0; brightness: 255
+G1X22.00S661F386; brightness: 95
+G1X21.00S604F436; brightness: 111
+G0X20.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X18.46S776F285; brightness: 63
-G1X17.46S376F637; brightness: 175
-G0X16.46S0; brightness: 255
+G1X19.00S776F285; brightness: 63
+G1X18.00S376F637; brightness: 175
+G0X17.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X15.46S319F687; brightness: 191
-G1X14.46S376F637; brightness: 175
-G0X13.46S0; brightness: 255
+G1X16.00S319F687; brightness: 191
+G1X15.00S376F637; brightness: 175
+G0X14.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X13.46S490F536; brightness: 143
+G1X14.00S490F536; brightness: 143
 M3S0; EOL: x=[3 <- 16], y=3
 G0X19.00Y279.00S0; goto line start->
 G1X19.00S433F586; brightness: 159
@@ -6502,13 +6502,13 @@ G4P0.001
 G1X26.00S490F536; brightness: 143
 G1X27.00S205F787; brightness: 223
 M3S0; EOL: x=[8 -> 16], y=2
-G0X25.46Y280.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X24.46S319F687; brightness: 191
-G0X23.46S0; brightness: 255
+G0X26.00Y280.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X25.00S319F687; brightness: 191
+G0X24.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X23.46S319F687; brightness: 191
+G1X24.00S319F687; brightness: 191
 M3S0; EOL: x=[13 <- 15], y=1
 G0X24.00Y281.00S0; goto line start->
 G1X25.00S262F737; brightness: 207
@@ -6522,16 +6522,16 @@ M3S0
 G0X12.00Y316.00S0; ; Move to start (12.0,316.0)
 M3S0
 G4P0
-G0X22.46Y303.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X22.46S148F837; brightness: 239
+G0X23.00Y303.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X23.00S148F837; brightness: 239
 M3S0; EOL: x=[11 <- 11], y=13
 G0X23.00Y304.00S0; goto line start->
 G1X23.00S376F637; brightness: 175
 G1X24.00S433F586; brightness: 159
 M3S0; EOL: x=[11 -> 12], y=12
-G0X24.46Y305.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X23.46S148F837; brightness: 239
-G1X23.46S547F486; brightness: 127
+G0X25.00Y305.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X24.00S148F837; brightness: 239
+G1X24.00S547F486; brightness: 127
 M3S0; EOL: x=[12 <- 13], y=11
 G0X12.00Y306.00S0; goto line start->
 G1X12.00S661F386; brightness: 95
@@ -6553,20 +6553,20 @@ G1X29.00S148F837; brightness: 239
 G1X30.00S433F586; brightness: 159
 G1X31.00S205F787; brightness: 223
 M3S0; EOL: x=[0 -> 19], y=10
-G0X29.46Y307.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X28.46S319F687; brightness: 191
-G1X27.46S490F536; brightness: 143
-G1X26.46S148F837; brightness: 239
-G1X25.46S490F536; brightness: 143
-G1X22.46S547F486; brightness: 127
-G1X21.46S661F386; brightness: 95
-G1X16.46S547F486; brightness: 127
-G1X15.46S719F335; brightness: 79
-G1X14.46S604F436; brightness: 111
-G1X13.46S772F288; brightness: 64
-G1X12.46S658F389; brightness: 96
-G1X11.46S886F188; brightness: 32
-G1X11.46S262F737; brightness: 207
+G0X30.00Y307.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X29.00S319F687; brightness: 191
+G1X28.00S490F536; brightness: 143
+G1X27.00S148F837; brightness: 239
+G1X26.00S490F536; brightness: 143
+G1X23.00S547F486; brightness: 127
+G1X22.00S661F386; brightness: 95
+G1X17.00S547F486; brightness: 127
+G1X16.00S719F335; brightness: 79
+G1X15.00S604F436; brightness: 111
+G1X14.00S772F288; brightness: 64
+G1X13.00S658F389; brightness: 96
+G1X12.00S886F188; brightness: 32
+G1X12.00S262F737; brightness: 207
 M3S0; EOL: x=[0 <- 18], y=9
 G0X13.00Y308.00S0; goto line start->
 G1X13.00S262F737; brightness: 207
@@ -6590,24 +6590,24 @@ G1X28.00S490F536; brightness: 143
 G1X29.00S547F486; brightness: 127
 G1X30.00S376F637; brightness: 175
 M3S0; EOL: x=[1 -> 18], y=8
-G0X29.46Y309.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X28.46S604F436; brightness: 111
-G1X27.46S661F386; brightness: 95
-G1X26.46S319F687; brightness: 191
-G0X25.46S0; brightness: 255
+G0X30.00Y309.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X29.00S604F436; brightness: 111
+G1X28.00S661F386; brightness: 95
+G1X27.00S319F687; brightness: 191
+G0X26.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X24.46S947F135; brightness: 15
-G1X23.46S148F837; brightness: 239
-G0X16.46S0; brightness: 255
+G1X25.00S947F135; brightness: 15
+G1X24.00S148F837; brightness: 239
+G0X17.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X15.46S205F787; brightness: 223
-G1X14.46S776F285; brightness: 63
-G1X13.46S715F338; brightness: 80
-G1X13.46S148F837; brightness: 239
+G1X16.00S205F787; brightness: 223
+G1X15.00S776F285; brightness: 63
+G1X14.00S715F338; brightness: 80
+G1X14.00S148F837; brightness: 239
 M3S0; EOL: x=[2 <- 18], y=7
 G0X16.00Y310.00S0; goto line start->
 G1X16.00S319F687; brightness: 191
@@ -6627,24 +6627,24 @@ G4P0.001
 G1X29.00S604F436; brightness: 111
 G1X30.00S890F185; brightness: 31
 M3S0; EOL: x=[4 -> 18], y=6
-G0X30.46Y311.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X29.46S376F637; brightness: 175
-G1X28.46S943F138; brightness: 16
-G1X27.46S148F837; brightness: 239
-G0X26.46S0; brightness: 255
+G0X31.00Y311.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X30.00S376F637; brightness: 175
+G1X29.00S943F138; brightness: 16
+G1X28.00S148F837; brightness: 239
+G0X27.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X25.46S890F185; brightness: 31
-G1X24.46S262F737; brightness: 207
-G0X20.46S0; brightness: 255
+G1X26.00S890F185; brightness: 31
+G1X25.00S262F737; brightness: 207
+G0X21.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X19.46S148F837; brightness: 239
-G1X18.46S547F486; brightness: 127
-G1X17.46S890F185; brightness: 31
-G1X17.46S547F486; brightness: 127
+G1X20.00S148F837; brightness: 239
+G1X19.00S547F486; brightness: 127
+G1X18.00S890F185; brightness: 31
+G1X18.00S547F486; brightness: 127
 M3S0; EOL: x=[6 <- 19], y=5
 G0X19.00Y312.00S0; goto line start->
 G1X19.00S148F837; brightness: 239
@@ -6665,23 +6665,23 @@ G4P0.001
 G1X30.00S319F687; brightness: 191
 G1X31.00S490F536; brightness: 143
 M3S0; EOL: x=[7 -> 19], y=4
-G0X23.46Y313.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X22.46S547F486; brightness: 127
-G1X21.46S947F135; brightness: 15
-G1X20.46S772F288; brightness: 64
-G1X20.46S262F737; brightness: 207
+G0X24.00Y313.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X23.00S547F486; brightness: 127
+G1X22.00S947F135; brightness: 15
+G1X21.00S772F288; brightness: 64
+G1X21.00S262F737; brightness: 207
 M3S0; EOL: x=[9 <- 12], y=3
 G0X23.00Y314.00S0; goto line start->
 G1X23.00S490F536; brightness: 143
 G1X24.00S433F586; brightness: 159
 M3S0; EOL: x=[11 -> 12], y=2
-G0X22.46Y315.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X21.46S661F386; brightness: 95
-G1X20.46S776F285; brightness: 63
-G1X18.46S547F486; brightness: 127
-G1X17.46S719F335; brightness: 79
-G1X14.46S776F285; brightness: 63
-G1X14.46S376F637; brightness: 175
+G0X23.00Y315.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X22.00S661F386; brightness: 95
+G1X21.00S776F285; brightness: 63
+G1X19.00S547F486; brightness: 127
+G1X18.00S719F335; brightness: 79
+G1X15.00S776F285; brightness: 63
+G1X15.00S376F637; brightness: 175
 M3S0; EOL: x=[3 <- 11], y=1
 G0X19.00Y316.00S0; goto line start->
 G1X19.00S148F837; brightness: 239
@@ -6695,21 +6695,21 @@ M3S0
 G0X62.00Y239.00S0; ; Move to start (62.0,239.0)
 M3S0
 G4P0
-G0X66.46Y227.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X65.46S262F737; brightness: 207
-G1X65.46S319F687; brightness: 191
+G0X67.00Y227.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X66.00S262F737; brightness: 207
+G1X66.00S319F687; brightness: 191
 M3S0; EOL: x=[4 <- 5], y=12
 G0X65.00Y228.00S0; goto line start->
 G1X65.00S376F637; brightness: 175
 G1X66.00S148F837; brightness: 239
 M3S0; EOL: x=[3 -> 4], y=11
-G0X67.46Y229.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X66.46S319F687; brightness: 191
-G1X65.46S604F436; brightness: 111
-G1X64.46S376F637; brightness: 175
-G1X63.46S544F489; brightness: 128
-G1X62.46S719F335; brightness: 79
-G1X62.46S376F637; brightness: 175
+G0X68.00Y229.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X67.00S319F687; brightness: 191
+G1X66.00S604F436; brightness: 111
+G1X65.00S376F637; brightness: 175
+G1X64.00S544F489; brightness: 128
+G1X63.00S719F335; brightness: 79
+G1X63.00S376F637; brightness: 175
 M3S0; EOL: x=[1 <- 6], y=10
 G0X62.00Y230.00S0; goto line start->
 G1X62.00S205F787; brightness: 223
@@ -6724,18 +6724,18 @@ G1X67.00S148F837; brightness: 239
 G1X68.00S601F439; brightness: 112
 G1X69.00S661F386; brightness: 95
 M3S0; EOL: x=[0 -> 7], y=9
-G0X69.46Y231.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X68.46S376F637; brightness: 175
-G1X67.46S547F486; brightness: 127
-G0X65.46S0; brightness: 255
+G0X70.00Y231.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X69.00S376F637; brightness: 175
+G1X68.00S547F486; brightness: 127
+G0X66.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X64.46S262F737; brightness: 207
-G1X63.46S890F185; brightness: 31
-G1X62.46S205F787; brightness: 223
-G1X61.46S376F637; brightness: 175
-G1X61.46S433F586; brightness: 159
+G1X65.00S262F737; brightness: 207
+G1X64.00S890F185; brightness: 31
+G1X63.00S205F787; brightness: 223
+G1X62.00S376F637; brightness: 175
+G1X62.00S433F586; brightness: 159
 M3S0; EOL: x=[0 <- 8], y=8
 G0X62.00Y232.00S0; goto line start->
 G1X62.00S262F737; brightness: 207
@@ -6754,15 +6754,15 @@ G4P0.001
 G1X69.00S205F787; brightness: 223
 G1X70.00S490F536; brightness: 143
 M3S0; EOL: x=[0 -> 8], y=7
-G0X69.46Y233.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X68.46S148F837; brightness: 239
-G1X67.46S547F486; brightness: 127
-G1X66.46S661F386; brightness: 95
-G1X65.46S604F436; brightness: 111
-G1X64.46S490F536; brightness: 143
-G1X63.46S148F837; brightness: 239
-G1X62.46S661F386; brightness: 95
-G1X62.46S604F436; brightness: 111
+G0X70.00Y233.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X69.00S148F837; brightness: 239
+G1X68.00S547F486; brightness: 127
+G1X67.00S661F386; brightness: 95
+G1X66.00S604F436; brightness: 111
+G1X65.00S490F536; brightness: 143
+G1X64.00S148F837; brightness: 239
+G1X63.00S661F386; brightness: 95
+G1X63.00S604F436; brightness: 111
 M3S0; EOL: x=[1 <- 8], y=6
 G0X64.00Y234.00S0; goto line start->
 G1X64.00S490F536; brightness: 143
@@ -6776,15 +6776,15 @@ G1X69.00S433F586; brightness: 159
 G1X70.00S547F486; brightness: 127
 G1X71.00S262F737; brightness: 207
 M3S0; EOL: x=[2 -> 9], y=5
-G0X71.46Y235.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X70.46S376F637; brightness: 175
-G1X69.46S658F389; brightness: 96
-G1X68.46S148F837; brightness: 239
-G1X67.46S262F737; brightness: 207
-G1X66.46S604F436; brightness: 111
-G1X65.46S658F389; brightness: 96
-G1X64.46S604F436; brightness: 111
-G1X64.46S148F837; brightness: 239
+G0X72.00Y235.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X71.00S376F637; brightness: 175
+G1X70.00S658F389; brightness: 96
+G1X69.00S148F837; brightness: 239
+G1X68.00S262F737; brightness: 207
+G1X67.00S604F436; brightness: 111
+G1X66.00S658F389; brightness: 96
+G1X65.00S604F436; brightness: 111
+G1X65.00S148F837; brightness: 239
 M3S0; EOL: x=[3 <- 10], y=4
 G0X65.00Y236.00S0; goto line start->
 G1X65.00S148F837; brightness: 239
@@ -6801,16 +6801,16 @@ G4P0.001
 
 G1X72.00S490F536; brightness: 143
 M3S0; EOL: x=[3 -> 10], y=3
-G0X70.46Y237.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X69.46S319F687; brightness: 191
-G1X68.46S661F386; brightness: 95
-G0X67.46S0; brightness: 255
+G0X71.00Y237.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X70.00S319F687; brightness: 191
+G1X69.00S661F386; brightness: 95
+G0X68.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X66.46S433F586; brightness: 159
-G1X65.46S604F436; brightness: 111
-G1X65.46S205F787; brightness: 223
+G1X67.00S433F586; brightness: 159
+G1X66.00S604F436; brightness: 111
+G1X66.00S205F787; brightness: 223
 M3S0; EOL: x=[4 <- 9], y=2
 G0X68.00Y238.00S0; goto line start->
 G1X68.00S148F837; brightness: 239
@@ -6819,9 +6819,9 @@ G1X70.00S376F637; brightness: 175
 G1X71.00S890F185; brightness: 31
 G1X72.00S262F737; brightness: 207
 M3S0; EOL: x=[6 -> 10], y=1
-G0X71.46Y239.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X70.46S433F586; brightness: 159
-G1X70.46S205F787; brightness: 223
+G0X72.00Y239.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X71.00S433F586; brightness: 159
+G1X71.00S205F787; brightness: 223
 M3S0; EOL: x=[9 <- 10], y=0
 ; EndPart
 M3S0
@@ -6835,58 +6835,58 @@ G1X73.00S262F737; brightness: 207
 G1X75.00S547F486; brightness: 127
 G1X76.00S490F536; brightness: 143
 M3S0; EOL: x=[0 -> 3], y=11
-G0X109.46Y223.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X108.46S262F737; brightness: 207
-G1X107.46S319F687; brightness: 191
-G0X106.46S0; brightness: 255
+G0X110.00Y223.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X109.00S262F737; brightness: 207
+G1X108.00S319F687; brightness: 191
+G0X107.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X105.46S148F837; brightness: 239
-G1X104.46S433F586; brightness: 159
-G1X103.46S490F536; brightness: 143
-G1X102.46S205F787; brightness: 223
-G1X101.46S433F586; brightness: 159
-G1X100.46S376F637; brightness: 175
-G0X98.46S0; brightness: 255
+G1X106.00S148F837; brightness: 239
+G1X105.00S433F586; brightness: 159
+G1X104.00S490F536; brightness: 143
+G1X103.00S205F787; brightness: 223
+G1X102.00S433F586; brightness: 159
+G1X101.00S376F637; brightness: 175
+G0X99.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X97.46S376F637; brightness: 175
-G1X96.46S205F787; brightness: 223
-G0X93.46S0; brightness: 255
+G1X98.00S376F637; brightness: 175
+G1X97.00S205F787; brightness: 223
+G0X94.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X92.46S205F787; brightness: 223
-G1X91.46S319F687; brightness: 191
-G0X90.46S0; brightness: 255
+G1X93.00S205F787; brightness: 223
+G1X92.00S319F687; brightness: 191
+G0X91.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X89.46S148F837; brightness: 239
-G1X88.46S433F586; brightness: 159
-G1X87.46S490F536; brightness: 143
-G1X86.46S262F737; brightness: 207
-G0X85.46S0; brightness: 255
+G1X90.00S148F837; brightness: 239
+G1X89.00S433F586; brightness: 159
+G1X88.00S490F536; brightness: 143
+G1X87.00S262F737; brightness: 207
+G0X86.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X84.46S148F837; brightness: 239
-G1X82.46S547F486; brightness: 127
-G1X81.46S376F637; brightness: 175
-G0X77.46S0; brightness: 255
+G1X85.00S148F837; brightness: 239
+G1X83.00S547F486; brightness: 127
+G1X82.00S376F637; brightness: 175
+G0X78.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X76.46S148F837; brightness: 239
-G1X75.46S604F436; brightness: 111
-G1X74.46S319F687; brightness: 191
-G0X72.46S0; brightness: 255
+G1X77.00S148F837; brightness: 239
+G1X76.00S604F436; brightness: 111
+G1X75.00S319F687; brightness: 191
+G0X73.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X72.46S547F486; brightness: 127
+G1X73.00S547F486; brightness: 127
 M3S0; EOL: x=[0 <- 37], y=10
 G0X73.00Y224.00S0; goto line start->
 G1X74.00S433F586; brightness: 159
@@ -6942,57 +6942,57 @@ G1X108.00S205F787; brightness: 223
 G1X109.00S433F586; brightness: 159
 G1X110.00S661F386; brightness: 95
 M3S0; EOL: x=[0 -> 37], y=9
-G0X110.46Y225.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X109.46S148F837; brightness: 239
-G1X108.46S947F135; brightness: 15
-G1X107.46S201F790; brightness: 224
-G1X106.46S490F536; brightness: 143
-G0X104.46S0; brightness: 255
+G0X111.00Y225.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X110.00S148F837; brightness: 239
+G1X109.00S947F135; brightness: 15
+G1X108.00S201F790; brightness: 224
+G1X107.00S490F536; brightness: 143
+G0X105.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X103.46S433F586; brightness: 159
-G1X102.46S547F486; brightness: 127
-G1X101.46S148F837; brightness: 239
-G1X100.46S776F285; brightness: 63
-G0X99.46S0; brightness: 255
+G1X104.00S433F586; brightness: 159
+G1X103.00S547F486; brightness: 127
+G1X102.00S148F837; brightness: 239
+G1X101.00S776F285; brightness: 63
+G0X100.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X98.46S490F536; brightness: 143
-G1X97.46S890F185; brightness: 31
-G0X93.46S0; brightness: 255
+G1X99.00S490F536; brightness: 143
+G1X98.00S890F185; brightness: 31
+G0X94.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X92.46S890F185; brightness: 31
-G1X91.46S205F787; brightness: 223
-G1X90.46S490F536; brightness: 143
-G0X88.46S0; brightness: 255
+G1X93.00S890F185; brightness: 31
+G1X92.00S205F787; brightness: 223
+G1X91.00S490F536; brightness: 143
+G0X89.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X87.46S376F637; brightness: 175
-G1X86.46S604F436; brightness: 111
-G1X85.46S262F737; brightness: 207
-G1X84.46S661F386; brightness: 95
-G0X82.46S0; brightness: 255
+G1X88.00S376F637; brightness: 175
+G1X87.00S604F436; brightness: 111
+G1X86.00S262F737; brightness: 207
+G1X85.00S661F386; brightness: 95
+G0X83.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X81.46S890F185; brightness: 31
-G0X78.46S0; brightness: 255
+G1X82.00S890F185; brightness: 31
+G0X79.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X77.46S604F436; brightness: 111
-G1X76.46S262F737; brightness: 207
-G0X73.46S0; brightness: 255
+G1X78.00S604F436; brightness: 111
+G1X77.00S262F737; brightness: 207
+G0X74.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X72.46S776F285; brightness: 63
-G1X72.46S205F787; brightness: 223
+G1X73.00S776F285; brightness: 63
+G1X73.00S205F787; brightness: 223
 M3S0; EOL: x=[0 <- 38], y=8
 G0X74.00Y226.00S0; goto line start->
 G1X74.00S604F436; brightness: 111
@@ -7052,63 +7052,63 @@ G4P0.001
 
 G1X114.00S148F837; brightness: 239
 M3S0; EOL: x=[1 -> 41], y=7
-G0X113.46Y227.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X112.46S376F637; brightness: 175
-G1X111.46S490F536; brightness: 143
-G1X110.46S376F637; brightness: 175
-G1X109.46S661F386; brightness: 95
-G1X108.46S547F486; brightness: 127
-G0X107.46S0; brightness: 255
+G0X114.00Y227.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X113.00S376F637; brightness: 175
+G1X112.00S490F536; brightness: 143
+G1X111.00S376F637; brightness: 175
+G1X110.00S661F386; brightness: 95
+G1X109.00S547F486; brightness: 127
+G0X108.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X106.46S604F436; brightness: 111
-G1X105.46S205F787; brightness: 223
-G1X104.46S604F436; brightness: 111
-G1X103.46S661F386; brightness: 95
-G0X102.46S0; brightness: 255
+G1X107.00S604F436; brightness: 111
+G1X106.00S205F787; brightness: 223
+G1X105.00S604F436; brightness: 111
+G1X104.00S661F386; brightness: 95
+G0X103.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X101.46S719F335; brightness: 79
-G1X99.46S490F536; brightness: 143
-G1X98.46S719F335; brightness: 79
-G1X96.46S376F637; brightness: 175
-G1X95.46S604F436; brightness: 111
-G1X94.46S376F637; brightness: 175
-G1X92.46S604F436; brightness: 111
-G0X91.46S0; brightness: 255
+G1X102.00S719F335; brightness: 79
+G1X100.00S490F536; brightness: 143
+G1X99.00S719F335; brightness: 79
+G1X97.00S376F637; brightness: 175
+G1X96.00S604F436; brightness: 111
+G1X95.00S376F637; brightness: 175
+G1X93.00S604F436; brightness: 111
+G0X92.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X90.46S661F386; brightness: 95
-G1X89.46S205F787; brightness: 223
-G1X88.46S547F486; brightness: 127
-G1X87.46S776F285; brightness: 63
-G0X86.46S0; brightness: 255
+G1X91.00S661F386; brightness: 95
+G1X90.00S205F787; brightness: 223
+G1X89.00S547F486; brightness: 127
+G1X88.00S776F285; brightness: 63
+G0X87.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X85.46S776F285; brightness: 63
-G1X84.46S148F837; brightness: 239
-G0X82.46S0; brightness: 255
+G1X86.00S776F285; brightness: 63
+G1X85.00S148F837; brightness: 239
+G0X83.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X81.46S776F285; brightness: 63
-G0X80.46S0; brightness: 255
+G1X82.00S776F285; brightness: 63
+G0X81.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X79.46S433F586; brightness: 159
-G1X78.46S319F687; brightness: 191
-G0X75.46S0; brightness: 255
+G1X80.00S433F586; brightness: 159
+G1X79.00S319F687; brightness: 191
+G0X76.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X74.46S262F737; brightness: 207
-G1X73.46S890F185; brightness: 31
-G1X73.46S148F837; brightness: 239
+G1X75.00S262F737; brightness: 207
+G1X74.00S890F185; brightness: 31
+G1X74.00S148F837; brightness: 239
 M3S0; EOL: x=[1 <- 41], y=6
 G0X75.00Y228.00S0; goto line start->
 G1X75.00S262F737; brightness: 207
@@ -7166,68 +7166,68 @@ G1X112.00S205F787; brightness: 223
 G1X113.00S661F386; brightness: 95
 G1X114.00S547F486; brightness: 127
 M3S0; EOL: x=[2 -> 41], y=5
-G0X113.46Y229.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X112.46S658F389; brightness: 96
-G1X111.46S148F837; brightness: 239
-G0X110.46S0; brightness: 255
+G0X114.00Y229.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X113.00S658F389; brightness: 96
+G1X112.00S148F837; brightness: 239
+G0X111.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X109.46S547F486; brightness: 127
-G1X108.46S433F586; brightness: 159
-G0X107.46S0; brightness: 255
+G1X110.00S547F486; brightness: 127
+G1X109.00S433F586; brightness: 159
+G0X108.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X106.46S376F637; brightness: 175
-G1X105.46S430F589; brightness: 160
-G1X104.46S148F837; brightness: 239
-G0X103.46S0; brightness: 255
+G1X107.00S376F637; brightness: 175
+G1X106.00S430F589; brightness: 160
+G1X105.00S148F837; brightness: 239
+G0X104.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X102.46S262F737; brightness: 207
-G1X101.46S376F637; brightness: 175
-G0X99.46S0; brightness: 255
+G1X103.00S262F737; brightness: 207
+G1X102.00S376F637; brightness: 175
+G0X100.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X98.46S776F285; brightness: 63
-G1X97.46S205F787; brightness: 223
-G1X96.46S604F436; brightness: 111
-G1X95.46S148F837; brightness: 239
-G0X94.46S0; brightness: 255
+G1X99.00S776F285; brightness: 63
+G1X98.00S205F787; brightness: 223
+G1X97.00S604F436; brightness: 111
+G1X96.00S148F837; brightness: 239
+G0X95.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X93.46S547F486; brightness: 127
-G1X92.46S490F536; brightness: 143
-G0X91.46S0; brightness: 255
+G1X94.00S547F486; brightness: 127
+G1X93.00S490F536; brightness: 143
+G0X92.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X90.46S376F637; brightness: 175
-G1X89.46S487F539; brightness: 144
-G1X88.46S148F837; brightness: 239
-G0X86.46S0; brightness: 255
+G1X91.00S376F637; brightness: 175
+G1X90.00S487F539; brightness: 144
+G1X89.00S148F837; brightness: 239
+G0X87.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X85.46S776F285; brightness: 63
-G1X84.46S205F787; brightness: 223
-G0X82.46S0; brightness: 255
+G1X86.00S776F285; brightness: 63
+G1X85.00S205F787; brightness: 223
+G0X83.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X81.46S833F235; brightness: 47
-G1X80.46S376F637; brightness: 175
-G0X77.46S0; brightness: 255
+G1X82.00S833F235; brightness: 47
+G1X81.00S376F637; brightness: 175
+G0X78.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X76.46S148F837; brightness: 239
-G1X75.46S833F235; brightness: 47
-G1X75.46S433F586; brightness: 159
+G1X77.00S148F837; brightness: 239
+G1X76.00S833F235; brightness: 47
+G1X76.00S433F586; brightness: 159
 M3S0; EOL: x=[3 <- 41], y=4
 G0X77.00Y230.00S0; goto line start->
 G1X77.00S433F586; brightness: 159
@@ -7245,26 +7245,26 @@ G4P0.001
 G1X86.00S376F637; brightness: 175
 G1X87.00S604F436; brightness: 111
 M3S0; EOL: x=[4 -> 14], y=3
-G0X86.46Y231.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X85.46S148F837; brightness: 239
-G1X84.46S661F386; brightness: 95
-G1X83.46S148F837; brightness: 239
-G0X79.46S0; brightness: 255
+G0X87.00Y231.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X86.00S148F837; brightness: 239
+G1X85.00S661F386; brightness: 95
+G1X84.00S148F837; brightness: 239
+G0X80.00S0; brightness: 255
 M3S1000
 G4P0.001
 
-G1X78.46S148F837; brightness: 239
-G1X77.46S833F235; brightness: 47
-G1X77.46S433F586; brightness: 159
+G1X79.00S148F837; brightness: 239
+G1X78.00S833F235; brightness: 47
+G1X78.00S433F586; brightness: 159
 M3S0; EOL: x=[5 <- 14], y=2
 G0X79.00Y232.00S0; goto line start->
 G1X79.00S262F737; brightness: 207
 G1X80.00S833F235; brightness: 47
 G1X81.00S433F586; brightness: 159
 M3S0; EOL: x=[6 -> 8], y=1
-G0X81.46Y233.00S0; goto line start<- [backlash_compensation_x: -0.540]
-G1X80.46S148F837; brightness: 239
-G1X80.46S262F737; brightness: 207
+G0X82.00Y233.00S0; goto line start<- [backlash_compensation_x: 0.000]
+G1X81.00S148F837; brightness: 239
+G1X81.00S262F737; brightness: 207
 M3S0; EOL: x=[8 <- 9], y=0
 ; EndPart
 M3S0
@@ -7275,7 +7275,7 @@ M5
 M100P100 ; mrbeam_compressor: 100
 G4P0.2
 
-; Layer:gSkjbx9bblmz, outline of:pathSkjbx9bbln1, stroke:#fb0000, {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#fb0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}
+; Layer:gSkjbxwr3dmz, outline of:pathSkjbxwr3dn1, stroke:#fb0000, {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#fb0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}
 ; pass:1/1
 ;_gc_nextgen_svg_id:path1705
 G0X36.16Y227.15
@@ -7420,7 +7420,7 @@ M05
 M100P100 ; mrbeam_compressor: 100
 G4P0.2
 
-; Layer:gSkjbx9bblmz, outline of:pathSkjbx9bbln1, stroke:#ff0000, {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#ff0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}
+; Layer:gSkjbxwr3dmz, outline of:pathSkjbxwr3dn1, stroke:#ff0000, {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#ff0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}
 ; pass:1/1
 ;_gc_nextgen_svg_id:path846-4
 G0X106.62Y343.28
@@ -7449,7 +7449,7 @@ G1X106.55Y343.67
 G1X106.62Y343.28
 M05
 
-; Layer:gSkjbx9bblmz, outline of:pathSkjbx9bbln1, stroke:#ff0000, {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#ff0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}
+; Layer:gSkjbxwr3dmz, outline of:pathSkjbxwr3dn1, stroke:#ff0000, {u'passes': u'1', u'feedrate': u'999', u'progressive': False, u'color': u'#ff0000', u'intensity': 1287, u'intensity_user': u'99', u'cut_compressor': 100, 'mpr': 1.29, 'svgDPI': 90, u'engrave': False, u'pierce_time': u'1'}
 ; pass:1/1
 ;_gc_nextgen_svg_id:path846
 G0X57.40Y343.28
