@@ -9,7 +9,7 @@
 
 ## Running the tests
 
-Run  `pytest --baseurl=http://mrbeam-7537.local tests/frontend/critical_designs
+Run  `pytest --baseurl=http://mrbeam-7537.local tests/frontend/critical_designs`
 - `--baseurl=http://mrbeam-7537.local`  <= specifies your beamOS url
 - `--rsc_folder=../local/test_rsc/checkout` <= optional (where the root of your checkout is)
 
@@ -51,7 +51,7 @@ webdriverUtils.py
 
 custom_expected_conditions.py
 
-### selenium pitfalls
+### Selenium pitfalls
 - el.clear() on input[type=number]
 - css transistions
 - PNotify, Modals
@@ -59,6 +59,6 @@ custom_expected_conditions.py
 - urllib3 logging
 - how to catch ajax responses or events
 
-writing more tests
+### Writing more tests
 - selenium ide
 
